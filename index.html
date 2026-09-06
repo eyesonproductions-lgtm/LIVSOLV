@@ -3,8 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+
 <title>LiveSolv | Live in the solution.</title>
-<meta name="description" content="Clear, research-based guidance for backup power, emergency water, food, home readiness and practical preparedness.">
+
+<meta name="description" content="Simple, research-based help for storms, power outages and everyday preparedness. Know what to buy, what to do and what you actually need.">
 
 <style>
 :root{
@@ -14,7 +16,8 @@
 --card:#fffdf8;
 --line:#d9ddd6;
 --deep:#173d30;
---soft:#e8efe9
+--soft:#e8efe9;
+--warm:#f1e8d8
 }
 
 *{box-sizing:border-box}
@@ -72,13 +75,19 @@ margin:12px 0 20px
 
 .lede{
 font-size:21px;
-max-width:760px;
+max-width:780px;
 color:#39473f
+}
+
+.actions{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+margin-top:24px
 }
 
 .cta{
 display:inline-block;
-margin-top:18px;
 background:var(--deep);
 color:#fff;
 text-decoration:none;
@@ -87,30 +96,59 @@ border-radius:10px;
 font-weight:800
 }
 
-.dark{
+.cta-secondary{
+display:inline-block;
+background:var(--card);
+border:1px solid var(--line);
+color:var(--deep);
+text-decoration:none;
+padding:14px 18px;
+border-radius:10px;
+font-weight:800
+}
+
+.storm{
 background:var(--deep);
 color:#fff;
 padding:56px 0
 }
 
-.dark h2{
-font:700 40px/1.1 Georgia,serif;
-margin:0 0 14px
+.storm .eyebrow{
+color:#dce9e1
 }
 
-.dark p{
+.storm h2{
+font:700 42px/1.08 Georgia,serif;
+margin:8px 0 14px
+}
+
+.storm p{
 max-width:760px;
-color:#e8efe9
+color:#e8efe9;
+font-size:18px
 }
 
-section{padding:56px 0}
+.storm-button{
+display:inline-block;
+background:#fff;
+color:var(--deep);
+text-decoration:none;
+font-weight:800;
+padding:14px 18px;
+border-radius:10px;
+margin-top:10px
+}
+
+section{
+padding:56px 0
+}
 
 h2{
 font:700 36px/1.15 Georgia,serif
 }
 
 .section-intro{
-max-width:720px;
+max-width:740px;
 color:var(--muted);
 margin-top:-10px
 }
@@ -156,6 +194,11 @@ display:inline-block;
 margin-top:14px;
 font-weight:800;
 color:var(--deep)
+}
+
+.fast-card{
+background:var(--warm);
+border:1px solid #dfd1bb
 }
 
 .cards{
@@ -212,25 +255,56 @@ font-size:13px
 }
 
 @media(max-width:800px){
-.guides,.cards,.steps{grid-template-columns:1fr}
-.hero{padding-top:52px}
-.tag{display:block;margin:2px 0 0}
+
+.guides,.cards,.steps{
+grid-template-columns:1fr
+}
+
+.hero{
+padding-top:52px
+}
+
+.tag{
+display:block;
+margin:2px 0 0
+}
+
+.actions{
+display:block
+}
+
+.cta,.cta-secondary{
+display:block;
+width:100%;
+text-align:center;
+margin-bottom:10px
+}
+
 }
 </style>
 </head>
 
 <body>
 
+
 <header class="top">
+
 <div class="wrap">
+
 <a class="brand" href="/">LiveSolv</a>
+
 <span class="tag">Live in the solution.</span>
+
 </div>
+
 </header>
+
 
 <main>
 
+
 <section class="hero">
+
 <div class="wrap">
 
 <div class="eyebrow">Prepared, not panicked.</div>
@@ -238,35 +312,53 @@ font-size:13px
 <h1>Things happen. Know what actually helps.</h1>
 
 <p class="lede">
-Power goes out. Water stops running. Weather turns ugly. Plans change.
-LiveSolv cuts through the noise to help you figure out what you actually
-need, what works, and what isn't worth your money.
+Power goes out. Water stops running. Storms happen. Plans change.
+LiveSolv helps you figure out what to do, what to buy and what you
+can skip, without turning preparedness into another overwhelming project.
 </p>
 
-<a class="cta" href="/fridge-freezer-backup-power.html">
-Help me get prepared
+<div class="actions">
+
+<a class="cta" href="/storm-emergency-grocery-list.html">
+A storm is coming. Help me now.
+</a>
+
+<a class="cta-secondary" href="/fridge-freezer-backup-power.html">
+Help me prepare ahead
 </a>
 
 </div>
+
+</div>
+
 </section>
 
 
-<section class="dark">
+<section class="storm">
+
 <div class="wrap">
 
-<h2>Less fear. Better decisions.</h2>
+<div class="eyebrow">Short on time?</div>
+
+<h2>Storm coming? Start here.</h2>
 
 <p>
-Preparedness should make life feel more manageable, not more frightening.
-We focus on realistic problems, practical solutions and products we can
-explain clearly.
+You don't need expensive survival food or a garage full of equipment.
+If you have one grocery run before a storm, we'll tell you what matters
+most, what you can skip and what you can do at home for free.
 </p>
 
+<a class="storm-button" href="/storm-emergency-grocery-list.html">
+Give me the simple grocery list →
+</a>
+
 </div>
+
 </section>
 
 
 <section>
+
 <div class="wrap">
 
 <div class="eyebrow">Backup power</div>
@@ -274,216 +366,347 @@ explain clearly.
 <h2>Keep the important stuff running.</h2>
 
 <p class="section-intro">
-You do not need to understand electrical engineering before buying backup
-power. Start with what you want to keep running and we'll work backward.
+Start with what you want to keep running. We'll work backward from there
+so you don't have to become an electrician before buying a battery.
 </p>
+
 
 <div class="guides">
 
+
 <a class="guide" href="/fridge-freezer-backup-power.html">
+
 <small>Start here</small>
+
 <h3>Keep your refrigerator and freezer running</h3>
+
 <p>
-Figure out what size power station makes sense without learning watts,
-watt-hours and inverter math first.
+Find the right size power station without learning electrical engineering first.
 </p>
+
 <span class="learn">Show me what I need →</span>
+
 </a>
+
 
 <a class="guide" href="/72-hour-backup-power.html">
+
 <small>Longer outages</small>
+
 <h3>How much backup power for 3 days?</h3>
+
 <p>
-Build a practical 72-hour setup for food, Wi-Fi, lights and other
-essentials, including how you'll recharge it.
+Plan for food, Wi-Fi, lights and other essentials during a longer outage.
 </p>
+
 <span class="learn">Plan my 3-day backup →</span>
+
 </a>
+
 
 <a class="guide" href="/solar-recharging-power-station.html">
+
 <small>Recharge the battery</small>
+
 <h3>How much solar do I actually need?</h3>
+
 <p>
 Choose enough solar to meaningfully recharge your power station without
-buying panels your battery cannot use.
+buying panels your battery can't use.
 </p>
+
 <span class="learn">Help me choose solar →</span>
+
 </a>
 
+
 </div>
+
 </div>
+
 </section>
 
 
 <section>
+
 <div class="wrap">
 
-<div class="eyebrow">Emergency water</div>
+<div class="eyebrow">Water</div>
 
 <h2>Have enough. Know how to make more safe.</h2>
 
 <p class="section-intro">
-Water preparedness doesn't need to mean a garage full of giant blue
-barrels. Start with a sensible stored supply, then add a way to treat
-additional water if you ever need it.
+Start with stored water. Then add a way to safely treat additional water
+if the disruption lasts longer than expected.
 </p>
 
+
 <div class="guides">
+
 
 <a class="guide" href="/emergency-water-storage.html">
+
 <small>Start here</small>
+
 <h3>How much emergency water should I store?</h3>
+
 <p>
-See exactly how much you need for 3 days, 7 days or 2 weeks, plus which
-container style makes sense for your home.
+See exactly how much you need for 3 days, 7 days or 2 weeks without
+turning your house into a warehouse.
 </p>
+
 <span class="learn">Plan my water supply →</span>
+
 </a>
+
 
 <a class="guide" href="/emergency-water-treatment.html">
+
 <small>If your stored water runs out</small>
+
 <h3>How do I make questionable water safe?</h3>
+
 <p>
-Understand when to boil, filter, disinfect or use a true purifier, and
-why those methods are not interchangeable.
+Learn when to boil, filter, disinfect or use a true purifier.
 </p>
-<span class="learn">Show me how to treat water →</span>
+
+<span class="learn">Show me how →</span>
+
 </a>
 
+
 </div>
+
 </div>
+
 </section>
 
 
 <section>
+
 <div class="wrap">
 
-<div class="eyebrow">Emergency food</div>
+<div class="eyebrow">Food</div>
 
-<h2>Store food people will actually eat.</h2>
+<h2>From “the storm is tomorrow” to “I'm ready for two weeks.”</h2>
 
 <p class="section-intro">
-You do not need buckets of mystery meals to be prepared. Start with
-ordinary shelf-stable food your household already likes and build a supply
-that makes sense for 3 days, 7 days or 2 weeks.
+Start wherever you are. A $25 grocery run is still preparedness.
+If you want a bigger long-term supply, we'll help with that too.
 </p>
+
 
 <div class="guides">
 
-<a class="guide" href="/emergency-food-supply.html">
-<small>Start here</small>
-<h3>How much emergency food should I keep?</h3>
+
+<a class="guide fast-card" href="/storm-emergency-grocery-list.html">
+
+<small>Need help right now?</small>
+
+<h3>Just tell me what to get at the grocery store.</h3>
+
 <p>
-Build a practical pantry plan around real meals, familiar foods and the
-amount of time you actually want to be prepared for.
+A short, inexpensive storm shopping list plus things you can do at home
+before the power goes out.
 </p>
-<span class="learn">Plan my food supply →</span>
+
+<span class="learn">Give me the list →</span>
+
 </a>
 
-<div class="guide">
-<small>Coming next</small>
-<h3>What emergency foods are actually worth buying?</h3>
+
+<a class="guide" href="/emergency-food-supply.html">
+
+<small>Prepare ahead</small>
+
+<h3>How much emergency food should I keep?</h3>
+
 <p>
-We’re comparing shelf-stable foods, long-life meals and emergency food
-kits based on cost, taste, preparation and whether they solve a real
-problem.
+Build a practical 3-day, 7-day or 2-week pantry using food your household
+will actually eat.
 </p>
+
+<span class="learn">Plan my food supply →</span>
+
+</a>
+
+
+<div class="guide">
+
+<small>Coming next</small>
+
+<h3>Just want a ready-made food kit?</h3>
+
+<p>
+We'll narrow the enormous emergency-food market down to a few choices:
+best overall, best budget and best for longer-term storage.
+</p>
+
+</div>
+
+
 </div>
 
 </div>
-</div>
+
 </section>
 
 
 <section>
+
 <div class="wrap">
 
 <h2>What else do you want to be ready for?</h2>
 
+
 <div class="cards">
 
-<div class="card">
-<span class="badge">COMING NEXT</span>
-<h3>Home Readiness</h3>
-<p>
-Lighting, charging, communications and other practical essentials for
-disruptions at home.
-</p>
-</div>
 
 <div class="card">
+
+<span class="badge">COMING NEXT</span>
+
+<h3>Home Readiness</h3>
+
+<p>
+Lighting, charging, communications and practical essentials for
+disruptions at home.
+</p>
+
+</div>
+
+
+<div class="card">
+
 <h3>On the Road</h3>
+
 <p>
 Useful backup gear for vehicles, RVs and travel when plans stop going
 according to plan.
 </p>
+
 </div>
 
-<div class="card">
-<h3>Build a Bigger Backup System</h3>
-<p>
-Expandable batteries, solar charging and practical ways to keep
-essential power available longer.
-</p>
-</div>
 
 <div class="card">
+
 <h3>Stay Connected</h3>
+
 <p>
 Ways to keep phones, internet and basic communications working when
 normal service or power is unreliable.
 </p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Build a Bigger Backup System</h3>
+
+<p>
+Expandable batteries, solar charging and practical ways to keep
+essential power available longer.
+</p>
+
+</div>
+
+
 </div>
 
 </div>
-</div>
+
 </section>
 
 
 <section>
+
 <div class="wrap">
 
 <h2>How LiveSolv works</h2>
 
+
 <div class="steps">
 
-<div class="step">
-<strong>We start with the real-life need.</strong>
-<br>
-Not jargon, model numbers or a wall of specifications.
-</div>
 
 <div class="step">
-<strong>We compare what matters.</strong>
+
+<strong>Start with the problem.</strong>
+
 <br>
-Published specifications, manufacturer information, credible independent
-sources, warranties, pricing and practical tradeoffs.
+
+Tell us what you're trying to solve, not which technical specification
+you think you need.
+
 </div>
+
 
 <div class="step">
-<strong>We tell you why.</strong>
+
+<strong>See the simplest answer first.</strong>
+
 <br>
-Recommendations should make sense even if you have never shopped for this
-kind of equipment before.
+
+If the problem can be solved cheaply or with something you already own,
+we'll tell you.
+
+</div>
+
+
+<div class="step">
+
+<strong>Spend money where it actually helps.</strong>
+
+<br>
+
+When equipment is worth buying, we'll explain the tradeoffs and narrow
+the choices instead of dumping 30 products on you.
+
+</div>
+
+
 </div>
 
 </div>
-</div>
+
 </section>
+
+
+<section>
+
+<div class="wrap">
+
+<h2>Prepared doesn't have to mean expensive.</h2>
+
+<p class="lede">
+If you can afford a complete backup system, we'll help you choose one.
+If you've got $25 and a storm coming tomorrow, we'll help you with that too.
+</p>
+
+<p class="lede">
+The goal is the same: <strong>solve the problem you actually have.</strong>
+</p>
+
+</div>
+
+</section>
+
 
 </main>
 
 
 <footer>
+
 <div class="wrap">
 
 <strong>LiveSolv</strong> • Live in the solution.
 
 <br><br>
 
-We research products using published specifications, manufacturer
-documentation, credible independent information and practical use cases.
-We do not claim to have personally tested a product unless we have.
+We research recommendations using published specifications, manufacturer
+documentation, government guidance, credible independent information and
+practical use cases. We do not claim to have personally tested a product
+unless we have.
 
 <br><br>
 
@@ -491,7 +714,9 @@ LiveSolv may earn a commission from qualifying purchases made through
 links on this site. This does not affect what we recommend or what you pay.
 
 </div>
+
 </footer>
 
+
 </body>
-</html> 
+</html>
