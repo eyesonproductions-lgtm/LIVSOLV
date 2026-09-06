@@ -28,16 +28,21 @@ h2{font:700 36px/1.15 Georgia,serif}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
 .card h3{margin:0 0 8px;font-size:22px}
 .card p{margin:0;color:var(--muted)}
-.card-link{display:block;text-decoration:none;transition:transform .15s ease,border-color .15s ease}
-.card-link:hover{transform:translateY(-2px);border-color:#aeb9b0}
+.card-link{display:block;text-decoration:none}
 .badge{display:inline-block;background:var(--soft);color:var(--deep);padding:5px 9px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:10px}
 .learn{display:inline-block;margin-top:14px;font-weight:800;color:var(--deep)}
+.guides{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px}
+.guide{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;text-decoration:none}
+.guide small{font-weight:800;color:var(--deep);text-transform:uppercase;letter-spacing:.08em}
+.guide h3{font:700 27px/1.15 Georgia,serif;margin:9px 0}
+.guide p{color:var(--muted);margin:0}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .step{border-top:1px solid var(--line);padding-top:18px}
 footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
-@media(max-width:760px){.cards,.steps{grid-template-columns:1fr}.hero{padding-top:52px}.tag{display:block;margin:2px 0 0}}
+@media(max-width:760px){.cards,.guides,.steps{grid-template-columns:1fr}.hero{padding-top:52px}.tag{display:block;margin:2px 0 0}}
 </style>
 </head>
+
 <body>
 
 <header class="top">
@@ -51,45 +56,54 @@ footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 
 <section class="hero">
 <div class="wrap">
-
 <div class="eyebrow">Prepared, not panicked.</div>
-
 <h1>Things happen. Know what actually helps.</h1>
-
 <p class="lede">Power goes out. Weather turns ugly. Plans change. LiveSolv cuts through the noise to help you figure out what you actually need, what works, and what isn't worth your money.</p>
-
 <a class="cta" href="/fridge-freezer-backup-power.html">Help me choose backup power</a>
-
 </div>
 </section>
 
 <section class="dark">
 <div class="wrap">
-
 <h2>Less fear. Better decisions.</h2>
-
 <p>Preparedness should make life feel more manageable, not more frightening. We focus on realistic problems, practical solutions and products we can explain clearly.</p>
-
 </div>
 </section>
 
 <section>
 <div class="wrap">
+<h2>Backup power, explained like a normal person</h2>
 
-<h2>Start with the problem you want to solve</h2>
+<div class="guides">
 
-<div class="cards">
-
-<a class="card card-link" href="/fridge-freezer-backup-power.html">
-<span class="badge">NEW GUIDE</span>
-<h3>Backup Power</h3>
-<p>Keep your refrigerator, freezer, internet and essential devices running when the grid goes down.</p>
+<a class="guide" href="/fridge-freezer-backup-power.html">
+<small>Start here</small>
+<h3>Keep your refrigerator and freezer running</h3>
+<p>Figure out what size power station makes sense without learning electrical engineering first.</p>
 <span class="learn">Show me what I need →</span>
 </a>
 
+<a class="guide" href="/72-hour-backup-power.html">
+<small>Planning for longer outages</small>
+<h3>How much backup power for 3 days?</h3>
+<p>Build a practical 72-hour setup for food, Wi-Fi, lights and other essentials, including how you'll recharge it.</p>
+<span class="learn">Plan my 3-day backup →</span>
+</a>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<h2>What else do you want to be ready for?</h2>
+
+<div class="cards">
+
 <div class="card">
+<span class="badge">MORE GUIDES COMING</span>
 <h3>Water &amp; Food</h3>
-<p>Simple ways to keep enough safe water and food on hand without turning your house into a bunker.</p>
+<p>Keep enough safe water and food on hand without turning your house into a bunker.</p>
 </div>
 
 <div class="card">
@@ -102,13 +116,17 @@ footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 <p>Useful backup gear for vehicles, RVs and travel when plans stop going according to plan.</p>
 </div>
 
+<div class="card">
+<h3>Longer Power Outages</h3>
+<p>Solar recharging, expandable batteries and practical ways to stretch your backup power further.</p>
+</div>
+
 </div>
 </div>
 </section>
 
 <section>
 <div class="wrap">
-
 <h2>How LiveSolv works</h2>
 
 <div class="steps">
