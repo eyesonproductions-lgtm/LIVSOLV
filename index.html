@@ -24,22 +24,21 @@ h1{font:700 clamp(44px,7vw,78px)/1.02 Georgia,serif;max-width:900px;margin:12px 
 .dark p{max-width:760px;color:#e8efe9}
 section{padding:56px 0}
 h2{font:700 36px/1.15 Georgia,serif}
-.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:26px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
-.card h3{margin:0 0 8px;font-size:22px}
-.card p{margin:0;color:var(--muted)}
-.card-link{display:block;text-decoration:none}
-.badge{display:inline-block;background:var(--soft);color:var(--deep);padding:5px 9px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:10px}
-.learn{display:inline-block;margin-top:14px;font-weight:800;color:var(--deep)}
-.guides{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px}
+.guides{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
 .guide{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;text-decoration:none}
 .guide small{font-weight:800;color:var(--deep);text-transform:uppercase;letter-spacing:.08em}
 .guide h3{font:700 27px/1.15 Georgia,serif;margin:9px 0}
 .guide p{color:var(--muted);margin:0}
+.learn{display:inline-block;margin-top:14px;font-weight:800;color:var(--deep)}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:26px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.card h3{margin:0 0 8px;font-size:22px}
+.card p{margin:0;color:var(--muted)}
+.badge{display:inline-block;background:var(--soft);color:var(--deep);padding:5px 9px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:10px}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .step{border-top:1px solid var(--line);padding-top:18px}
 footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
-@media(max-width:760px){.cards,.guides,.steps{grid-template-columns:1fr}.hero{padding-top:52px}.tag{display:block;margin:2px 0 0}}
+@media(max-width:800px){.guides,.cards,.steps{grid-template-columns:1fr}.hero{padding-top:52px}.tag{display:block;margin:2px 0 0}}
 </style>
 </head>
 
@@ -72,6 +71,7 @@ footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 
 <section>
 <div class="wrap">
+
 <h2>Backup power, explained like a normal person</h2>
 
 <div class="guides">
@@ -84,10 +84,17 @@ footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 </a>
 
 <a class="guide" href="/72-hour-backup-power.html">
-<small>Planning for longer outages</small>
+<small>Longer outages</small>
 <h3>How much backup power for 3 days?</h3>
 <p>Build a practical 72-hour setup for food, Wi-Fi, lights and other essentials, including how you'll recharge it.</p>
 <span class="learn">Plan my 3-day backup →</span>
+</a>
+
+<a class="guide" href="/solar-recharging-power-station.html">
+<small>Recharge the battery</small>
+<h3>How much solar do I actually need?</h3>
+<p>Choose enough solar to meaningfully recharge your power station without buying panels your battery cannot use.</p>
+<span class="learn">Help me choose solar →</span>
 </a>
 
 </div>
@@ -96,12 +103,13 @@ footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 
 <section>
 <div class="wrap">
+
 <h2>What else do you want to be ready for?</h2>
 
 <div class="cards">
 
 <div class="card">
-<span class="badge">MORE GUIDES COMING</span>
+<span class="badge">COMING NEXT</span>
 <h3>Water &amp; Food</h3>
 <p>Keep enough safe water and food on hand without turning your house into a bunker.</p>
 </div>
@@ -117,8 +125,8 @@ footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 </div>
 
 <div class="card">
-<h3>Longer Power Outages</h3>
-<p>Solar recharging, expandable batteries and practical ways to stretch your backup power further.</p>
+<h3>Build a Bigger Backup System</h3>
+<p>Expandable batteries, solar charging and practical ways to keep essential power available longer.</p>
 </div>
 
 </div>
@@ -127,6 +135,7 @@ footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 
 <section>
 <div class="wrap">
+
 <h2>How LiveSolv works</h2>
 
 <div class="steps">
