@@ -4,76 +4,142 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LiveSolv | Live in the solution.</title>
-<meta name="description" content="Practical, researched guidance for preparing your home and family for outages, emergencies, and everyday uncertainty.">
+<meta name="description" content="Clear, research-based guidance for backup power, water, food, home readiness and practical preparedness.">
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#17211c;background:#f7f6f1;line-height:1.6}
-header{padding:24px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #dddcd5}
-.logo{font-size:24px;font-weight:800;letter-spacing:-1px}.tag{font-size:14px;color:#526057}
-.hero{padding:90px 7%;max-width:1000px}.eyebrow{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#58705f}
-h1{font-size:clamp(42px,8vw,82px);line-height:1.02;letter-spacing:-3px;margin:18px 0 24px}
-.hero p{font-size:21px;max-width:700px;color:#46534b}
-section{padding:65px 7%}.dark{background:#17211c;color:#fff}.dark p{color:#cbd2cd}
-h2{font-size:36px;line-height:1.15;margin-top:0}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:35px}
-.card{background:#fff;color:#17211c;padding:28px;border-radius:8px}.card h3{margin-top:0}
-.promise{max-width:750px}
-footer{padding:35px 7%;font-size:13px;color:#68736c}
-@media(max-width:600px){.tag{display:none}.hero{padding-top:65px}h1{letter-spacing:-2px}}
+:root{--ink:#17221c;--muted:#5e6b63;--paper:#f7f4ec;--card:#fffdf8;--line:#d9ddd6;--deep:#173d30;--soft:#e8efe9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit}
+.wrap{max-width:1100px;margin:auto;padding:0 24px}
+.top{padding:22px 0;border-bottom:1px solid var(--line)}
+.brand{font:700 23px Georgia,serif;letter-spacing:.02em;text-decoration:none}
+.tag{color:var(--muted);font-size:13px;margin-left:12px}
+.hero{padding:84px 0 64px}
+.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--deep);font-weight:800}
+h1{font:700 clamp(44px,7vw,78px)/1.02 Georgia,serif;max-width:900px;margin:12px 0 20px}
+.lede{font-size:21px;max-width:760px;color:#39473f}
+.cta{display:inline-block;margin-top:18px;background:var(--deep);color:#fff;text-decoration:none;padding:14px 18px;border-radius:10px;font-weight:800}
+.dark{background:var(--deep);color:#fff;padding:56px 0}
+.dark h2{font:700 40px/1.1 Georgia,serif;margin:0 0 14px}
+.dark p{max-width:760px;color:#e8efe9}
+section{padding:56px 0}
+h2{font:700 36px/1.15 Georgia,serif}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:26px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.card h3{margin:0 0 8px;font-size:22px}
+.card p{margin:0;color:var(--muted)}
+.card-link{display:block;text-decoration:none;transition:transform .15s ease,border-color .15s ease}
+.card-link:hover{transform:translateY(-2px);border-color:#aeb9b0}
+.badge{display:inline-block;background:var(--soft);color:var(--deep);padding:5px 9px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:10px}
+.learn{display:inline-block;margin-top:14px;font-weight:800;color:var(--deep)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.step{border-top:1px solid var(--line);padding-top:18px}
+footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+@media(max-width:760px){.cards,.steps{grid-template-columns:1fr}.hero{padding-top:52px}.tag{display:block;margin:2px 0 0}}
 </style>
 </head>
 <body>
 
-<header>
-<div class="logo">LiveSolv</div>
-<div class="tag">Live in the solution.</div>
+<header class="top">
+<div class="wrap">
+<a class="brand" href="/">LiveSolv</a>
+<span class="tag">Live in the solution.</span>
+</div>
 </header>
 
 <main>
-<div class="hero">
+
+<section class="hero">
+<div class="wrap">
+
 <div class="eyebrow">Prepared, not panicked.</div>
-<h1>Things happen.<br>Know what actually helps.</h1>
-<p>Power goes out. Weather turns ugly. Plans change. LiveSolv cuts through the noise to help you figure out what you actually need, what works, and what isn't worth your money.</p>
+
+<h1>Things happen. Know what actually helps.</h1>
+
+<p class="lede">Power goes out. Weather turns ugly. Plans change. LiveSolv cuts through the noise to help you figure out what you actually need, what works, and what isn't worth your money.</p>
+
+<a class="cta" href="/fridge-freezer-backup-power.html">Help me choose backup power</a>
+
 </div>
+</section>
 
 <section class="dark">
-<div class="promise">
+<div class="wrap">
+
 <h2>Less fear. Better decisions.</h2>
-<p>You don't need a bunker full of gear. You need sensible solutions for realistic problems. We research the options, compare the details that matter, and explain the tradeoffs in plain English.</p>
+
+<p>Preparedness should make life feel more manageable, not more frightening. We focus on realistic problems, practical solutions and products we can explain clearly.</p>
+
+</div>
+</section>
+
+<section>
+<div class="wrap">
+
+<h2>Start with the problem you want to solve</h2>
+
+<div class="cards">
+
+<a class="card card-link" href="/fridge-freezer-backup-power.html">
+<span class="badge">NEW GUIDE</span>
+<h3>Backup Power</h3>
+<p>Keep your refrigerator, freezer, internet and essential devices running when the grid goes down.</p>
+<span class="learn">Show me what I need →</span>
+</a>
+
+<div class="card">
+<h3>Water &amp; Food</h3>
+<p>Simple ways to keep enough safe water and food on hand without turning your house into a bunker.</p>
 </div>
 
-<div class="grid">
-<div class="card">
-<h3>Backup Power</h3>
-<p>Power stations, solar charging, batteries and practical outage planning.</p>
-</div>
-<div class="card">
-<h3>Water & Food</h3>
-<p>Realistic ways to keep the essentials covered when normal systems don't cooperate.</p>
-</div>
 <div class="card">
 <h3>Home Readiness</h3>
-<p>Lighting, communications, emergency equipment and useful gear without the prepper theater.</p>
+<p>Lighting, charging, communications and other practical essentials for disruptions at home.</p>
 </div>
+
 <div class="card">
 <h3>On the Road</h3>
-<p>Practical preparedness for vehicles, RVs, travel and getting home when plans go sideways.</p>
+<p>Useful backup gear for vehicles, RVs and travel when plans stop going according to plan.</p>
+</div>
+
 </div>
 </div>
 </section>
 
 <section>
-<div class="promise">
-<div class="eyebrow">How LiveSolv works</div>
-<h2>We do the digging before you spend the money.</h2>
-<p>Our recommendations are based on product specifications, manufacturer information, credible independent sources, pricing, warranties and practical use cases. When we haven't personally tested something, we'll never pretend that we have.</p>
-<p><strong>Live in the solution, not the problem.</strong></p>
+<div class="wrap">
+
+<h2>How LiveSolv works</h2>
+
+<div class="steps">
+
+<div class="step">
+<strong>We start with the real-life need.</strong><br>
+Not jargon, model numbers or a wall of specifications.
+</div>
+
+<div class="step">
+<strong>We compare what matters.</strong><br>
+Published specs, manufacturer information, credible independent sources, warranties, pricing and practical tradeoffs.
+</div>
+
+<div class="step">
+<strong>We tell you why.</strong><br>
+Recommendations should make sense even if you have never shopped for this kind of equipment before.
+</div>
+
+</div>
 </div>
 </section>
+
 </main>
 
 <footer>
-<p>© 2026 LiveSolv. Live in the solution.</p>
-<p>LiveSolv may earn a commission from qualifying purchases made through links on this site. This does not affect what we recommend or what you pay.</p>
+<div class="wrap">
+<strong>LiveSolv</strong> • Live in the solution.
+<br><br>
+LiveSolv may earn a commission from qualifying purchases made through links on this site. This does not affect what we recommend or what you pay.
+</div>
 </footer>
 
 </body>
