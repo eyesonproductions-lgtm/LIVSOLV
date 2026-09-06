@@ -5,40 +5,217 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LiveSolv | Live in the solution.</title>
 <meta name="description" content="Clear, research-based guidance for backup power, emergency water, food, home readiness and practical preparedness.">
+
 <style>
-:root{--ink:#17221c;--muted:#5e6b63;--paper:#f7f4ec;--card:#fffdf8;--line:#d9ddd6;--deep:#173d30;--soft:#e8efe9}
+:root{
+--ink:#17221c;
+--muted:#5e6b63;
+--paper:#f7f4ec;
+--card:#fffdf8;
+--line:#d9ddd6;
+--deep:#173d30;
+--soft:#e8efe9
+}
+
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+
+body{
+margin:0;
+background:var(--paper);
+color:var(--ink);
+font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+line-height:1.6
+}
+
 a{color:inherit}
-.wrap{max-width:1100px;margin:auto;padding:0 24px}
-.top{padding:22px 0;border-bottom:1px solid var(--line)}
-.brand{font:700 23px Georgia,serif;letter-spacing:.02em;text-decoration:none}
-.tag{color:var(--muted);font-size:13px;margin-left:12px}
-.hero{padding:84px 0 64px}
-.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--deep);font-weight:800}
-h1{font:700 clamp(44px,7vw,78px)/1.02 Georgia,serif;max-width:900px;margin:12px 0 20px}
-.lede{font-size:21px;max-width:760px;color:#39473f}
-.cta{display:inline-block;margin-top:18px;background:var(--deep);color:#fff;text-decoration:none;padding:14px 18px;border-radius:10px;font-weight:800}
-.dark{background:var(--deep);color:#fff;padding:56px 0}
-.dark h2{font:700 40px/1.1 Georgia,serif;margin:0 0 14px}
-.dark p{max-width:760px;color:#e8efe9}
+
+.wrap{
+max-width:1100px;
+margin:auto;
+padding:0 24px
+}
+
+.top{
+padding:22px 0;
+border-bottom:1px solid var(--line)
+}
+
+.brand{
+font:700 23px Georgia,serif;
+letter-spacing:.02em;
+text-decoration:none
+}
+
+.tag{
+color:var(--muted);
+font-size:13px;
+margin-left:12px
+}
+
+.hero{
+padding:84px 0 64px
+}
+
+.eyebrow{
+font-size:13px;
+text-transform:uppercase;
+letter-spacing:.12em;
+color:var(--deep);
+font-weight:800
+}
+
+h1{
+font:700 clamp(44px,7vw,78px)/1.02 Georgia,serif;
+max-width:900px;
+margin:12px 0 20px
+}
+
+.lede{
+font-size:21px;
+max-width:760px;
+color:#39473f
+}
+
+.cta{
+display:inline-block;
+margin-top:18px;
+background:var(--deep);
+color:#fff;
+text-decoration:none;
+padding:14px 18px;
+border-radius:10px;
+font-weight:800
+}
+
+.dark{
+background:var(--deep);
+color:#fff;
+padding:56px 0
+}
+
+.dark h2{
+font:700 40px/1.1 Georgia,serif;
+margin:0 0 14px
+}
+
+.dark p{
+max-width:760px;
+color:#e8efe9
+}
+
 section{padding:56px 0}
-h2{font:700 36px/1.15 Georgia,serif}
-.guides{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px}
-.guide{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;text-decoration:none}
-.guide small{font-weight:800;color:var(--deep);text-transform:uppercase;letter-spacing:.08em}
-.guide h3{font:700 27px/1.15 Georgia,serif;margin:9px 0}
-.guide p{color:var(--muted);margin:0}
-.learn{display:inline-block;margin-top:14px;font-weight:800;color:var(--deep)}
-.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:26px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
-.card h3{margin:0 0 8px;font-size:22px}
-.card p{margin:0;color:var(--muted)}
-.badge{display:inline-block;background:var(--soft);color:var(--deep);padding:5px 9px;border-radius:999px;font-size:12px;font-weight:800;margin-bottom:10px}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.step{border-top:1px solid var(--line);padding-top:18px}
-footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
-@media(max-width:800px){.guides,.cards,.steps{grid-template-columns:1fr}.hero{padding-top:52px}.tag{display:block;margin:2px 0 0}}
+
+h2{
+font:700 36px/1.15 Georgia,serif
+}
+
+.section-intro{
+max-width:720px;
+color:var(--muted);
+margin-top:-10px
+}
+
+.guides{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:16px;
+margin-top:24px
+}
+
+.guide{
+background:var(--card);
+border:1px solid var(--line);
+border-radius:16px;
+padding:26px;
+text-decoration:none
+}
+
+.guide:hover{
+border-color:#aebbb2
+}
+
+.guide small{
+font-weight:800;
+color:var(--deep);
+text-transform:uppercase;
+letter-spacing:.08em
+}
+
+.guide h3{
+font:700 27px/1.15 Georgia,serif;
+margin:9px 0
+}
+
+.guide p{
+color:var(--muted);
+margin:0
+}
+
+.learn{
+display:inline-block;
+margin-top:14px;
+font-weight:800;
+color:var(--deep)
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:16px;
+margin-top:26px
+}
+
+.card{
+background:var(--card);
+border:1px solid var(--line);
+border-radius:16px;
+padding:26px
+}
+
+.card h3{
+margin:0 0 8px;
+font-size:22px
+}
+
+.card p{
+margin:0;
+color:var(--muted)
+}
+
+.badge{
+display:inline-block;
+background:var(--soft);
+color:var(--deep);
+padding:5px 9px;
+border-radius:999px;
+font-size:12px;
+font-weight:800;
+margin-bottom:10px
+}
+
+.steps{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px
+}
+
+.step{
+border-top:1px solid var(--line);
+padding-top:18px
+}
+
+footer{
+padding:34px 0;
+border-top:1px solid var(--line);
+color:var(--muted);
+font-size:13px
+}
+
+@media(max-width:800px){
+.guides,.cards,.steps{grid-template-columns:1fr}
+.hero{padding-top:52px}
+.tag{display:block;margin:2px 0 0}
+}
 </style>
 </head>
 
@@ -46,151 +223,310 @@ footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 
 <header class="top">
 <div class="wrap">
+
 <a class="brand" href="/">LiveSolv</a>
 <span class="tag">Live in the solution.</span>
+
 </div>
 </header>
+
 
 <main>
 
 <section class="hero">
 <div class="wrap">
+
 <div class="eyebrow">Prepared, not panicked.</div>
+
 <h1>Things happen. Know what actually helps.</h1>
-<p class="lede">Power goes out. Weather turns ugly. Plans change. LiveSolv cuts through the noise to help you figure out what you actually need, what works, and what isn't worth your money.</p>
-<a class="cta" href="/fridge-freezer-backup-power.html">Help me choose backup power</a>
+
+<p class="lede">
+Power goes out. Water stops running. Weather turns ugly. Plans change.
+LiveSolv cuts through the noise to help you figure out what you actually
+need, what works, and what isn't worth your money.
+</p>
+
+<a class="cta" href="/fridge-freezer-backup-power.html">
+Help me get prepared
+</a>
+
 </div>
 </section>
+
 
 <section class="dark">
 <div class="wrap">
+
 <h2>Less fear. Better decisions.</h2>
-<p>Preparedness should make life feel more manageable, not more frightening. We focus on realistic problems, practical solutions and products we can explain clearly.</p>
+
+<p>
+Preparedness should make life feel more manageable, not more frightening.
+We focus on realistic problems, practical solutions and products we can
+explain clearly.
+</p>
+
 </div>
 </section>
+
 
 <section>
 <div class="wrap">
 
-<h2>Backup power, explained like a normal person</h2>
+<div class="eyebrow">Backup power</div>
+
+<h2>Keep the important stuff running.</h2>
+
+<p class="section-intro">
+You do not need to understand electrical engineering before buying backup
+power. Start with what you want to keep running and we'll work backward.
+</p>
+
 
 <div class="guides">
+
 
 <a class="guide" href="/fridge-freezer-backup-power.html">
+
 <small>Start here</small>
+
 <h3>Keep your refrigerator and freezer running</h3>
-<p>Figure out what size power station makes sense without learning electrical engineering first.</p>
+
+<p>
+Figure out what size power station makes sense without learning watts,
+watt-hours and inverter math first.
+</p>
+
 <span class="learn">Show me what I need →</span>
+
 </a>
+
 
 <a class="guide" href="/72-hour-backup-power.html">
+
 <small>Longer outages</small>
+
 <h3>How much backup power for 3 days?</h3>
-<p>Build a practical 72-hour setup for food, Wi-Fi, lights and other essentials, including how you'll recharge it.</p>
+
+<p>
+Build a practical 72-hour setup for food, Wi-Fi, lights and other
+essentials, including how you'll recharge it.
+</p>
+
 <span class="learn">Plan my 3-day backup →</span>
+
 </a>
 
+
 <a class="guide" href="/solar-recharging-power-station.html">
+
 <small>Recharge the battery</small>
+
 <h3>How much solar do I actually need?</h3>
-<p>Choose enough solar to meaningfully recharge your power station without buying panels your battery cannot use.</p>
+
+<p>
+Choose enough solar to meaningfully recharge your power station without
+buying panels your battery cannot use.
+</p>
+
 <span class="learn">Help me choose solar →</span>
+
 </a>
+
 
 </div>
 </div>
 </section>
+
 
 <section>
 <div class="wrap">
 
-<h2>Water &amp; food without the bunker mentality</h2>
+<div class="eyebrow">Emergency water</div>
+
+<h2>Have enough. Know how to make more safe.</h2>
+
+<p class="section-intro">
+Water preparedness doesn't need to mean a garage full of giant blue
+barrels. Start with a sensible stored supply, then add a way to treat
+additional water if you ever need it.
+</p>
+
 
 <div class="guides">
 
+
 <a class="guide" href="/emergency-water-storage.html">
-<small>Start with water</small>
+
+<small>Start here</small>
+
 <h3>How much emergency water should I store?</h3>
-<p>See exactly how much you need for 3 days, 7 days or 2 weeks, plus which container style makes sense for your home.</p>
+
+<p>
+See exactly how much you need for 3 days, 7 days or 2 weeks, plus which
+container style makes sense for your home.
+</p>
+
 <span class="learn">Plan my water supply →</span>
+
 </a>
 
-<div class="guide">
-<small>Coming next</small>
+
+<a class="guide" href="/emergency-water-treatment.html">
+
+<small>If your stored water runs out</small>
+
 <h3>How do I make questionable water safe?</h3>
-<p>We’re building a separate guide for filters, boiling and treatment because those solve different problems.</p>
-</div>
+
+<p>
+Understand when to boil, filter, disinfect or use a true purifier, and
+why those methods are not interchangeable.
+</p>
+
+<span class="learn">Show me how to treat water →</span>
+
+</a>
+
 
 </div>
 </div>
 </section>
+
 
 <section>
 <div class="wrap">
 
 <h2>What else do you want to be ready for?</h2>
 
+
 <div class="cards">
 
-<div class="card">
-<h3>Home Readiness</h3>
-<p>Lighting, charging, communications and other practical essentials for disruptions at home.</p>
-</div>
 
 <div class="card">
-<h3>On the Road</h3>
-<p>Useful backup gear for vehicles, RVs and travel when plans stop going according to plan.</p>
-</div>
 
-<div class="card">
+<span class="badge">COMING NEXT</span>
+
 <h3>Food Storage</h3>
-<p>How much to keep, what actually stores well and how to avoid buying a pile of food nobody wants to eat.</p>
+
+<p>
+How much food to keep, what actually stores well and how to avoid buying
+a pile of emergency food nobody in your house wants to eat.
+</p>
+
 </div>
 
+
 <div class="card">
-<h3>Build a Bigger Backup System</h3>
-<p>Expandable batteries, solar charging and practical ways to keep essential power available longer.</p>
+
+<h3>Home Readiness</h3>
+
+<p>
+Lighting, charging, communications and other practical essentials for
+disruptions at home.
+</p>
+
 </div>
+
+
+<div class="card">
+
+<h3>On the Road</h3>
+
+<p>
+Useful backup gear for vehicles, RVs and travel when plans stop going
+according to plan.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Build a Bigger Backup System</h3>
+
+<p>
+Expandable batteries, solar charging and practical ways to keep
+essential power available longer.
+</p>
+
+</div>
+
 
 </div>
 </div>
 </section>
+
 
 <section>
 <div class="wrap">
 
 <h2>How LiveSolv works</h2>
 
+
 <div class="steps">
 
+
 <div class="step">
-<strong>We start with the real-life need.</strong><br>
+
+<strong>We start with the real-life need.</strong>
+
+<br>
+
 Not jargon, model numbers or a wall of specifications.
+
 </div>
 
-<div class="step">
-<strong>We compare what matters.</strong><br>
-Published specs, manufacturer information, credible independent sources, warranties, pricing and practical tradeoffs.
-</div>
 
 <div class="step">
-<strong>We tell you why.</strong><br>
-Recommendations should make sense even if you have never shopped for this kind of equipment before.
+
+<strong>We compare what matters.</strong>
+
+<br>
+
+Published specifications, manufacturer information, credible independent
+sources, warranties, pricing and practical tradeoffs.
+
 </div>
+
+
+<div class="step">
+
+<strong>We tell you why.</strong>
+
+<br>
+
+Recommendations should make sense even if you have never shopped for this
+kind of equipment before.
+
+</div>
+
 
 </div>
 </div>
 </section>
 
+
 </main>
+
 
 <footer>
 <div class="wrap">
+
 <strong>LiveSolv</strong> • Live in the solution.
+
 <br><br>
-LiveSolv may earn a commission from qualifying purchases made through links on this site. This does not affect what we recommend or what you pay.
+
+We research products using published specifications, manufacturer
+documentation, credible independent information and practical use cases.
+We do not claim to have personally tested a product unless we have.
+
+<br><br>
+
+LiveSolv may earn a commission from qualifying purchases made through
+links on this site. This does not affect what we recommend or what you pay.
+
 </div>
 </footer>
+
 
 </body>
 </html>
