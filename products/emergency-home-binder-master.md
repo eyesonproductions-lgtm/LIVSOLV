@@ -26,6 +26,7 @@ FRONT OF BINDER: USE THIS FIRST
 6. Utility Shutoff Quick Card
 7. Medical Emergency Information Card
 8. Local Map + primary/alternate evacuation routes
+9. Emergency Radio + Communications Quick Card
 
 SECTION 1: HOUSEHOLD SNAPSHOT
 - Household members and contact information
@@ -184,6 +185,31 @@ SECTION 9: COMMUNICATIONS
 - Prewritten short emergency messages
 - Paper phone-number list
 
+Emergency Radio + Communications Quick Card
+- Put this card near the front of the binder and consider keeping a duplicate with the radio.
+- RADIO LOCATION: __________
+- RADIO POWER: rechargeable / AA / AAA / hand crank / solar / other __________
+- PRIMARY NOAA TRANSMITTER: __________
+- CALL SIGN: __________
+- PRIMARY NOAA FREQUENCY: __________ MHz
+- BACKUP NOAA TRANSMITTER: __________
+- BACKUP NOAA FREQUENCY: __________ MHz
+- NOAA frequencies quick reference: 162.400 / 162.425 / 162.450 / 162.475 / 162.500 / 162.525 / 162.550 MHz
+- If radio has WX/WB/WEATHER/NOAA mode, select it. If it tunes by frequency, work through the seven NOAA frequencies and use the clearest continuous local broadcast.
+- Ordinary AM/FM-only receivers cannot tune the NOAA weather band.
+- SAME COUNTY CODE, if radio supports SAME: __________
+- LOCAL AM NEWS/TALK: __________
+- LOCAL FM NEWS/TALK: __________
+- FRS FAMILY CHANNEL: __________
+- FRS BACKUP CHANNEL: __________
+- OUT-OF-AREA CONTACT + PHONE: __________
+- SATELLITE DEVICE / ACCOUNT STATUS, if owned: __________
+- SPARE BATTERY LOCATION: __________
+- LAST RADIO TEST: __________
+- Label the physical radio with the primary NOAA frequency and backup frequency before an emergency.
+- Test reception from the location where the radio will actually be used; terrain and buildings can affect which transmitter is clearest.
+- Current guide: LivSolv.com/home-emergency-communication-plan.html
+
 SECTION 10: MEDICAL / FIRST AID
 - Main kit + refill locations
 - Medications/allergies/conditions summary
@@ -276,6 +302,7 @@ Only concise, reputable instructions appropriate for lay use.
 - Jump-start procedure
 - Tire change procedure
 - Emergency radio basics
+- NOAA Weather Radio seven-frequency quick reference
 - Equipment-specific instructions
 
 SECTION 18: INVENTORY GAPS + MAINTENANCE
@@ -305,6 +332,7 @@ RESEARCH NOTES INCORPORATED
 - Generator users repeatedly surface fuel storage/availability, load management, cord capacity, physical mobility and household familiarity as practical failure points.
 - Dual-fuel is treated as supply redundancy, not automatically cheaper fuel. Propane output is often lower, so model-specific ratings matter.
 - A practical security distinction is useful: everyday emergency operating instructions can live in an accessible binder while sensitive originals/full financial records stay in a protected grab file or secure storage.
+- NOAA Weather Radio uses seven VHF frequencies from 162.400 to 162.550 MHz. The binder should make those frequencies available offline and capture the household's tested primary and backup transmitter before an emergency.
 
 NEXT BUILD
 Continue designed worksheet copy, including a two-page Generator & Fuel Plan with model-specific startup card and a simple generator-hours-per-day worksheet.
