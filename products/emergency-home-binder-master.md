@@ -19,13 +19,6 @@ DESIGN RULES
 
 FRONT OF BINDER: USE THIS FIRST
 1. Emergency Dashboard
-   - What happened?
-   - Immediate danger? Leave / shelter / call for help
-   - Household headcount
-   - Pets accounted for
-   - Utilities status
-   - Communications status
-   - Next decision time
 2. Five-Minute Evacuation Card
 3. Fifteen-Minute Evacuation Card
 4. Sixty-Minute Evacuation Card
@@ -46,9 +39,7 @@ SECTION 1: HOUSEHOLD SNAPSHOT
 
 SECTION 2: EVACUATION
 - Trigger: what conditions mean we leave?
-- 5-minute departure checklist
-- 15-minute departure checklist
-- 60-minute departure checklist
+- 5-minute / 15-minute / 60-minute departure checklists
 - Loading-the-car order
 - Go-bag locations and inventory
 - Medication grab list
@@ -63,12 +54,7 @@ SECTION 2: EVACUATION
 - Return-home checklist
 
 SECTION 3: SHELTER-IN-PLACE / HOME EMERGENCY
-- First 10 minutes
-- First hour
-- First night
-- 24 hours
-- 72 hours
-- One week+
+- First 10 minutes / first hour / first night / 24 hours / 72 hours / one week+
 - When staying becomes more dangerous than leaving
 
 SECTION 4: WATER
@@ -86,9 +72,7 @@ SECTION 4: WATER
 - Current recommendations: LivSolv.com/emergency-water-treatment.html
 
 SECTION 5: FOOD
-- No-cook food inventory
-- Quick-cook food inventory
-- Long-term food inventory
+- No-cook / quick-cook / long-term food inventory
 - Household dietary restrictions
 - First foods to eat when power fails
 - Fridge/freezer preservation plan
@@ -99,8 +83,7 @@ SECTION 5: FOOD
 - Pantry rotation dates
 
 SECTION 6: BLACKOUT COOKING
-- Primary cooking method
-- Backup cooking method
+- Primary + backup cooking method
 - Fuel type and stored quantity
 - Safe operating location
 - Ignition backup
@@ -111,22 +94,76 @@ SECTION 6: BLACKOUT COOKING
 - Carbon-monoxide warning
 - Current guide: LivSolv.com/cooking-during-power-outage.html
 
-SECTION 7: POWER
-- Critical loads ranked 1-5
-- Power station/generator/battery inventory
-- Battery capacities
-- Solar panels + compatible inputs/cables
-- Generator startup/shutdown instructions
-- Fuel inventory and safe storage
-- Extension cords/adapters location
-- Charging priority list
-- Estimated runtime notes
+SECTION 7: POWER + GENERATOR
+Critical loads
+- Rank household loads 1-5
+- Note running watts and startup/surge needs where relevant
+- Mark equipment requiring 240V or special connection
 - Refrigerator/freezer cycling plan
-- Medical-device backup power plan created with relevant provider/supplier
+- Battery/power-station charging priority
+
+Generator identity
+- Make/model/serial
+- Gasoline running/starting watts
+- Propane running/starting watts if dual-fuel
+- Outlet types, including RV-ready outlet if present
+- Generator location in storage
+- Safe outdoor operating location
+- Who in household can physically move/set it up
+- Wheel/handle status
+
+Fuel redundancy plan
+- Fuel types generator can use
+- Gasoline currently stored + date acquired/rotated
+- Propane cylinders currently available + size
+- Do NOT assume propane is always cheaper; compare current local fuel cost against actual generator consumption
+- Do NOT assume gasoline will be available during a storm/evacuation; fill/prepare before emergency demand spikes when safe and practical
+- Dual-fuel advantage: two supply options, not a promise of lower operating cost
+- Note lower propane wattage if applicable
+- Estimated generator-hours available on each stored fuel
+
+Runtime strategy
+- How many generator-hours per day are actually required?
+- Which high-load appliances run only during generator periods?
+- Which batteries/power stations get recharged while generator is running?
+- Which loads can run from battery while generator is off?
+- Fridge/freezer thermometer plan so cycling is based on temperature rather than guessing
+- Quiet/night shutdown plan where practical
+
+Startup card: IF THE PERSON WHO NORMALLY DOES THIS IS NOT HERE
+- Move generator to designated safe outdoor location
+- Verify oil/fuel according to model manual
+- Connect only through the household's documented safe connection method
+- Exact model-specific fuel/start/choke/electric-start sequence
+- What loads get connected first
+- What NOT to connect
+- Where spare oil, cords and adapters are stored
+- Shutdown/cool-down/refueling sequence from manufacturer instructions
+- Emergency stop instruction
+- Never improvise backfeeding
+
+Safety
+- Generator never operates inside house, garage, basement, crawlspace or other enclosed/partially enclosed area
+- Keep away from doors/windows/vents per manufacturer guidance
+- CO alarms: locations + last test
+- Rain/wet-weather protection method that does not enclose exhaust
+- Fuel stored according to applicable container/fire-safety requirements
+- Transfer switch/interlock/connection equipment and electrician information where applicable
+
+Maintenance
+- Owner's manual location
+- Oil type
+- Spare oil quantity/location
+- Last oil change
+- Last test run
+- Battery condition if electric start
+- Spark plug/air filter service notes
+- Fuel rotation date
+- Next scheduled practice setup
+- Current guide: LivSolv.com/generator-backup-power.html
 
 SECTION 8: EXTREME COLD / HEAT
-- Winter warm-room selection
-- How to isolate the warm room
+- Winter warm-room selection and isolation
 - Indoor tent/sleeping microclimate plan
 - Blankets/sleeping bags/pads location
 - Safe heat sources
@@ -135,13 +172,11 @@ SECTION 8: EXTREME COLD / HEAT
 - Sun-blocking plan
 - Night-flush ventilation plan when conditions/air quality permit
 - Fans/cooling gear
-- Thresholds/triggers for relocating to safer conditioned space
+- Triggers for relocating to safer conditioned space
 
 SECTION 9: COMMUNICATIONS
 - Primary / Alternate / Contingency / Emergency communication methods
-- Family contact tree
-- Out-of-area contact
-- Meeting places
+- Family contact tree / out-of-area contact / meeting places
 - NOAA weather radio information
 - FRS/GMRS/ham/satellite equipment actually owned
 - Channels/frequencies/call signs where legally applicable
@@ -150,8 +185,7 @@ SECTION 9: COMMUNICATIONS
 - Paper phone-number list
 
 SECTION 10: MEDICAL / FIRST AID
-- Main kit location
-- Refill supplies location
+- Main kit + refill locations
 - Medications/allergies/conditions summary
 - Household-specific medical equipment
 - Prescription refill/backup plan from clinician/pharmacist
@@ -242,22 +276,16 @@ Only concise, reputable instructions appropriate for lay use.
 - Jump-start procedure
 - Tire change procedure
 - Emergency radio basics
-- Knots only if actually useful to household plans
 - Equipment-specific instructions
 
 SECTION 18: INVENTORY GAPS + MAINTENANCE
 - What capability is missing?
-- $0 workaround
-- Cheapest workable fix
-- Better/value purchase
+- $0 workaround / cheapest workable fix / better-value purchase
 - Priority: now / soon / later
 - Last checked date
-- Water rotation
-- Food rotation
-- Medication/first-aid expiration
+- Water/food/medication rotation
 - Battery charging
-- Generator test
-- Fuel rotation
+- Generator test + fuel rotation
 - Smoke/CO alarms
 - Vehicle kit seasonal change
 - Insurance/home-inventory review
@@ -273,9 +301,10 @@ C. Book companion pack: selected worksheets bundled with the LivSolv preparednes
 D. Free sampler: Emergency Dashboard + 5/15/60-minute evacuation cards + household contact card. Use as an email-list acquisition product only after email infrastructure is justified.
 
 RESEARCH NOTES INCORPORATED
-- Experienced preparedness communities repeatedly emphasize paper maps, multiple evacuation routes, household roles, departure countdowns, offline instructions, equipment procedures and keeping the binder maintained rather than treating it as a one-time checklist.
+- Experienced preparedness communities repeatedly emphasize paper maps, multiple evacuation routes, household roles, offline instructions, equipment procedures and keeping the binder maintained rather than treating it as a one-time checklist.
+- Generator users repeatedly surface fuel storage/availability, load management, cord capacity, physical mobility and household familiarity as practical failure points.
+- Dual-fuel is treated as supply redundancy, not automatically cheaper fuel. Propane output is often lower, so model-specific ratings matter.
 - A practical security distinction is useful: everyday emergency operating instructions can live in an accessible binder while sensitive originals/full financial records stay in a protected grab file or secure storage.
-- Financial preparedness guidance supports gathering important documents, protecting records, maintaining property photos/inventory, keeping receipts after disaster and maintaining some accessible emergency cash.
 
 NEXT BUILD
-Turn each section into designed worksheet/page copy. Start with the front-of-binder emergency pages because they define the product's usefulness: Emergency Dashboard, 5-Minute Evacuation, 15-Minute Evacuation, 60-Minute Evacuation, Family Rally Card and Utility Shutoff Card.
+Continue designed worksheet copy, including a two-page Generator & Fuel Plan with model-specific startup card and a simple generator-hours-per-day worksheet.
