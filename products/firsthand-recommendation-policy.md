@@ -5,6 +5,22 @@ Status: working editorial policy, September 2026
 ## Why this exists
 LivSolv uses researched recommendations across many products, but the founder also owns and uses preparedness equipment in real life. Those are different evidence categories and should be labeled differently.
 
+## The LivSolv decision-shortlist standard
+LivSolv exists to do the comparison work before the reader arrives. A recommendation page should not recreate a retailer category page or hand someone a list of ten technically acceptable products.
+
+For a normal buying decision, research the broader market privately, then surface **one or two winners** whenever the evidence supports a clean choice:
+
+1. **Best value / lower-cost pick** — the least expensive product LivSolv can confidently recommend for the actual job. This is not automatically the absolute cheapest product on the market.
+2. **Best overall pick** — the product LivSolv would choose when the reader is willing to spend more for meaningful reliability, capability, durability or ease of use.
+
+A third product should appear only when it solves a genuinely different use case that the first two do not. Never create extra tiers just to fill space or increase affiliate-link count.
+
+Every surfaced recommendation must answer, quickly: **Which one should I buy? Why this one? What do I give up by spending less? What do I gain by spending more?**
+
+Where relevant, put the **$0 / use-what-you-have option** before the purchase choices. The goal is not to maximize the number of products shown. The goal is to minimize the reader's decision work without hiding an important tradeoff.
+
+Purchase buttons should go to the exact recommended product or a clearly purchasable listing whenever possible. Do not send a reader to a manufacturer's broad catalog, corporate sales page or category page and make them search again unless no stable direct purchase destination exists.
+
 ## Preferred label
 **LivSolv Firsthand Pick**
 
