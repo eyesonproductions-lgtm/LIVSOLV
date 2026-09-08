@@ -13,6 +13,18 @@ Last audit: 2026-09-08
 - Re-audit commercial recommendations when a reader reports an unavailable product, when a manufacturer replaces a model, and during scheduled commerce maintenance.
 - Firsthand labels require actual ownership/use. Discontinued owned products may be used as firsthand examples, but must not be presented as current shopping recommendations.
 
+## LivSolv evidence standard
+Preparedness guidance must not be built from government checklists alone. For each substantive guide or recommendation, triangulate across the evidence layers that apply:
+1. Safety-critical authoritative guidance for hard boundaries such as carbon monoxide, food temperature, contaminated water, heat illness, fire and radio law.
+2. Manufacturer documentation for exact product specifications, compatibility and limitations.
+3. Independent preparedness specialists and technically serious prepper resources.
+4. Firsthand reports from people who have actually lived through outages, hurricanes, ice storms, heat waves and other disruptions, including Reddit and preparedness communities.
+5. LivSolv firsthand ownership/use and field experience where it genuinely exists.
+
+Community anecdotes are evidence of practical failure modes and overlooked needs, not automatic proof that a practice is safe. When community practice conflicts with a well-established life-safety boundary, LivSolv should explain the conflict rather than silently choosing one source.
+
+Recurring real-world themes worth checking for in every relevant guide include: fuel becoming a limiting resource; cell service degrading after prolonged outages; refrigeration taking priority over convenience loads; small efficient cooling zones outperforming attempts to cool an entire house; solar output being lower and more weather-dependent than nameplate ratings imply; and layered systems outperforming dependence on one generator, one battery or one charging method.
+
 ## Audited recommendations
 | Page | Product | Destination status | Availability/status checked | Fallback / action |
 |---|---|---|---|---|
@@ -37,9 +49,10 @@ Last audit: 2026-09-08
 | car-emergency-kit.html | DEWALT DCC020IB | Manufacturer | Current official product | 12V DC alternate power path |
 | car-emergency-kit.html | Unbranded solar + USB flashlight | Firsthand; no commerce link | Owned and used; manufacturer unknown | Recommend feature architecture only |
 | small-backup-power.html | Goal Zero Yeti 150 | Firsthand; archived/discontinued | Goal Zero archive verified | Example only, never current purchase recommendation |
-| small-backup-power.html | Anker SOLIX C300 | Current manufacturer product | Buy-now/current product verified 2026-09-08; 288Wh, 300W AC, 140W USB-C, 100W solar | Jackery 300 Plus is same-class fallback |
-| small-backup-power.html | Jackery Explorer 300 Plus | Current manufacturer product | Current selectable product and fresh support specs verified 2026-09-08; 288Wh, 300W, 100W USB-C/solar | Anker C300 is same-class fallback |
-| small-backup-power.html | EcoFlow RIVER 3 | Removed from primary buy list | EcoFlow US pages showed standalone model sold out/preorder during 2026-09-08 audit | Do not route shoppers to it while unavailable; Anker/Jackery current alternatives used |
+| small-backup-power.html | Anker SOLIX C300 | Removed from current shortlist | Conflicting current manufacturer availability signals during 2026-09-08 audit | Do not present as current buy until clean availability is reverified |
+| small-backup-power.html | Jackery Explorer 300 Plus | Removed from current shortlist | Jackery US listing showed sold out/discontinued during 2026-09-08 audit | Do not present as current buy |
+| small-backup-power.html | EcoFlow RIVER 3 | Removed from primary buy list | EcoFlow US pages showed standalone model sold out/preorder during 2026-09-08 audit | Do not route shoppers to it while unavailable |
+| small-backup-power.html | Goal Zero Yeti 300 | Current manufacturer product | Current-generation small Yeti verified 2026-09-08 | Natural current replacement class for owned Yeti 150; recheck stock before commerce routing |
 | solar-power-bank-vs-folding-panel.html | Goal Zero Yeti 150 | Firsthand; archived/discontinued | Archive confirms 168Wh AGM and solar compatibility | Route shoppers to current equipment |
 | solar-power-bank-vs-folding-panel.html | Goal Zero Sherpa 100PD | Current manufacturer product | Verified 2026-09-08 | Use current Goal Zero lineup if model changes |
 | solar-power-bank-vs-folding-panel.html | Goal Zero Nomad 20 | Current manufacturer product | Verified 2026-09-08 | Pair only with compatible input architecture |
@@ -61,7 +74,7 @@ LivSolv owns and uses an unbranded flashlight with integrated solar panel, USB i
 LivSolv owns and has used a Goal Zero Yeti 150. It is discontinued. Use it as firsthand evidence for battery-plus-separate-solar architecture, not as a shopping recommendation.
 
 ### Sold-out products are not recommendations
-A technically good product is not a useful commerce recommendation if the reader cannot buy it. EcoFlow RIVER 3 was removed from the primary compact-power shortlist on 2026-09-08 after current EcoFlow US pages showed the standalone unit sold out/preorder. Reconsider it only after a later availability audit.
+A technically good product is not a useful commerce recommendation if the reader cannot buy it. EcoFlow RIVER 3, Jackery Explorer 300 Plus and the conflicted Anker C300 were removed from the primary compact-power shortlist during the 2026-09-08 audit. Reconsider only after a later availability audit.
 
 ## Next audit queue
 1. solar-recharging-power-station.html
