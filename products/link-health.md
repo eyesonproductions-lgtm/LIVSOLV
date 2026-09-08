@@ -33,6 +33,7 @@ Last audit: 2026-09-08
 | emergency-water-storage.html | Reliance Jumbo-Tainer 7 gallon | Current retailer product | Available at audit | Fallback if Aqua-Tainer 7 gallon unavailable |
 | emergency-water-storage.html | WaterBrick 3.5 gallon | Manufacturer live shop | Current packs available at audit | Live WaterBrick shop used because colors/pack sizes change |
 | emergency-water-storage.html | waterBOB | Manufacturer exact product | In stock at audit | Exact current product retained; one-time-use limitation stated |
+| generator-backup-power.html | etrailer 4,500-Watt Dual-Fuel Portable RV Generator #333-0005 | Firsthand LivSolv-owned + current exact retailer product | Exact product rechecked 2026-09-08 and listed in stock; 4,500W/3,600W gas, 4,050W/3,250W propane | Retain exact retailer product while current; do not claim inverter-grade output. Retailer explicitly says no built-in inverter and warns against directly connecting sensitive electronics |
 | car-emergency-kit.html | NOCO Boost GB40 | Manufacturer | Current recommendation retained | Jumper cables provide battery-free fallback architecture |
 | car-emergency-kit.html | Slime 12V Digital Tire Inflator #40088 | Manufacturer | Current product page/specs audited | 12V vehicle power avoids separate inflator battery maintenance |
 | car-emergency-kit.html | DEWALT DCC020IB | Manufacturer | Current official product page verified | 12V DC input provides alternate path even without a charged DEWALT battery |
@@ -50,6 +51,9 @@ The `Peak Series Gravity Purifier with virus removal` and `Peak Series Gravity F
 ### Water storage size integrity
 Do not let a product heading and destination disagree. The September 2026 audit found the `Reliance Aqua-Tainer 7 gallon` recommendation pointing to a 4-gallon manufacturer URL. The bad link was removed. The exact 7-gallon Aqua-Tainer remains in current retail distribution, while the Reliance Jumbo-Tainer provides a current same-capacity fallback.
 
+### LivSolv-owned etrailer generator
+LivSolv owns the etrailer 4,500-Watt Dual-Fuel Portable RV Generator #333-0005. The exact current listing was rechecked September 8, 2026 and remained in stock. Published output is 4,500W starting / 3,600W running on gasoline and 4,050W starting / 3,250W running on propane. It has electric and recoil start, 120V 20A outlets, L5-30R and TT-30R 30A outlets, a 5-gallon gasoline tank, and published 14-hour runtime at half load. It is not an inverter generator. etrailer explicitly warns that voltage can fluctuate and says not to plug sensitive electronics such as computers or televisions directly into it. This distinction must remain prominent anywhere LivSolv recommends the unit.
+
 ### LivSolv-owned solar flashlight
 LivSolv owns and uses an unbranded flashlight with integrated solar panel, USB input, USB output, main beam and COB side light. It is kept in a sunny window and has remained ready in household use. Because there is no identifiable brand/model, never attach unsupported battery capacity, recharge-time or manufacturer claims.
 
@@ -58,11 +62,10 @@ LivSolv owns and has used a Goal Zero Yeti 150 as a small solar-rechargeable pow
 
 ## Next audit queue
 
-1. generator-backup-power.html
-2. small-backup-power.html
-3. solar-recharging-power-station.html
-4. home-power-outage-essentials.html
-5. remaining product-bearing pages not yet represented in this registry
+1. small-backup-power.html
+2. solar-recharging-power-station.html
+3. home-power-outage-essentials.html
+4. remaining product-bearing pages not yet represented in this registry
 
 ## Future automation boundary
 
