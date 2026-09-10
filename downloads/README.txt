@@ -1,1 +1,0 @@
-Downloadable LivSolv guides. Binary PDFs are committed via the Git data API.
