@@ -1,6 +1,6 @@
 # LIVSOLV Project Status
 
-Last updated: 2026-09-15
+Last updated: 2026-09-16
 
 ## Objective
 
@@ -10,30 +10,32 @@ Build LIVSOLV into a trusted, increasingly automated income source centered on c
 
 Launch the first differentiated paid digital product:
 
-**LIVSOLV Systems Down: First 72 Hours**
+**LIVSOLV Systems Down Household Binder**
 
-This is a guided household audit and decision system, not another large generic emergency binder.
+This is a calm household emergency decision system, not a generic checklist or a reduced First 72 Hours audit.
 
 ## Product status
 
-- Production format is defined in `products/systems-down-production-spec.md`.
-- Existing binder, calculator, calm guide, and wallet-card work may be reused selectively.
-- The old 25-page binder should not be launched as the hero product without redesign.
+- Controlling scope: approximately 60 useful binder pages plus a nine-tab automated Household Calculator workbook, Start Here guide, Quick Cards, US Letter/A4 editions, and ink-saver editions.
+- The current architecture covers household dependencies, power/generator/solar, water, food/cold storage/cooking, medication/medical devices, heat/cold, sensory/accessibility, communications, home systems, records/cash, pets, vehicles, separation, stay/leave, evacuation, First 72 Hours, two-week continuity, and handoff/review.
+- The previously shortened First 72 Hours ZIP and old 25-page binder are superseded and should not be sold as the premium finished product.
+- The missing Two-Week Continuity Plan has now been restored as page 59, with handoff/review/sources closing the 60-page system on page 60.
+- A nine-tab calculator workbook has been rebuilt and formula-checked.
+- A staged sales page exists at `systems-down-household-binder.html` but is intentionally `noindex` and not linked from the homepage until secure checkout/file delivery is connected.
 - Primary sales home: LIVSOLV.com.
-- Etsy may carry the product inside a future anonymous umbrella shop, but LIVSOLV does not need a separate Etsy account.
+- LIVSOLV does not need a dedicated Etsy store. Etsy can be used later inside the broader anonymous printable/POD marketplace if useful.
 
-## Brand status
+## Commercial direction
 
-- LIVSOLV remains the preparedness brand.
-- The future parent-and-teen Etsy/POD umbrella brand is not named.
-- Naming criteria: distinctive, easy to say and spell, expandable across printables and POD, available enough to own, and screened for confusingly similar trademarks.
-- Do not use The Useful Edit, Worth Keeping Co., or other names already in active use.
+- Working launch price: $17.
+- Working regular price after the first 25 customers: $24.
+- Do not discount below $12.
+- The binder must remain useful without affiliate purchases. Current product recommendations belong on LIVSOLV.com rather than being hard-coded into the printable product.
+- No manufacturing or inventory spending for launch. Consider a physical version only after digital demand is proven.
 
-## Current blockers
+## Current launch blocker
 
-- Etsy Payments setup requires a valid, unexpired government ID.
-- TikTok access is blocked by phone-number/account limits.
-- Ubersuggest daily report quota was exhausted on 2026-09-15 and resets the next day.
+Secure checkout and automatic digital file delivery need to be connected before the sales page is made public and linked from the homepage.
 
 ## Current channels
 
@@ -42,6 +44,10 @@ This is a guided household audit and decision system, not another large generic 
 - Instagram and Pinterest are connected and publishing.
 - Amazon Associates is approved; Store ID is documented outside this public repository.
 
+## Marketing priority
+
+Traffic is currently the limiting factor. LIVSOLV has had only a small number of Instagram/Pinterest posts and no measurable organic SEO footprint yet. Immediate launch work should combine National Preparedness Month timing, a free sampler, product-focused social posts, search-targeted evergreen pages, internal linking, analytics, and a simple email capture path.
+
 ## Next action
 
-Complete the page-by-page copy and decision logic for the Systems Down audit before designing final layouts or listing graphics.
+Connect checkout/file delivery, replace the staged sales-page button with the real payment link, remove `noindex`, link the product from the homepage, and launch the sampler plus product campaign.
