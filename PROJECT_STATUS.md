@@ -1,6 +1,6 @@
 # LIVSOLV Project Status
 
-Last updated: 2026-09-16
+Last updated: 2026-09-17
 
 ## Objective
 
@@ -18,12 +18,10 @@ This is a calm household emergency decision system, not a generic checklist or a
 
 - Controlling scope: approximately 60 useful binder pages plus a nine-tab automated Household Calculator workbook, Start Here guide, Quick Cards, US Letter/A4 editions, and ink-saver editions.
 - The current architecture covers household dependencies, power/generator/solar, water, food/cold storage/cooking, medication/medical devices, heat/cold, sensory/accessibility, communications, home systems, records/cash, pets, vehicles, separation, stay/leave, evacuation, First 72 Hours, two-week continuity, and handoff/review.
-- The previously shortened First 72 Hours ZIP and old 25-page binder are superseded and should not be sold as the premium finished product.
-- The missing Two-Week Continuity Plan has now been restored as page 59, with handoff/review/sources closing the 60-page system on page 60.
-- A nine-tab calculator workbook has been rebuilt and formula-checked.
-- A staged sales page exists at `systems-down-household-binder.html` but is intentionally `noindex` and not linked from the homepage until secure checkout/file delivery is connected.
+- The previously shortened First 72 Hours ZIP, old 25-page binder, and old `Systems Down: First 72 Hours` product name are superseded.
+- The staged sales page exists at `systems-down-household-binder.html`, remains `noindex`, and has a disabled checkout button until secure checkout and automatic file delivery are verified.
 - Primary sales home: LIVSOLV.com.
-- LIVSOLV does not need a dedicated Etsy store. Etsy can be used later inside the broader anonymous printable/POD marketplace if useful.
+- Community preparedness now exists as a published content page; sitemap/internal-link cleanup is secondary to checkout.
 
 ## Commercial direction
 
@@ -35,7 +33,7 @@ This is a calm household emergency decision system, not a generic checklist or a
 
 ## Current launch blocker
 
-Secure checkout and automatic digital file delivery need to be connected before the sales page is made public and linked from the homepage.
+Secure checkout and automatic digital file delivery are still unconnected. No additional free-content expansion should outrank this work until the purchase-and-delivery path is functioning end to end.
 
 ## Current channels
 
@@ -44,10 +42,19 @@ Secure checkout and automatic digital file delivery need to be connected before 
 - Instagram and Pinterest are connected and publishing.
 - Amazon Associates is approved; Store ID is documented outside this public repository.
 
-## Marketing priority
+## Launch sequence
 
-Traffic is currently the limiting factor. LIVSOLV has had only a small number of Instagram/Pinterest posts and no measurable organic SEO footprint yet. Immediate launch work should combine National Preparedness Month timing, a free sampler, product-focused social posts, search-targeted evergreen pages, internal linking, analytics, and a simple email capture path.
+1. Connect payment/checkout provider.
+2. Configure automatic delivery of the final customer package.
+3. Run an end-to-end test: sales page → checkout → successful payment → confirmation → file delivery/download.
+4. Verify mobile and desktop behavior and confirm the delivered package opens correctly.
+5. Replace the staged sales-page button with the verified checkout link.
+6. Remove `noindex`, link the product from the homepage, add the product page to the sitemap, and launch the sampler/product campaign.
+
+## Content pause
+
+Do not create additional nonessential free pages until steps 1–4 above are complete. Existing broken-link, naming, sitemap, or launch-critical fixes are allowed.
 
 ## Next action
 
-Connect checkout/file delivery, replace the staged sales-page button with the real payment link, remove `noindex`, link the product from the homepage, and launch the sampler plus product campaign.
+Connect the checkout provider and automatic product delivery, then run a real end-to-end test before exposing the paid product page publicly.
