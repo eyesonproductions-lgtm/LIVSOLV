@@ -31,24 +31,39 @@ Customer package should contain:
 
 ## Front action section
 
-### Page 1 - Cover
+### Unnumbered Cover
 Title: LIVSOLV Systems Down Household Binder
 Subtitle: A household operating manual for emergencies
 Brand line: Live in the solution.
 Fields: Household name, address, last reviewed date
 
-### Page 2 - Start Here
-Purpose: Explain how to use the binder in under two minutes
+### Page 1 - Immediate Emergency Action
+Purpose: Answer "A major emergency just happened. What do I do next?"
 Include:
-- Use front action pages first during an emergency
-- Fill household-specific blanks before an emergency
-- Keep binder accessible
-- Keep sensitive originals elsewhere
-- Review every 6 months and after major household changes
-- Use calculator workbook for water, power, food, fuel and priority math
+- Immediate danger check
+- Account for people, animals and dependents
+- Power, water, communication, temperature, road, refrigeration and fuel status
+- Official warning or order
+- Stay, shelter, evacuate, relocate or seek-help decision
+- Reassessment time and the next action page to use
 
-### Page 3 - Emergency Dashboard
-Status check for danger, people, utilities, communications, road access, stay/leave decision, reassessment time and first assigned jobs
+### Page 2 - Prepare This Binder
+Purpose: Make the binder useful with a 15-minute initial setup, followed by optional deeper setup
+Include:
+- Essential contacts and rally points
+- Utility shutoff and medical information
+- Evacuation destination
+- Household job assignment
+- Accessible binder location
+- Protected sensitive information
+- Six-month and household-change review schedule
+
+### Page 3 - Household Job Plan
+Full-page three-tier assignment tool with room for eight people and multiple jobs per person:
+- Tier 1: life safety
+- Tier 2: stabilize the household
+- Tier 3: continuity and follow-up
+- Age-appropriate roles, safe-task limits, backup assignee and next check-in
 
 ### Page 4 - 5-Minute Evacuation
 Life safety and irreplaceable essentials only
