@@ -1590,7 +1590,7 @@ Backup coordinator: ______________________________________
 Second backup: __________________________________________
 
 ## START WITH THESE PAGES
-1. Emergency Dashboard, page 3
+1. Immediate Emergency Action, page 1
 2. Stay vs Leave, page 15
 3. Medical information, pages 9 and 37-39
 4. Water and food, pages 19-27
