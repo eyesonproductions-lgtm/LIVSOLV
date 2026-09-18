@@ -1,6 +1,6 @@
 # LIVSOLV Project Status
 
-Last updated: 2026-09-17
+Last updated: 2026-09-18
 
 ## Objective
 
@@ -16,12 +16,14 @@ This is a calm household emergency decision system, not a generic checklist or a
 
 ## Product status
 
-- Controlling scope: approximately 60 useful binder pages plus a nine-tab automated Household Calculator workbook, Start Here guide, Quick Cards, US Letter/A4 editions, and ink-saver editions.
+- Controlling scope: 62 useful binder pages plus a nine-tab automated Household Calculator workbook, Start Here guide, 10 Quick Cards, US Letter/A4 editions, and ink-saver editions.
+- Customer-facing source copy for all 62 main pages is now drafted in `products/systems-down-page-copy-01-18.md` and `products/systems-down-page-copy-19-62.md`.
+- Pages 19-62 are ready for editorial, usability and final safety review. They are not yet designed or sale-ready.
 - The current architecture covers household dependencies, power/generator/solar, water, food/cold storage/cooking, medication/medical devices, heat/cold, sensory/accessibility, communications, home systems, records/cash, pets, vehicles, separation, stay/leave, evacuation, First 72 Hours, two-week continuity, and handoff/review.
 - The previously shortened First 72 Hours ZIP, old 25-page binder, and old `Systems Down: First 72 Hours` product name are superseded.
-- The staged sales page exists at `systems-down-household-binder.html`, remains `noindex`, and has a disabled checkout button until secure checkout and automatic file delivery are verified.
+- The staged sales page exists at `systems-down-household-binder.html`, remains `noindex`, and has a disabled checkout button.
 - Primary sales home: LIVSOLV.com.
-- Community preparedness now exists as a published content page; sitemap/internal-link cleanup is secondary to checkout.
+- Community preparedness exists as a published, sitemap-linked content page.
 
 ## Commercial direction
 
@@ -31,9 +33,11 @@ This is a calm household emergency decision system, not a generic checklist or a
 - The binder must remain useful without affiliate purchases. Current product recommendations belong on LIVSOLV.com rather than being hard-coded into the printable product.
 - No manufacturing or inventory spending for launch. Consider a physical version only after digital demand is proven.
 
-## Current launch blocker
+## Current launch blockers
 
-Secure checkout and automatic digital file delivery are still unconnected. No additional free-content expansion should outrank this work until the purchase-and-delivery path is functioning end to end.
+The product package is not finished. The calculator workbook, Quick Cards, Start Here guide, designed binder, Letter/A4 and ink-saver exports, customer ZIP and final QA remain incomplete. Secure checkout and automatic digital delivery must be connected and tested after a verified final package exists.
+
+No additional nonessential free-content expansion should outrank completing the paid product.
 
 ## Current channels
 
@@ -44,17 +48,19 @@ Secure checkout and automatic digital file delivery are still unconnected. No ad
 
 ## Launch sequence
 
-1. Connect payment/checkout provider.
-2. Configure automatic delivery of the final customer package.
-3. Run an end-to-end test: sales page → checkout → successful payment → confirmation → file delivery/download.
-4. Verify mobile and desktop behavior and confirm the delivered package opens correctly.
-5. Replace the staged sales-page button with the verified checkout link.
-6. Remove `noindex`, link the product from the homepage, add the product page to the sitemap, and launch the sampler/product campaign.
+1. Complete editorial, usability and safety review of all 62 page drafts.
+2. Build and formula-test the nine-tab Household Calculator workbook.
+3. Design the front action pages, 10 Quick Cards and remaining binder pages.
+4. Complete the Start Here guide and export US Letter, A4 and both ink-saver editions.
+5. Create the customer ZIP and complete desktop, mobile, printing, link and content QA.
+6. Connect secure checkout and automatic delivery of the verified final package.
+7. Run an end-to-end purchase and delivery test.
+8. Replace the staged sales-page button, remove `noindex`, link the product publicly and launch the campaign.
 
 ## Content pause
 
-Do not create additional nonessential free pages until steps 1–4 above are complete. Existing broken-link, naming, sitemap, or launch-critical fixes are allowed.
+Do not create additional nonessential free pages until the paid binder package and purchase-and-delivery path are complete. Existing broken-link, naming, sitemap or launch-critical fixes are allowed.
 
 ## Next action
 
-Connect the checkout provider and automatic product delivery, then run a real end-to-end test before exposing the paid product page publicly.
+Build and formula-test the nine-tab Household Calculator workbook against the completed 62-page source-copy draft.
