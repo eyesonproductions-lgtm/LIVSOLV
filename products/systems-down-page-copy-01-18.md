@@ -44,15 +44,12 @@ Do not try to complete the binder while someone is in danger. Get out, shelter o
 Date: __________________  Time: __________________
 
 ## 1. CHECK FOR IMMEDIATE DANGER
-[ ] Fire / smoke
-[ ] Flood / rising water
-[ ] Structural danger
-[ ] Gas / chemical concern
-[ ] Medical emergency
-[ ] Extreme heat or cold
-[ ] Official evacuation order
-[ ] Violence / security threat
-[ ] Other: __________________________________________
+| | | | |
+|---|---|---|---|
+| [ ] Fire / smoke | [ ] Flood / rising water | [ ] Structural danger | [ ] Gas / chemical concern |
+| [ ] Medical emergency | [ ] Extreme heat / cold | [ ] Evacuation order | [ ] Security threat |
+
+Other immediate danger: ________________________________
 
 If immediate danger exists, prioritize life safety. Do not stay to complete this sheet.
 
@@ -63,21 +60,12 @@ Missing / location unknown:
 ____________________________________________________
 
 ## 3. IDENTIFY WHAT FAILED
-Power: [ ] Yes  [ ] No  [ ] Unstable
-
-Water: [ ] Yes  [ ] No  [ ] Advisory / unsafe
-
-Cell service: [ ] Normal  [ ] Text only  [ ] Poor  [ ] None
-
-Internet: [ ] Yes  [ ] No
-
-Heat / AC: [ ] Yes  [ ] No
-
-Road access: [ ] Open  [ ] Limited  [ ] Closed / unknown
-
-Refrigeration: [ ] Normal  [ ] Limited  [ ] Off
-
-Fuel access: [ ] Normal  [ ] Limited  [ ] Unknown
+| System | Status | System | Status |
+|---|---|---|---|
+| Power | [ ] On [ ] Off [ ] Unstable | Water | [ ] On [ ] Off [ ] Unsafe |
+| Cell service | [ ] Normal [ ] Text [ ] None | Internet | [ ] On [ ] Off |
+| Heat / AC | [ ] On [ ] Off | Roads | [ ] Open [ ] Limited [ ] Unknown |
+| Refrigeration | [ ] On [ ] Limited [ ] Off | Fuel access | [ ] Normal [ ] Limited [ ] Unknown |
 
 ## 4. CHECK OFFICIAL INFORMATION
 Source checked: _______________________________________
@@ -85,12 +73,11 @@ Source checked: _______________________________________
 Current warning / order: ________________________________
 
 ## 5. MAKE THE NEXT DECISION
-[ ] Stay for now
-[ ] Move to a safer room / zone
-[ ] Prepare to evacuate
-[ ] Evacuate now
-[ ] Seek medical / emergency help
-[ ] Relocate to a safer conditioned building
+| | |
+|---|---|
+| [ ] Stay and reassess | [ ] Move to a safer room / zone |
+| [ ] Prepare to evacuate | [ ] Evacuate now |
+| [ ] Seek emergency help | [ ] Relocate to a safer building |
 
 Reason:
 ____________________________________________________
@@ -98,14 +85,12 @@ ____________________________________________________
 Next reassessment time: _______________________________
 
 ## 6. USE THE PAGE THAT MATCHES THE SITUATION
-[ ] 5-Minute Evacuation
-[ ] 15-Minute Evacuation
-[ ] 60-Minute Evacuation
-[ ] Stay vs Leave Decision Tool
-[ ] Shelter-in-Place Timeline
-[ ] Medical Emergency Information
-[ ] Utility Shutoff Card
-[ ] Communications Quick Card
+| | |
+|---|---|
+| [ ] 5-Minute Evacuation | [ ] 15-Minute Evacuation |
+| [ ] 60-Minute Evacuation | [ ] Stay vs Leave |
+| [ ] Shelter-in-Place | [ ] Medical Information |
+| [ ] Utility Shutoff | [ ] Communications |
 
 Person making the current decision: ______________________
 
