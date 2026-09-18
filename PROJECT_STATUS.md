@@ -19,6 +19,7 @@ This is a calm household emergency decision system, not a generic checklist or a
 - Controlling scope: 62 useful binder pages plus a nine-tab automated Household Calculator workbook, Start Here guide, 10 Quick Cards, US Letter/A4 editions, and ink-saver editions.
 - Customer-facing source copy for all 62 numbered main pages plus the unnumbered cover is drafted in `products/systems-down-page-copy-01-18.md` and `products/systems-down-page-copy-19-62.md`.
 - The opening structure now uses page 1 for immediate emergency action, page 2 for a 15-minute advance setup, and page 3 for a three-tier household job plan with eight assignment rows.
+- The first owner-review cleanup clarified communication fallbacks including Wi-Fi, added practical emergency-food and cold-storage examples, expanded the disaster expense/contact logs, and removed accidental near-empty spill pages from the review layout.
 - Pages 19-62 are ready for editorial, usability and final safety review. They are not yet designed or sale-ready.
 - The current architecture covers household dependencies, power/generator/solar, water, food/cold storage/cooking, medication/medical devices, heat/cold, sensory/accessibility, communications, home systems, records/cash, pets, vehicles, separation, stay/leave, evacuation, First 72 Hours, two-week continuity, and handoff/review.
 - The previously shortened First 72 Hours ZIP, old 25-page binder, and old `Systems Down: First 72 Hours` product name are superseded.
