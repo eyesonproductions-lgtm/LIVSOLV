@@ -92,8 +92,6 @@ Next reassessment time: _______________________________
 | [ ] Shelter-in-Place | [ ] Medical Information |
 | [ ] Utility Shutoff | [ ] Communications |
 
-Person making the current decision: ______________________
-
 ---
 
 # PAGE 2 - PREPARE THIS BINDER
