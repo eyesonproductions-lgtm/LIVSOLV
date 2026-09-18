@@ -351,11 +351,16 @@ Name: _________________________ Phone: ______________
 Name: _________________________ Phone: ______________
 
 ## IF CALLS FAIL
-[ ] Try text
-[ ] Try another carrier / device if available
-[ ] Contact the out-of-area person
-[ ] Use agreed radio / satellite method if available
-[ ] Go to the agreed rally point when appropriate
+Cellular calls can fail while home, business or public Wi-Fi still works.
+
+[ ] Check for a trusted Wi-Fi connection
+[ ] Use Wi-Fi calling if it was enabled before the emergency
+[ ] Send a short individual text message; avoid large group messages
+[ ] Try email or an agreed messaging app over Wi-Fi
+[ ] Try another carrier or device if available
+[ ] Send your update to the out-of-area contact
+[ ] Use the agreed radio or satellite method if available
+[ ] Go to the agreed rally point when appropriate and safe
 
 ## PREWRITTEN CHECK-IN MESSAGE
 I am safe at _______________________________.
