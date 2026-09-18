@@ -8,7 +8,7 @@ This file converts the first 18 pages of the production manifest into customer-f
 
 ---
 
-# PAGE 1 - COVER
+# UNNUMBERED COVER
 
 LIVSOLV
 
@@ -34,86 +34,16 @@ Keep this binder where household members can reach it quickly. Store sensitive o
 
 ---
 
-# PAGE 2 - START HERE
+# PAGE 1 - IMMEDIATE EMERGENCY ACTION
 
-# START HERE
-## You do not need to finish this binder today.
+# A MAJOR EMERGENCY JUST HAPPENED.
+## What do we do next?
 
-This binder is meant to help your household make decisions when normal systems are disrupted. Power may be out. Phones may be unreliable. Roads may be blocked. Water may be unsafe. The person who normally handles everything may not be home.
-
-The goal is simple: make the important decisions **before** the emergency.
-
-## DURING AN EMERGENCY
-Start with the front action pages:
-
-1. Emergency Dashboard
-2. 5-Minute Evacuation
-3. 15-Minute Evacuation
-4. 60-Minute Evacuation
-5. Family Contact + Rally Card
-6. Utility Shutoff Quick Card
-7. Medical Emergency Information Card
-8. Communications Quick Card
-9. Local Map + Evacuation Routes
-
-Do not stay in danger to complete paperwork. If there is an immediate threat to life, leave, shelter, or contact qualified emergency help as appropriate.
-
-## BEFORE AN EMERGENCY
-Fill in household-specific information a little at a time.
-
-### 30-minute setup
-[ ] Fill out household contacts
-[ ] Choose rally points
-[ ] Mark utility shutoffs
-[ ] Write down medication and medical-device needs
-[ ] Identify evacuation destinations
-[ ] Put the binder in an accessible location
-
-### Deeper setup
-[ ] Complete water and food worksheets
-[ ] Rank critical power loads
-[ ] Fill generator or backup-power pages if applicable
-[ ] Map routes and alternate routes
-[ ] Complete records-location index
-[ ] Use the Household Calculator workbook for water, power, food, fuel and priority math
-
-## KEEP SENSITIVE INFORMATION SEPARATE
-This binder should be useful to the household without exposing unnecessary private information.
-
-Good to include:
-- Where important records are stored
-- Insurance company contact information
-- Last four digits or partial identifiers when useful
-- Instructions for finding protected files
-
-Better stored elsewhere:
-- Full passwords
-- Full banking login information
-- Unprotected copies of highly sensitive identity documents
-- Large amounts of cash in an obvious binder pocket
-
-## REVIEW SCHEDULE
-Review every six months and after a major change such as:
-[ ] Move
-[ ] New child or household member
-[ ] New pet
-[ ] Medication change
-[ ] New vehicle
-[ ] Generator / solar / battery purchase
-[ ] Major home-system change
-[ ] Insurance change
-
-Last reviewed: _______________  Next review: _______________
-
----
-
-# PAGE 3 - EMERGENCY DASHBOARD
-
-# SOMETHING HAPPENED. START HERE.
+Do not try to complete the binder while someone is in danger. Get out, shelter or contact emergency help first.
 
 Date: __________________  Time: __________________
 
-## 1. IS ANYONE IN IMMEDIATE DANGER?
+## 1. CHECK FOR IMMEDIATE DANGER
 [ ] Fire / smoke
 [ ] Flood / rising water
 [ ] Structural danger
@@ -126,13 +56,13 @@ Date: __________________  Time: __________________
 
 If immediate danger exists, prioritize life safety. Do not stay to complete this sheet.
 
-## 2. ACCOUNT FOR EVERYONE
+## 2. ACCOUNT FOR PEOPLE AND ANIMALS
 Adults: ______  Children: ______  Pets: ______  Other dependents: ______
 
 Missing / location unknown:
 ____________________________________________________
 
-## 3. WHAT STILL WORKS?
+## 3. IDENTIFY WHAT FAILED
 Power: [ ] Yes  [ ] No  [ ] Unstable
 
 Water: [ ] Yes  [ ] No  [ ] Advisory / unsafe
@@ -149,7 +79,12 @@ Refrigeration: [ ] Normal  [ ] Limited  [ ] Off
 
 Fuel access: [ ] Normal  [ ] Limited  [ ] Unknown
 
-## 4. DECISION RIGHT NOW
+## 4. CHECK OFFICIAL INFORMATION
+Source checked: _______________________________________
+
+Current warning / order: ________________________________
+
+## 5. MAKE THE NEXT DECISION
 [ ] Stay for now
 [ ] Move to a safer room / zone
 [ ] Prepare to evacuate
@@ -162,16 +97,7 @@ ____________________________________________________
 
 Next reassessment time: _______________________________
 
-## 5. FIRST JOBS
-Person: __________________  Job: ______________________
-
-Person: __________________  Job: ______________________
-
-Person: __________________  Job: ______________________
-
-Person: __________________  Job: ______________________
-
-## 6. NEXT PAGE TO USE
+## 6. USE THE PAGE THAT MATCHES THE SITUATION
 [ ] 5-Minute Evacuation
 [ ] 15-Minute Evacuation
 [ ] 60-Minute Evacuation
@@ -180,6 +106,99 @@ Person: __________________  Job: ______________________
 [ ] Medical Emergency Information
 [ ] Utility Shutoff Card
 [ ] Communications Quick Card
+
+Person making the current decision: ______________________
+
+---
+
+# PAGE 2 - PREPARE THIS BINDER
+
+# PREPARE BEFORE AN EMERGENCY
+## Make the binder useful in about 15 minutes. Improve it later.
+
+You do not need to complete all 62 pages before this binder can help. Start with the information another person would need if you were not home.
+
+## THE 15-MINUTE SETUP
+[ ] Write household contacts on page 7
+[ ] Choose neighborhood, local and out-of-area rally points
+[ ] Mark utility shutoff locations on page 8
+[ ] Record critical medications and medical-device needs on page 9
+[ ] Choose at least one evacuation destination on page 17
+[ ] Assign the first household jobs on page 3
+[ ] Put this binder where household members can reach it
+
+Binder location: _______________________________________
+
+## WHEN YOU HAVE MORE TIME
+[ ] Map primary and alternate evacuation routes
+[ ] Calculate household water needs
+[ ] Rank critical power loads
+[ ] Add generator, battery or solar information if applicable
+[ ] Build familiar no-cook and low-fuel meal options
+[ ] Complete the records-location index
+[ ] Use the Household Calculator workbook for automatic totals
+
+## KEEP SENSITIVE INFORMATION PROTECTED
+Include locations, instructions, trusted contacts and partial identifiers when useful. Store full passwords, full banking logins, unprotected identity documents and large amounts of cash somewhere more secure.
+
+## KEEP IT CURRENT
+Review every six months and after a move, household change, medication change, new pet, new vehicle, major equipment purchase or insurance change.
+
+Last reviewed: _______________  Next review: _______________
+
+---
+
+# PAGE 3 - HOUSEHOLD JOB PLAN
+
+# WHO DOES WHAT?
+## Give the most important work to the first available capable person.
+
+One person may have several jobs. A child or teenager can have an age-appropriate role. No one should attempt a utility, medical or equipment task they cannot perform safely.
+
+## TIER 1 - LIFE SAFETY FIRST
+Assign these before anything else:
+
+[ ] Account for every person and animal
+[ ] Move people away from immediate danger
+[ ] Call or message emergency help
+[ ] Handle first aid or critical medical needs
+[ ] Help children, older adults or anyone needing assistance
+
+## TIER 2 - STABILIZE THE HOUSEHOLD
+Assign after immediate danger is handled:
+
+[ ] Check official alerts and conditions
+[ ] Prepare medications and medical equipment
+[ ] Handle utilities only if trained and safe
+[ ] Gather go bags, water and communication equipment
+[ ] Start the evacuation vehicle or shelter area
+[ ] Protect critical refrigeration or backup power
+
+## TIER 3 - KEEP THINGS WORKING
+Assign when the household is stable:
+
+[ ] Track water, food, fuel and battery use
+[ ] Set up sanitation and sleeping areas
+[ ] Document damage and expenses
+[ ] Contact relatives, neighbors or support services
+[ ] Care for pets and household routines
+[ ] Plan the next reassessment
+
+## OUR ASSIGNMENTS
+| Person | Tier 1 job | Tier 2 job | Tier 3 / follow-up job |
+|---|---|---|---|
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+If the assigned person is unavailable, the job passes to: __________
+
+Next team check-in: _____________________________________
 
 ---
 
