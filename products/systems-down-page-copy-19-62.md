@@ -178,6 +178,12 @@ First action if water pressure drops: _______________________
 # FOOD WE CAN ACTUALLY USE
 ## Count meals, not wishful pantry items.
 
+Good backups are familiar, shelf-stable and easy to prepare with little water or fuel.
+
+**No-cook ideas:** nut or seed butter, canned beans/chicken/tuna, crackers or tortillas, shelf-stable milk, fruit cups, bars and ready-to-eat meals.
+
+**Low-water / quick-cook ideas:** canned soup or chili, instant oats, couscous, instant potatoes and quick-cooking rice or pasta.
+
 | Food / meal | No-cook | Low-water | Quick-cook | Servings | Location | Use / rotate by |
 |---|---|---|---|---:|---|---|
 | | [ ] | [ ] | [ ] | | | |
@@ -224,12 +230,22 @@ Use the Food tab in the Household Calculator workbook for automatic coverage est
 ### FIRST
 Use highly perishable refrigerator foods while they remain safely cold.
 
-Foods to prioritize: _____________________________________
+Common priorities may include safe leftovers, fresh meat or fish, milk, yogurt, soft cheese, deli meat and opened prepared foods.
+
+Our refrigerator priorities:
+________________________________________________________
+
+________________________________________________________
 
 ### NEXT
 Use thawing freezer foods that are still safe, especially items that cannot be refrozen or cooked later.
 
-Foods to prioritize: _____________________________________
+Common priorities may include meat, seafood, frozen meals, thawing vegetables and foods losing ice crystals. Treat ice cream separately and follow current food-safety guidance.
+
+Our freezer priorities:
+________________________________________________________
+
+________________________________________________________
 
 ### LAST
 Use shelf-stable, no-cook and low-fuel foods after perishables are handled.
@@ -1303,12 +1319,20 @@ Incident / claim: _________________________________________
 | | | | | | | |
 | | | | | | | |
 | | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
 
 Print additional copies as needed.
 
 ## CONTACT LOG
 | Date / time | Company / agency | Person | What they said | Next step / deadline |
 |---|---|---|---|---|
+| | | | | |
+| | | | | |
 | | | | | |
 | | | | | |
 | | | | | |
