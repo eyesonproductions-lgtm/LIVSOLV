@@ -34,6 +34,41 @@ Keep this binder where household members can reach it quickly. Store sensitive o
 
 ---
 
+# UNNUMBERED INSIDE COVER - EMERGENCY QUICK FIND
+
+# IF SOMETHING JUST HAPPENED, FIND THESE FIRST
+## Fill this out now so no one has to search in the dark.
+
+| Find it fast | Location | Who gets it? |
+|---|---|---|
+| Flashlights / headlamps | | |
+| Phone chargers / power banks | | |
+| Backup power station / battery | | |
+| First-aid kit | | |
+| Critical medications / medical devices | | |
+| Drinking water | | |
+| NOAA / emergency radio | | |
+| Go bags | | |
+| Vehicle keys | | |
+| Utility shutoff tools | | |
+
+## OPEN THE RIGHT PAGE
+| If you need to... | Go to... |
+|---|---|
+| Decide what to do right now | Page 1 |
+| Leave in 5, 15 or 60 minutes | Pages 4-6 |
+| Reconnect with household members | Page 7 |
+| Find or shut off a utility | Page 8 |
+| Handle urgent medical information | Page 9 |
+| Receive alerts or communicate | Page 10 |
+| Decide whether to stay or leave | Page 15 |
+| Protect water, food or power | Pages 19, 24 and 28 |
+| Manage the first 72 hours | Page 57 |
+
+Current preparedness guidance and recommended household gear: **LIVSOLV.com**
+
+---
+
 # PAGE 1 - IMMEDIATE EMERGENCY ACTION
 
 # A MAJOR EMERGENCY JUST HAPPENED.
@@ -586,6 +621,11 @@ East: ______________________________________________
 West: _____________________________________________
 
 Map updated: _______________________________________
+
+## CONTINUE AT LIVSOLV
+**One useful action:** Download an offline map before service fails, then mark the same routes on paper.
+
+How-to guide: **LIVSOLV.com/offline-maps.html**
 
 ---
 
