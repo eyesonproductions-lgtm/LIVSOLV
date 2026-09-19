@@ -435,75 +435,107 @@ First demand-reduction step: ______________________________
 
 ---
 
-# PAGE 29 - BATTERY / POWER STATION INVENTORY
+# PAGE 29 - BATTERY / POWER STATION PLAN
 
-# STORED POWER INVENTORY
-## Capacity and output are different. Record both when known.
+# WHAT CAN OUR STORED POWER ACTUALLY RUN?
+## Start with the job you need it to do. The label numbers come second.
 
-| Battery / power station | Capacity Wh | Continuous output W | Surge W | Charger | Solar compatible | Location | Last charged |
-|---|---:|---:|---:|---|---|---|---|
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
+| Planning tier | Protects | Common examples | Our backup |
+|---|---|---|---|
+| **TIER 1 - STAY CONNECTED** | Communication and light | Phones, USB lights, radio, tablet or laptop | |
+| **TIER 2 - PROTECT THE BASICS** | Tier 1 plus one or two critical needs | Verified medical device, fan, Wi-Fi equipment, short refrigerator cycles | |
+| **TIER 3 - HOUSEHOLD ESSENTIALS** | Several essentials, carefully managed | Refrigerator/freezer plus selected larger loads, often one at a time | |
 
-## WHAT THE NUMBERS MEAN
-- **Watt-hours (Wh)** estimate stored energy and possible runtime.
-- **Watts (W)** describe how much power a device needs at a moment.
-- A unit may have enough energy but still be unable to start a high-surge appliance.
-- Real runtime is lower than the label capacity because of conversion losses, temperature, battery condition and reserve.
+These tiers are planning guides, not promises. The exact device, the power station and what runs at the same time determine what is safe and realistic. Space heaters, air conditioners, electric cooking and other heat-making devices can drain or overload many portable units very quickly.
 
-Adapters / cables location: ________________________________
+## THE NUMBERS, IN NORMAL LANGUAGE
+- **Watts (W) = how hard the device pulls right now.** Add the watts of everything you want to run together. That total must stay below the power station's continuous output.
+- **Starting or surge watts = a brief extra pull.** Refrigerators, pumps and other motor-driven devices may need a short burst to start. The power station must handle that burst too.
+- **Watt-hours (Wh) = the size of the energy tank.** A 500 Wh unit running a 50 W load equals about 10 hours on paper. Real runtime will be lower because the unit uses some energy itself and conditions vary.
+- **A cycling device does not pull power every minute.** A refrigerator may turn on and off, so a real test is more useful than a perfect-looking estimate.
 
-Charging order: _________________________________________
+## OUR POWER STATION / BATTERY
+Name or model: __________________________________________
 
-Minimum reserve we will protect: ______%
+Stored where: ___________________________________________
 
-Indoor charging restrictions / ventilation notes: ____________
+Capacity: ______ Wh   Continuous output: ______ W   Surge: ______ W
 
-Use the Battery / Power Station tab for estimated runtime. Test critical combinations before an emergency.
+What we have tested together: _____________________________
+
+_______________________________________________________
+
+Realistic runtime from our test: ____________________________
+
+How we recharge it: ______________________________________
+
+Charger, adapters and cables are kept: ______________________
+
+## ADDITIONAL STORED-POWER BACKUP
+Name or model: ____________________  Stored where: ___________
+
+Capacity: ______ Wh   Output: ______ W   Surge: ______ W
+
+What it can power and realistic runtime: ______________________
+
+_______________________________________________________
+
+How we recharge it / needed cables: __________________________
+
+Use the Battery / Power Station tab for the estimate, then test the actual combination before an emergency. Protect a reserve for medical needs and communication.
 
 ---
 
-# PAGE 30 - GENERATOR IDENTITY + SETUP
+# PAGE 30 - GENERATOR IDENTITY + POWER PLAN
 
-# OUR GENERATOR
-## Put model-specific facts in one place.
+# WHAT CAN OUR GENERATOR SAFELY RUN?
+## Choose the smallest tier that protects the household. More equipment at once means more fuel, noise and load.
 
-Make / model: __________________________________________
+| Planning tier | Purpose | Typical plan |
+|---|---|---|
+| **TIER 1 - CHARGE AND COMMUNICATE** | Keep small essentials ready | Charge phones, lights, radios and power stations |
+| **TIER 2 - PROTECT HOME BASICS** | Preserve food or one critical system | Tier 1 plus refrigerator/freezer, a verified medical device, sump or well equipment if voltage and output match |
+| **TIER 3 - SELECTED HOME CIRCUITS** | Power a planned group of circuits | Only through professionally installed transfer equipment; large loads may still need to run one at a time |
 
-Serial number: _________________________________________
+This is not automatically a whole-home plan. Decide in advance what stays off.
 
-Fuel type(s): ___________________________________________
+## GENERATOR NUMBERS, WITHOUT THE JARGON
+- **Running watts** are what the generator can keep supplying. The combined load must stay below this number.
+- **Starting watts** are the brief extra push available when a refrigerator, pump or other motor starts.
+- **120V / 240V** describes the type of power an appliance needs. Having enough watts does not help if the generator, outlet or connection does not provide the correct voltage.
 
-Running watts: __________  Starting watts: ________________
+## OUR GENERATOR
+Make / model: ___________________________________________
 
-120V outlets: ______________  240V capability: _____________
+Fuel type(s): __________________  Serial number: _____________
 
-Generator storage location: ______________________________
+Running watts: __________  Starting watts: _________________
 
-Approved operating location: ______________________________
+Outlets / voltage available: __________________________________
 
-Minimum clearance / weather instructions: _________________
+Stored at: ______________________________________________
 
-Manual location: ________________________________________
+Approved outdoor operating location: ________________________
 
-Oil type / amount: ______________________________________
+_______________________________________________________
 
-Extension cords / inlet equipment: _________________________
+What it can safely power together: __________________________
 
-Who can move and set it up? ______________________________
+_______________________________________________________
 
-Who should not attempt setup? _____________________________
+Loads that must stay off or run separately: ___________________
 
-## CONNECTION METHOD
-[ ] Direct appliance-rated cords
-[ ] Professionally installed inlet / transfer equipment
-[ ] Other approved method: ______________________________
+_______________________________________________________
 
-Never connect a generator to household wiring through a wall outlet. Backfeeding can kill utility workers and household members.
+Connection: [ ] Appliance-rated cords  [ ] Professional inlet / transfer equipment
 
-Last test run: ______________  Next service: _______________
+Manual, cords and setup equipment are kept: __________________
+
+Who can move and operate it? ______________________________
+
+Last test: ______________  Next service: ____________________
+
+**Life-safety rule:** Operate a portable fuel-burning generator outside, at least 20 feet from the home, with exhaust directed away from doors, windows and vents. Never use it in a home, garage, carport or other enclosed or partly enclosed area. Use working carbon-monoxide alarms. Never connect it to household wiring through a wall outlet; backfeeding can kill.
 
 ---
 
