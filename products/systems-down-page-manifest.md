@@ -355,6 +355,14 @@ Plain-language outputs:
 - No large photo fields
 - Borders only where functional
 - Preserve all worksheets and decision tools
+- Preserve the staggered right-edge section-tab positions with grayscale-safe labels
+
+# SELECTED VISUAL SYSTEM
+- Warm field-guide character: ivory paper, forest-green editorial headings and muted clay/ochre accents
+- Restrained contour-line detail, crisp pale-green tables and generous handwriting space
+- Functional staggered right-edge tabs for every major section; each section keeps one short label and one fixed vertical position
+- Tabs must remain high-contrast and immediately scannable in US Letter, A4 and ink-saver editions
+- Serious, calm and refined; never bubbly, cute, tactical, beige Etsy-boho or visually crowded
 
 # A4 EDITION RULES
 - Reflow rather than simple scaling where necessary
