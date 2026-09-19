@@ -18,7 +18,7 @@ This is a calm household emergency decision system, not a generic checklist or a
 
 - Controlling scope: 62 useful binder pages plus a nine-tab automated Household Calculator workbook, Start Here guide, 10 Quick Cards, US Letter/A4 editions, and ink-saver editions.
 - Customer-facing source copy for all 62 numbered main pages plus the unnumbered cover and inside-front-cover Emergency Quick Find is drafted in `products/systems-down-page-copy-01-18.md` and `products/systems-down-page-copy-19-62.md`.
-- The opening structure now uses page 1 for immediate emergency action, page 2 for a 15-minute advance setup, and page 3 for a three-tier household job plan with eight assignment rows.
+- The opening structure now uses page 1 for immediate emergency action, page 2 for a 15-minute advance setup, and page 3 for a clearly explained three-tier household job plan with eight tall assignment rows, tier selectors and wide writing areas for multiple jobs and backup notes.
 - The first owner-review cleanup clarified communication fallbacks including Wi-Fi, added practical emergency-food and cold-storage examples, expanded the disaster expense/contact logs, and removed accidental near-empty spill pages from the review layout.
 - The clean review layout now has no accidental page containing only one or two leftover lines. Page 62 is a reusable section-notes sheet that customers can print and file behind any section as needed.
 - Designed review v7 renders as exactly 64 physical US Letter pages: one unnumbered cover, one inside-front-cover Emergency Quick Find and 62 numbered binder pages, with no continuation, spill or unexpectedly sparse sheets.
