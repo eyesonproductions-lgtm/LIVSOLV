@@ -171,6 +171,11 @@ Who can operate it safely? ________________________________
 
 First action if water pressure drops: _______________________
 
+## CONTINUE AT LIVSOLV
+**One useful action:** Label drinking water and utility water now, then calculate the household's current storage gap.
+
+Storage and treatment guides: **LIVSOLV.com/emergency-water-storage.html** and **LIVSOLV.com/emergency-water-treatment.html**
+
 ---
 
 # PAGE 23 - EMERGENCY FOOD INVENTORY
@@ -390,6 +395,11 @@ No-cook fallback meals: __________________________________
 [ ] Shift to no-cook meals when fuel reaches: ______________
 
 Person trained to use primary method: ______________________
+
+## CONTINUE AT LIVSOLV
+**One useful action:** Choose three familiar meals that need no cooking and three that use one pot with very little water.
+
+Food and cooking guides: **LIVSOLV.com/emergency-food-supply.html** and **LIVSOLV.com/cooking-during-power-outage.html**
 
 ---
 
@@ -722,6 +732,11 @@ Qualified electrician / service contact: _____________________
 
 Unsafe condition that means stop immediately: ______________
 
+## CONTINUE AT LIVSOLV
+**One useful action:** Test one realistic critical-load combination before an outage and write down what the system can actually run.
+
+Backup-power guides and current equipment recommendations: **LIVSOLV.com/power.html**
+
 ---
 
 # PAGE 37 - MEDICATION CONTINUITY
@@ -842,6 +857,11 @@ Restock trigger: _________________________________________
 
 This inventory does not replace training or emergency medical care.
 
+## CONTINUE AT LIVSOLV
+**One useful action:** Check expiration dates and add the household-specific supplies a generic first-aid kit does not contain.
+
+First-aid planning and recommended kits: **LIVSOLV.com/home-first-aid-emergency-kit.html**
+
 ---
 
 # PAGE 40 - EXTREME COLD PLAN
@@ -923,6 +943,11 @@ Name / need: ____________________________________________
 Relocate when indoor temperature reaches: ______ or when: ____
 
 Medical advice may change fluid or cooling guidance for some conditions. Follow the person's care plan.
+
+## CONTINUE AT LIVSOLV
+**One useful action:** Choose the safest warm room and coolest room now, then identify the temperature or condition that means it is time to leave.
+
+Extreme-temperature outage guide: **LIVSOLV.com/extreme-heat-cold-power-outage.html**
 
 ---
 
@@ -1029,6 +1054,11 @@ Out-of-area contact receives group updates? [ ] Yes [ ] No
 
 Avoid posting an empty home, exact supply inventory or sensitive medical details publicly.
 
+## CONTINUE AT LIVSOLV
+**One useful action:** Test one check-in using Wi-Fi only, then test the household's radio or alternate method.
+
+Communication plans and current equipment recommendations: **LIVSOLV.com/emergency-communications.html**
+
 ---
 
 # PAGE 45 - HOME SYSTEMS MAP
@@ -1125,6 +1155,11 @@ If a CO alarm sounds or poisoning is suspected, move to fresh air and contact em
 
 Last family exit drill: ______________  Next drill: ____________
 
+## CONTINUE AT LIVSOLV
+**One useful action:** Walk the home once with another household member and physically point out every shutoff, alarm and extinguisher.
+
+Home and family preparedness guides: **LIVSOLV.com/home-family.html**
+
 ---
 
 # PAGE 48 - WATER-OFF SANITATION PLAN
@@ -1198,6 +1233,11 @@ Caregiver backup: ________________________________________
 [ ] Instructions another caregiver can follow
 
 First item likely to run out: ________________________________
+
+## CONTINUE AT LIVSOLV
+**One useful action:** Build a 14-day supply for the least replaceable hygiene or accessibility item in the household.
+
+Practical household-preparedness guidance: **LIVSOLV.com/home-family.html**
 
 ---
 
@@ -1381,6 +1421,11 @@ If separated, contact: ____________________________________
 
 Never leave an animal restrained outside or in a vehicle with unsafe temperatures.
 
+## CONTINUE AT LIVSOLV
+**One useful action:** Put the carrier, leash, medication and records in locations another person could find without asking you.
+
+Household and family preparedness guidance: **LIVSOLV.com/home-family.html**
+
 ---
 
 # PAGE 55 - VEHICLE READINESS
@@ -1453,6 +1498,11 @@ Roadside assistance / emergency contact: ___________________
 Next check-in time: ______________________________________
 
 If we must leave, note time, route and destination visibly: ____
+
+## CONTINUE AT LIVSOLV
+**One useful action:** Charge the jump starter, check the tire inflator and place water, light and charging equipment in the vehicle.
+
+Vehicle kit checklist and current recommendations: **LIVSOLV.com/car-emergency-kit.html**
 
 ---
 
@@ -1599,6 +1649,11 @@ Use the Priority / Gap Planner workbook tab to sort by importance, cost and read
 Next household review date: _______________________________
 
 Review sooner after a move, new household member or pet, medication change, new vehicle, equipment purchase, home-system change or insurance change.
+
+## CONTINUE AT LIVSOLV
+**One useful action:** Choose the next gap to close instead of trying to buy everything at once.
+
+Build from three days to longer household continuity: **LIVSOLV.com/preparedness-levels.html**
 
 ---
 
