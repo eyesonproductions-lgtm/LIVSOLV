@@ -10,6 +10,10 @@
 - Add a future **Go Bag** section under **Away from Home** on LIVSOLV.com. It should include one fully assembled recommended go-bag configuration plus item-by-item alternatives with Amazon affiliate links and disclosure. This remains behind the paid binder in the production queue.
 - Visual direction for the finished binder is serious and aesthetically refined, not bubbly, cute, tactical or beige Etsy-boho. Use strong hierarchy, restrained LIVSOLV green/ivory/earth color, generous white space, crisp tables and subtle navigation cues.
 - Do not add mandatory blank notes pages after every section. Use one reusable Section Notes + Household Instructions page at the end, with clear instructions to print extra copies and place them behind any section as needed.
+- Work with lawful household sharing instead of relying on hostile copy restrictions. Every copy should remain useful while major sections quietly lead readers back to LIVSOLV.com for current guidance and recommended products.
+- Add an unnumbered Emergency Quick Find inside front cover before numbered page 1. It lists critical-item locations and directs the reader to the correct urgent binder pages.
+- Website pathways belong after major sections, not on every worksheet. Each uses one practical action plus one verified current LIVSOLV page or hub. Do not hard-code specific product models into the printable binder.
+- Final design should pair each printed LIVSOLV resource URL with a tested QR code. The readable URL must remain visible so the binder still works when a QR code cannot be scanned.
 
 ## 2026-09-17
 
