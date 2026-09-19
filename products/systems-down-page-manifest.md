@@ -163,11 +163,11 @@ Primary/backup method, fuel, safe operating location, ignition, cookware, retain
 Appliance/device, priority 1-5, running watts, surge watts, hours/day, 120V/240V, must-run vs cycle
 Cross-reference calculator workbook
 
-### Page 29 - Battery / Power Station Inventory
-Device, capacity, usable Wh if known, output limits, charger, solar compatibility, storage location, last charge
+### Page 29 - Battery / Power Station Plan
+Three plain-language service tiers, beginner explanation of watts/surge/watt-hours/cycling loads, and a spacious record for the household's actual unit, tested device combination, runtime, recharge method and cable location
 
-### Page 30 - Generator Identity + Setup
-Make/model/serial, fuel types, running/starting watts, outlets, storage location, safe operating location, who can move/setup
+### Page 30 - Generator Identity + Power Plan
+Three plain-language service tiers, beginner explanation of running/starting watts and voltage, and a spacious record for identity, safe operating location, tested load combination, excluded loads, connection method and operator
 
 ### Page 31 - Generator Startup Card
 Model-specific fill-in card for start sequence, connection order, prohibited loads, shutdown, cooldown and refueling
