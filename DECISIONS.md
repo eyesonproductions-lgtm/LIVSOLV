@@ -4,7 +4,7 @@
 
 - The main binder cover is unnumbered. Numbered page 1 begins with **A Major Emergency Just Happened. What Do We Do Next?**
 - Numbered page 2 is a **15-minute** advance setup. The prior 30-minute initial setup language is superseded.
-- Numbered page 3 is a full three-tier household job plan with room for eight people and multiple jobs per person. The prior four-line assignment area is superseded.
+- Numbered page 3 is a full three-tier household job plan with concise explanations of Tier 1 life safety, Tier 2 stabilization and Tier 3 continuity. It provides eight tall assignment rows with a tier selector and a wide writing area for multiple jobs, a backup person and important limits. The prior four-line assignment area and narrow four-column job grid are superseded.
 - Customer files must never include internal review instructions, scoring boxes or page-review forms. Those belonged only to the temporary review packet.
 - Plan an optional personalized local-map checkout add-on. Do not promise or activate it until privacy, map licensing, safe address handling, fulfillment time and delivery have been tested. Prefer a customer-selected map center or nearest major intersection over collecting an exact home address when possible.
 - Add a future **Go Bag** section under **Away from Home** on LIVSOLV.com. It should include one fully assembled recommended go-bag configuration plus item-by-item alternatives with Amazon affiliate links and disclosure. This remains behind the paid binder in the production queue.
@@ -14,6 +14,16 @@
 - Add an unnumbered Emergency Quick Find inside front cover before numbered page 1. It lists critical-item locations and directs the reader to the correct urgent binder pages.
 - Website pathways belong after major sections, not on every worksheet. Each uses one practical action plus one verified current LIVSOLV page or hub. Do not hard-code specific product models into the printable binder.
 - Final design should pair each printed LIVSOLV resource URL with a tested QR code. The readable URL must remain visible so the binder still works when a QR code cannot be scanned.
+
+## 2026-09-19
+
+- The selected visual system is the warm field-guide direction: ivory paper, forest-green editorial headings, muted clay/ochre accents, restrained contour-line detail, crisp pale-green tables and generous writing space. This replaces the other explored visual concepts.
+- Use functional, staggered right-edge section tabs throughout the binder. Each major topic keeps one label and one vertical position so a reader can flip directly to Emergency Action, Household, Stay or Leave, Water, Food + Cooking, Power, Medical, Heat + Cold, Communications, Home Systems, Sanitation, Records + Recovery, Pets, Vehicle or Continuity without reading every page title.
+- The tabs are navigation, not decoration. Keep their wording short, high-contrast and consistent across the section; preserve the same system in the A4 and ink-saver editions.
+- Power-planning pages must begin with the household outcome, not electrical jargon. Battery/power-station and generator choices use three plain-language service tiers, followed by optional equipment numbers.
+- Explain watts as current demand, starting/surge watts as a brief startup pull, watt-hours as the stored-energy tank, and voltage as the required type of power. Examples are planning aids, not equipment promises; the calculator and an actual test remain controlling.
+- Replace dense multi-column power-equipment inventories with larger write-in areas for the household's actual unit, tested device combination, realistic runtime, recharge/setup method, prohibited loads and responsible operator.
+- Page 53 is a dedicated full-page disaster expense and loss log. It uses fewer columns, larger writing rows, sheet numbering and explicit permission to print as many copies as needed; the smaller contact log no longer competes for space on that page.
 
 ## 2026-09-17
 
