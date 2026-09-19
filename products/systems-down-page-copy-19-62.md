@@ -1644,12 +1644,20 @@ The one thing another person might not know: _______________
 
 ---
 
-# PAGE 62 - HOUSEHOLD-SPECIFIC NOTES
+# PAGE 62 - REUSABLE SECTION NOTES
 
-# WHAT IS UNIQUE ABOUT THIS HOUSEHOLD?
-## Use this page for information that does not fit anywhere else.
+# SECTION NOTES + HOUSEHOLD INSTRUCTIONS
+## Print extra copies and place them behind any section that needs more room.
 
-Special hazard / system / access instruction:
+Section / topic: _________________________________________
+
+Date: __________________  Written by: _____________________
+
+Important household detail, unusual system or local instruction:
+
+________________________________________________________
+
+________________________________________________________
 
 ________________________________________________________
 
@@ -1657,30 +1665,20 @@ ________________________________________________________
 
 ________________________________________________________
 
-Seasonal change or recurring reminder:
-
 ________________________________________________________
-
-________________________________________________________
-
-Household routine another caregiver should know:
-
-________________________________________________________
-
-________________________________________________________
-
-Local contact, location or instruction:
 
 ________________________________________________________
 
 ________________________________________________________
 
 ## FOLLOW-UP
-Action: _________________________________________________
+Action needed: __________________________________________
 
 Owner: __________________________ Due: ___________________
 
-Last reviewed: __________________  Next review: ____________
+Completed: [ ]  Date: ___________________________________
+
+Next review: ____________________________________________
 
 ---
 
