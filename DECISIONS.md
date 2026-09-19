@@ -9,6 +9,7 @@
 - Plan an optional personalized local-map checkout add-on. Do not promise or activate it until privacy, map licensing, safe address handling, fulfillment time and delivery have been tested. Prefer a customer-selected map center or nearest major intersection over collecting an exact home address when possible.
 - Add a future **Go Bag** section under **Away from Home** on LIVSOLV.com. It should include one fully assembled recommended go-bag configuration plus item-by-item alternatives with Amazon affiliate links and disclosure. This remains behind the paid binder in the production queue.
 - Visual direction for the finished binder is serious and aesthetically refined, not bubbly, cute, tactical or beige Etsy-boho. Use strong hierarchy, restrained LIVSOLV green/ivory/earth color, generous white space, crisp tables and subtle navigation cues.
+- Do not add mandatory blank notes pages after every section. Use one reusable Section Notes + Household Instructions page at the end, with clear instructions to print extra copies and place them behind any section as needed.
 
 ## 2026-09-17
 
