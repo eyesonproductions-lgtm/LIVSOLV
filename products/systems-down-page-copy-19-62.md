@@ -1378,42 +1378,37 @@ First bill or cash-flow risk: ________________________________
 
 # PAGE 53 - DISASTER EXPENSE + CLAIM LOG
 
-# TRACK IT WHILE IT IS FRESH
-## Keep receipts and note why each expense was necessary.
+# WRITE DOWN EVERY LOSS AND EXPENSE
+## Use one line for each damaged or lost item, emergency purchase, service, temporary repair, hotel stay, meal, mileage charge or cleanup cost.
 
 Incident / claim: _________________________________________
 
-| Date | Expense / loss | Category | Amount | Receipt / photo location | Claim relevance | Reimbursed / status |
-|---|---|---|---:|---|---|---|
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
-| | | | | | | |
+Claim number: _____________________  Sheet ______ of ______
 
-Print additional copies as needed.
+| Date | Item, expense or loss | What happened / why it was needed | Amount | Receipt, photo or file location | Claim / reimbursement status |
+|---|---|---|---:|---|---|
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
 
-## CONTACT LOG
-| Date / time | Company / agency | Person | What they said | Next step / deadline |
-|---|---|---|---|---|
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
+**Use as many copies as you need.** Continue the sheet numbers and keep every receipt, photo and claim note together. Do not combine unrelated losses if they have different proof or reimbursement status.
 
 Running expense total: $____________
 
 Unreimbursed total: $____________
 
-Next deadline: __________________________________________
+Items still waiting for proof or a decision: __________________
 
 ---
 
