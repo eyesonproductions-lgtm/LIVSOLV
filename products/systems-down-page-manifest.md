@@ -26,6 +26,7 @@ Customer package should contain:
 - Sensitive originals and full financial details stay protected; binder points to where they are stored
 - Current product recommendations live on LIVSOLV.com, not hard-coded into printed pages
 - Every time-sensitive page gets a review date where practical
+- End major topic sections with one useful action and one verified LIVSOLV.com guide or hub. Keep these pathways restrained and useful, not sales-heavy. In final design, pair the readable URL with a tested QR code.
 
 # MAIN BINDER PAGE MANIFEST
 
@@ -36,6 +37,13 @@ Title: LIVSOLV Systems Down Household Binder
 Subtitle: A household operating manual for emergencies
 Brand line: Live in the solution.
 Fields: Household name, address, last reviewed date
+
+### Unnumbered Inside Front Cover - Emergency Quick Find
+Purpose: Put frequently needed locations and page directions where they cannot get buried
+Include:
+- Flashlights, charging, backup power, first aid, medications/devices, drinking water, radio, go bags, keys and shutoff tools
+- Quick page index for immediate decisions, evacuation, contacts, utilities, medical information, communications, stay/leave, water/food/power and the first 72 hours
+- Simple LIVSOLV.com reference for current guidance and recommended gear
 
 ### Page 1 - Immediate Emergency Action
 Purpose: Answer "A major emergency just happened. What do I do next?"
