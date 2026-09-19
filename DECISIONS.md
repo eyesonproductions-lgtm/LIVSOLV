@@ -17,6 +17,9 @@
 
 ## 2026-09-19
 
+- The selected visual system is the warm field-guide direction: ivory paper, forest-green editorial headings, muted clay/ochre accents, restrained contour-line detail, crisp pale-green tables and generous writing space. This replaces the other explored visual concepts.
+- Use functional, staggered right-edge section tabs throughout the binder. Each major topic keeps one label and one vertical position so a reader can flip directly to Emergency Action, Household, Stay or Leave, Water, Food + Cooking, Power, Medical, Heat + Cold, Communications, Home Systems, Sanitation, Records + Recovery, Pets, Vehicle or Continuity without reading every page title.
+- The tabs are navigation, not decoration. Keep their wording short, high-contrast and consistent across the section; preserve the same system in the A4 and ink-saver editions.
 - Power-planning pages must begin with the household outcome, not electrical jargon. Battery/power-station and generator choices use three plain-language service tiers, followed by optional equipment numbers.
 - Explain watts as current demand, starting/surge watts as a brief startup pull, watt-hours as the stored-energy tank, and voltage as the required type of power. Examples are planning aids, not equipment promises; the calculator and an actual test remain controlling.
 - Replace dense multi-column power-equipment inventories with larger write-in areas for the household's actual unit, tested device combination, realistic runtime, recharge/setup method, prohibited loads and responsible operator.
