@@ -20,6 +20,7 @@
 - Power-planning pages must begin with the household outcome, not electrical jargon. Battery/power-station and generator choices use three plain-language service tiers, followed by optional equipment numbers.
 - Explain watts as current demand, starting/surge watts as a brief startup pull, watt-hours as the stored-energy tank, and voltage as the required type of power. Examples are planning aids, not equipment promises; the calculator and an actual test remain controlling.
 - Replace dense multi-column power-equipment inventories with larger write-in areas for the household's actual unit, tested device combination, realistic runtime, recharge/setup method, prohibited loads and responsible operator.
+- Page 53 is a dedicated full-page disaster expense and loss log. It uses fewer columns, larger writing rows, sheet numbering and explicit permission to print as many copies as needed; the smaller contact log no longer competes for space on that page.
 
 ## 2026-09-17
 
