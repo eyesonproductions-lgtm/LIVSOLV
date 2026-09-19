@@ -15,6 +15,12 @@
 - Website pathways belong after major sections, not on every worksheet. Each uses one practical action plus one verified current LIVSOLV page or hub. Do not hard-code specific product models into the printable binder.
 - Final design should pair each printed LIVSOLV resource URL with a tested QR code. The readable URL must remain visible so the binder still works when a QR code cannot be scanned.
 
+## 2026-09-19
+
+- Power-planning pages must begin with the household outcome, not electrical jargon. Battery/power-station and generator choices use three plain-language service tiers, followed by optional equipment numbers.
+- Explain watts as current demand, starting/surge watts as a brief startup pull, watt-hours as the stored-energy tank, and voltage as the required type of power. Examples are planning aids, not equipment promises; the calculator and an actual test remain controlling.
+- Replace dense multi-column power-equipment inventories with larger write-in areas for the household's actual unit, tested device combination, realistic runtime, recharge/setup method, prohibited loads and responsible operator.
+
 ## 2026-09-17
 
 - The first paid LIVSOLV product is **LIVSOLV Systems Down Household Binder**.
