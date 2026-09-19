@@ -17,11 +17,12 @@ This is a calm household emergency decision system, not a generic checklist or a
 ## Product status
 
 - Controlling scope: 62 useful binder pages plus a nine-tab automated Household Calculator workbook, Start Here guide, 10 Quick Cards, US Letter/A4 editions, and ink-saver editions.
-- Customer-facing source copy for all 62 numbered main pages plus the unnumbered cover is drafted in `products/systems-down-page-copy-01-18.md` and `products/systems-down-page-copy-19-62.md`.
+- Customer-facing source copy for all 62 numbered main pages plus the unnumbered cover and inside-front-cover Emergency Quick Find is drafted in `products/systems-down-page-copy-01-18.md` and `products/systems-down-page-copy-19-62.md`.
 - The opening structure now uses page 1 for immediate emergency action, page 2 for a 15-minute advance setup, and page 3 for a three-tier household job plan with eight assignment rows.
 - The first owner-review cleanup clarified communication fallbacks including Wi-Fi, added practical emergency-food and cold-storage examples, expanded the disaster expense/contact logs, and removed accidental near-empty spill pages from the review layout.
 - The clean review layout now has no accidental page containing only one or two leftover lines. Page 62 is a reusable section-notes sheet that customers can print and file behind any section as needed.
-- Clean-copy review v3 renders as exactly 63 physical PDF pages: one unnumbered cover plus 62 numbered binder pages, with no continuation or spill sheets.
+- Clean-copy review v4 renders as exactly 64 physical PDF pages: one unnumbered cover, one inside-front-cover Emergency Quick Find and 62 numbered binder pages, with no continuation or spill sheets.
+- Major sections now end with a restrained referral block: one immediate action plus a verified relevant LIVSOLV.com guide or hub. The inside front cover adds critical-item locations and a rapid page index.
 - Pages 19-62 are ready for editorial, usability and final safety review. They are not yet designed or sale-ready.
 - The current architecture covers household dependencies, power/generator/solar, water, food/cold storage/cooking, medication/medical devices, heat/cold, sensory/accessibility, communications, home systems, records/cash, pets, vehicles, separation, stay/leave, evacuation, First 72 Hours, two-week continuity, and handoff/review.
 - The previously shortened First 72 Hours ZIP, old 25-page binder, and old `Systems Down: First 72 Hours` product name are superseded.
