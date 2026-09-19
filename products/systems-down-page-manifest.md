@@ -273,8 +273,8 @@ Water/food rotation, medication review, batteries, generator, smoke/CO, vehicles
 ### Page 61 - Household Handoff Page
 If the usual household manager is unavailable: who takes over what, where critical items are, which pages to use first
 
-### Page 62 - Notes / Household-Specific Instructions
-Freeform lined page for unusual systems, hazards, access instructions or recurring reminders
+### Page 62 - Reusable Section Notes + Household Instructions
+Reusable lined page with section/topic, date, household-specific details and follow-up fields. Label clearly: print extra copies and place behind any section that needs more room.
 
 # QUICK CARDS PACK
 Separate printable cards, designed for refrigerator, go-bag, vehicle, radio and binder front pocket.
