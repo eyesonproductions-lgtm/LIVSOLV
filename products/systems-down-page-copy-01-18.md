@@ -642,75 +642,22 @@ Last reviewed: ______________________________________
 # PAGE 13 - HOUSEHOLD DEPENDENCY MAP
 
 # HOUSEHOLD DEPENDENCY MAP
-## What breaks when a system goes down?
+## Find the failure that quietly creates three more problems.
 
-Use this page to identify hidden dependencies before an outage exposes them.
+Mark priority: **C** critical, **I** important or **O** optional.
 
-For each item, mark:
-C = Critical
-I = Important
-O = Optional
+| Failure | What could stop next? | Priority | Current backup | Gap / action trigger |
+|---|---|---|---|---|
+| Power | Refrigeration, medical devices, well pump, heating/cooling, cooking, communication | C / I / O | | |
+| Water | Drinking, toilets, cooking, hygiene, laundry, animal care | C / I / O | | |
+| Internet / cell | Family contact, alerts, work/school, banking, navigation, medical communication | C / I / O | | |
+| Fuel / roads | Evacuation, generator, prescriptions, groceries, work/school | C / I / O | | |
+| Refrigeration | Medication, infant/special-diet food, primary food supply | C / I / O | | |
+| Pharmacy / medical access | Refill, treatment, supplies or care needed within 7-14 days | C / I / O | | |
 
-## POWER FAILURE
-What stops working?
-____________________________________________________
+Failure most likely to create a chain reaction: ______________
 
-Refrigeration affected? [ ] Yes [ ] No
-Medical equipment affected? [ ] Yes [ ] No
-Well / water affected? [ ] Yes [ ] No
-Heating / cooling affected? [ ] Yes [ ] No
-Cooking affected? [ ] Yes [ ] No
-Internet / communication affected? [ ] Yes [ ] No
-
-Priority: [ ] C [ ] I [ ] O
-Backup already available: _____________________________
-Gap: ______________________________________________
-
-## WATER FAILURE
-Toilets affected? [ ] Yes [ ] No
-Cooking affected? [ ] Yes [ ] No
-Drinking water affected? [ ] Yes [ ] No
-Laundry / hygiene affected? [ ] Yes [ ] No
-Pets / animals affected? [ ] Yes [ ] No
-
-Priority: [ ] C [ ] I [ ] O
-Backup already available: _____________________________
-Gap: ______________________________________________
-
-## INTERNET / CELL FAILURE
-Work / school affected? [ ] Yes [ ] No
-Banking / payments affected? [ ] Yes [ ] No
-Navigation affected? [ ] Yes [ ] No
-Medical communication affected? [ ] Yes [ ] No
-Family contact affected? [ ] Yes [ ] No
-
-Priority: [ ] C [ ] I [ ] O
-Backup already available: _____________________________
-Gap: ______________________________________________
-
-## FUEL / ROAD FAILURE
-Vehicle dependence: __________________________________
-Generator dependence: ________________________________
-Prescription / grocery access: _________________________
-Work / school access: _________________________________
-
-Priority: [ ] C [ ] I [ ] O
-Backup already available: _____________________________
-Gap: ______________________________________________
-
-## REFRIGERATION FAILURE
-Medication affected? [ ] Yes [ ] No
-Food loss risk? [ ] Yes [ ] No
-Infant / special-diet food affected? [ ] Yes [ ] No
-
-Backup already available: _____________________________
-Gap: ______________________________________________
-
-## PHARMACY / MEDICAL ACCESS FAILURE
-Critical refill need within 7 days? [ ] Yes [ ] No
-Critical refill need within 14 days? [ ] Yes [ ] No
-
-Backup plan: _______________________________________
+First protective action: __________________________________
 
 Top three hidden dependencies:
 1. __________________________________________________
@@ -831,55 +778,14 @@ ____________________________________________________
 # SHELTER-IN-PLACE TIMELINE
 ## What to do as an outage or disruption stretches out.
 
-## FIRST 10 MINUTES
-[ ] Account for everyone
-[ ] Identify immediate hazards
-[ ] Determine what systems failed
-[ ] Preserve phone battery
-[ ] Check official information if available
-[ ] Decide whether staying is safe for now
-
-## FIRST HOUR
-[ ] Protect refrigerated medication / critical food
-[ ] Fill clean containers if water may fail and it is safe to do so
-[ ] Set up lighting before dark
-[ ] Establish communication check-in plan
-[ ] Assign household roles
-[ ] Confirm generator / battery / solar plan if applicable
-[ ] Avoid unnecessary opening of refrigerator / freezer
-
-## FIRST NIGHT
-[ ] Choose sleeping / temperature-control zone
-[ ] Confirm lighting and bathroom plan
-[ ] Charge critical devices first
-[ ] Set overnight generator / battery strategy
-[ ] Confirm doors / windows / security as appropriate
-[ ] Set next information check time
-
-## 24 HOURS
-[ ] Recalculate water coverage
-[ ] Review food sequence
-[ ] Review fuel and battery coverage
-[ ] Confirm medication timeline
-[ ] Reassess sanitation
-[ ] Reassess heat / cold risk
-[ ] Decide whether remaining home is still practical
-
-## 72 HOURS
-[ ] Use First 72 Hours Plan
-[ ] Review resupply possibilities
-[ ] Review road access
-[ ] Review cash / payment access
-[ ] Review trash / waste buildup
-[ ] Review household fatigue and workload
-
-## ONE WEEK+
-[ ] Move to Two-Week Continuity Plan
-[ ] Reassess resupply and relocation
-[ ] Protect long-term medication access
-[ ] Rotate chores and rest
-[ ] Track fuel / water / food trends
-[ ] Document expenses / damage / claims
+| When | Priority actions |
+|---|---|
+| First 10 minutes | [ ] Account for everyone [ ] Identify hazards [ ] Check what failed [ ] Preserve phone battery [ ] Check official information [ ] Confirm staying is safe |
+| First hour | [ ] Protect medication and cold food [ ] Fill clean water containers if safe [ ] Set up lighting [ ] Assign roles [ ] Establish check-ins [ ] Confirm backup-power plan |
+| First night | [ ] Choose sleeping / temperature zone [ ] Confirm bathroom plan [ ] Charge critical devices [ ] Set overnight power plan [ ] Secure the home as appropriate |
+| 24 hours | [ ] Recalculate water, food, fuel and battery coverage [ ] Confirm medication timeline [ ] Reassess sanitation and temperature [ ] Decide whether staying is still practical |
+| 72 hours | [ ] Use page 57 [ ] Review resupply and roads [ ] Check cash/payment access [ ] Review waste, fatigue and workload |
+| One week+ | [ ] Use page 58 [ ] Protect long-term medication access [ ] Rotate work and rest [ ] Track supply trends [ ] Document expenses and damage |
 
 Current status:
 ____________________________________________________
@@ -893,59 +799,17 @@ Next reassessment: ___________________________________
 # EVACUATION DESTINATION PLAN
 ## Pick more than one destination and more than one direction.
 
-# DESTINATION A
-Name / location: _____________________________________
-Address: ____________________________________________
-Contact: ____________________________________________
-Phone: _____________________________________________
-
-Accepts pets? [ ] Yes [ ] No [ ] Confirm
-Accessible for household needs? [ ] Yes [ ] No [ ] Confirm
-
-Primary route:
-____________________________________________________
-
-Alternate route:
-____________________________________________________
-
-Estimated distance: __________ miles
-Fuel needed: ________________________________________
-
-Lodging / access notes:
-____________________________________________________
-
-# DESTINATION B
-Name / location: _____________________________________
-Address: ____________________________________________
-Contact: ____________________________________________
-Phone: _____________________________________________
-
-Accepts pets? [ ] Yes [ ] No [ ] Confirm
-Accessible for household needs? [ ] Yes [ ] No [ ] Confirm
-
-Primary route:
-____________________________________________________
-
-Alternate route:
-____________________________________________________
-
-Estimated distance: __________ miles
-Fuel needed: ________________________________________
-
-# DESTINATION C
-Name / location: _____________________________________
-Address: ____________________________________________
-Contact: ____________________________________________
-Phone: _____________________________________________
-
-Accepts pets? [ ] Yes [ ] No [ ] Confirm
-Accessible for household needs? [ ] Yes [ ] No [ ] Confirm
-
-Primary route:
-____________________________________________________
-
-Alternate route:
-____________________________________________________
+| | Destination A | Destination B | Destination C |
+|---|---|---|---|
+| Name / location | | | |
+| Address | | | |
+| Contact / phone | | | |
+| Accepts pets? | Yes / No / Confirm | Yes / No / Confirm | Yes / No / Confirm |
+| Accessible for our needs? | Yes / No / Confirm | Yes / No / Confirm | Yes / No / Confirm |
+| Primary route | | | |
+| Alternate route | | | |
+| Distance / fuel needed | | | |
+| Lodging / access notes | | | |
 
 ## DEPARTURE TRIGGERS
 We leave for Destination A when:
