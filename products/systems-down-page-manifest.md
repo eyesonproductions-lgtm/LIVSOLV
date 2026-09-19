@@ -249,7 +249,7 @@ Policies, insurer contacts, deductibles, claim numbers, adjuster notes and prope
 Emergency cash reference, essential bills, emergency savings target, temporary lodging/payment plan, financial institution contacts
 
 ### Page 53 - Disaster Expense + Claim Log
-Date, expense, category, amount, receipt location, claim relevance, reimbursement status
+Dedicated full-page reusable log with large writing rows for each item, expense or loss; date, what happened/why needed, amount, proof location and claim/reimbursement status; sheet numbering and instructions to print as many copies as needed
 
 ## Pets section
 
