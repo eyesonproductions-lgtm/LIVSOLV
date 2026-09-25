@@ -173,48 +173,30 @@ Last reviewed: _______________  Next review: _______________
 
 One person may have several jobs. A child or teenager can have an age-appropriate role. No one should attempt a utility, medical or equipment task they cannot perform safely.
 
-## TIER 1 - LIFE SAFETY FIRST
-Assign these before anything else:
+## HOW THE TIERS WORK
 
-[ ] Account for every person and animal
-[ ] Move people away from immediate danger
-[ ] Call or message emergency help
-[ ] Handle first aid or critical medical needs
-[ ] Help children, older adults or anyone needing assistance
+### TIER 1 - LIFE SAFETY FIRST
+Assign immediately: account for people and animals, move away from danger, contact emergency help, give first aid and assist anyone who needs help.
 
-## TIER 2 - STABILIZE THE HOUSEHOLD
-Assign after immediate danger is handled:
+### TIER 2 - STABILIZE THE HOUSEHOLD
+Assign after immediate danger is handled: check alerts, prepare medications, handle utilities only if trained, gather critical supplies and set up evacuation, shelter or backup power.
 
-[ ] Check official alerts and conditions
-[ ] Prepare medications and medical equipment
-[ ] Handle utilities only if trained and safe
-[ ] Gather go bags, water and communication equipment
-[ ] Start the evacuation vehicle or shelter area
-[ ] Protect critical refrigeration or backup power
-
-## TIER 3 - KEEP THINGS WORKING
-Assign when the household is stable:
-
-[ ] Track water, food, fuel and battery use
-[ ] Set up sanitation and sleeping areas
-[ ] Document damage and expenses
-[ ] Contact relatives, neighbors or support services
-[ ] Care for pets and household routines
-[ ] Plan the next reassessment
+### TIER 3 - KEEP THINGS WORKING
+Assign when the household is stable: track supplies, manage sanitation and routines, document damage, contact the support network and schedule reassessments.
 
 ## OUR ASSIGNMENTS
-| Person | Tier 1 job | Tier 2 job | Tier 3 / follow-up job |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+Mark every tier that applies. Use the large writing area for several jobs, a backup person or any limits the household needs to remember.
 
-If the assigned person is unavailable, the job passes to: __________
+| Person | Tier(s) | Jobs, backup person and important notes |
+|---|---|---|
+| | [ ] T1  [ ] T2  [ ] T3 | |
+| | [ ] T1  [ ] T2  [ ] T3 | |
+| | [ ] T1  [ ] T2  [ ] T3 | |
+| | [ ] T1  [ ] T2  [ ] T3 | |
+| | [ ] T1  [ ] T2  [ ] T3 | |
+| | [ ] T1  [ ] T2  [ ] T3 | |
+| | [ ] T1  [ ] T2  [ ] T3 | |
+| | [ ] T1  [ ] T2  [ ] T3 | |
 
 Next team check-in: _____________________________________
 
