@@ -1,5 +1,10 @@
 # LIVSOLV Decision Log
 
+## 2026-09-25
+
+- A public post-purchase page must never contain a direct link to a paid product ZIP. Deliver customer files only after verified payment, using private storage or a seller platform with purchase-validated digital delivery.
+- Temporarily pause binder purchases until the payment and delivery flow is tested. Keep the existing paid bundle in private owner-only storage. Do not publish its ID or URL in this public repository.
+
 ## 2026-09-18
 
 - The main binder cover is unnumbered. Numbered page 1 begins with **A Major Emergency Just Happened. What Do We Do Next?**
