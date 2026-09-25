@@ -1,6 +1,13 @@
 # LIVSOLV Project Status
 
-Last updated: 2026-09-18
+Last updated: 2026-09-25
+
+## Urgent binder checkout and delivery status (2026-09-25)
+
+- The $17 Stripe Payment Link was activated on September 19 and is still accepting payment as of this update. Stripe connector access currently requires reconnection, so the link itself has not been disabled.
+- A Google Drive ZIP previously linked from a public post-purchase page had anyone-with-link access. The complete four-file bundle was copied to a private owner-only Drive file. The publicly shared original was replaced with a 293-byte retired-download notice, verified in the logged-out Drive viewer. Do not put the private copy's URL or ID into this repository.
+- GitHub `main` now removes the sales-page Stripe button and the post-purchase direct download link, but the live site was still serving the old versions when checked. Cloudflare deployment must be repaired or completed and then the live pages rechecked.
+- Do not reopen sales until payment-confirmed delivery is in place, and test one purchase and its download. If any purchases arrived while delivery was interrupted, fulfill or refund them promptly.
 
 ## Objective
 
@@ -26,7 +33,7 @@ This is a calm household emergency decision system, not a generic checklist or a
 - Pages 19-62 are ready for editorial, usability and final safety review. They are not yet designed or sale-ready.
 - The current architecture covers household dependencies, power/generator/solar, water, food/cold storage/cooking, medication/medical devices, heat/cold, sensory/accessibility, communications, home systems, records/cash, pets, vehicles, separation, stay/leave, evacuation, First 72 Hours, two-week continuity, and handoff/review.
 - The previously shortened First 72 Hours ZIP, old 25-page binder, and old `Systems Down: First 72 Hours` product name are superseded.
-- The staged sales page exists at `systems-down-household-binder.html`, remains `noindex`, and has a disabled checkout button.
+- The sales page launched September 19. GitHub now has a paused button pending deployment; the public site was still showing the old checkout button on September 25.
 - Primary sales home: LIVSOLV.com.
 - Community preparedness exists as a published, sitemap-linked content page.
 
@@ -40,7 +47,7 @@ This is a calm household emergency decision system, not a generic checklist or a
 
 ## Current launch blockers
 
-The product package is not finished. The calculator workbook, Quick Cards, Start Here guide, designed binder, Letter/A4 and ink-saver exports, customer ZIP and final QA remain incomplete. Secure checkout and automatic digital delivery must be connected and tested after a verified final package exists.
+A four-file customer ZIP exists in Drive, but the exact delivered content, fillable claim, A4/ink-saver editions and promised scope need final validation. Purchase-validated delivery is absent. The Stripe Payment Link remains active while the site deployment still serves the old button; this is an immediate customer fulfillment risk.
 
 No additional nonessential free-content expansion should outrank completing the paid product.
 
@@ -70,4 +77,4 @@ Approved later website work includes a Go Bag branch under Away from Home with o
 
 ## Next action
 
-Build and formula-test the nine-tab Household Calculator workbook against the completed 62-page source-copy draft.
+Disable the active Stripe Payment Link or reconnect Stripe access for us to do it, then verify the paused site pages are live. Next, connect purchase-validated private file delivery and test the complete purchase-to-download flow before reopening sales.
