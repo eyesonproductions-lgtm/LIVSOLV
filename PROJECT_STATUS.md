@@ -1,6 +1,12 @@
 # LIVSOLV Project Status
 
-Last updated: 2026-09-25
+Last updated: 2026-10-09
+
+## Free quick cards update (2026-10-09)
+
+- Added `ai-systems-down-cards.html`: 10 free printable, budget-first AI Systems Down cards, with a no-cost action on each.
+- Added a two-collection choice on `ai-disruption.html` and a link from `emergency-wallet-cards-printable.html` to the new set. Original six cards remain unchanged.
+- GitHub `main` commits succeeded; public Cloudflare deployment and browser print layout remain unverified. Confirm the public URLs and printing before announcing a launch.
 
 ## Urgent binder checkout and delivery status (2026-09-25)
 
