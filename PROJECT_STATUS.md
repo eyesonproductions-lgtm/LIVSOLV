@@ -1,6 +1,14 @@
 # LIVSOLV Project Status
 
-Last updated: 2026-10-09
+Last updated: 2026-10-28
+
+## Government preparedness campaign (2026-10-28)
+
+- Explicit owner request authorized this campaign despite the earlier free-content pause. No paid-binder launch or checkout change was made.
+- Created eight original typographic carousel slides and a Pinterest companion pin under `assets/social/government-readiness-20261028/`; source summaries and reproducible renderer are under `campaigns/government-readiness-20261028/`.
+- Verified official Netherlands (72 hours), Norway/Sweden (one week), Germany (10 days if possible), and U.S. CDC water guidance (3 days; two weeks if possible). No new blanket three-week all-utilities warning was verified. Advice dates are distinguished from current reporting.
+- Metricool confirmed Instagram post 408836544 / UUID 1013034191593489249 for 2026-10-30 10:00 America/New_York, and TikTok photo carousel 408836905 / UUID -3797349181727748620 for 2026-10-29 10:00 America/New_York. Both were re-read as PENDING with eight images and automatic publishing enabled; neither is published yet.
+- Pinterest artwork is complete but NOT scheduled: the connector does not expose boards, its browser dashboard requires sign-in, and prior context did not provide a verified board name/ID. Need the intended Pinterest board to complete scheduling.
 
 ## Free quick cards update (2026-10-09)
 
