@@ -30,4 +30,4 @@ U.S. water: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an
 
 ## Scheduling
 
-Pending provider confirmation. Instagram target: 2026-10-30 10:00 Eastern. TikTok target: 2026-10-29 10:00 Eastern. Metricool best-time scores used; Pinterest best-time endpoint is unsupported. Pinterest requires an existing board.
+Provider-confirmed PENDING: Instagram 408836544 (UUID 1013034191593489249), 2026-10-30 10:00 Eastern; TikTok 408836905 (UUID -3797349181727748620), 2026-10-29 10:00 Eastern. Both re-read with eight ordered images and autoPublish=true. Metricool best-time scores used. Pinterest pin is ready but NOT scheduled; need a verified existing board name/ID. Browser Metricool requires sign-in; prior personal context did not contain the board configuration. Do not claim published before provider confirms PUBLISHED.
