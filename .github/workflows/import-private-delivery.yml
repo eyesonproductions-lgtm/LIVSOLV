@@ -1,0 +1,33 @@
+name: Import encrypted private binder files
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [ops/private-import-request.txt]
+permissions:
+  contents: read
+concurrency:
+  group: livsolv-production-deploy
+  cancel-in-progress: false
+jobs:
+  import:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - run: npm ci
+      - name: Identify existing Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: python3 ops/prepare_deploy.py
+      - name: Import into private storage and secrets only
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: python3 ops/import_private_delivery.py
