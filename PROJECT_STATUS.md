@@ -11,10 +11,12 @@ Last updated: 2026-10-29
 - Evidence and original link inventory: `maintenance/amazon-link-audit-2026-10-29.json`. Affected live LIVSOLV pages were compared before changes; publication of this update remains unverified.
 - Immediate next action for this review: restore the existing Cloudflare deployment path, then finish replacement-product and buying-options checks with usable Amazon access.
 
-## Private storage activation blocker (2026-10-29)
+## Private storage ready (2026-10-29)
 
-- Owner reported adding Workers R2 Storage Edit to the existing token. The follow-up read-only check (Actions run 40906091852) received HTTP 403 with Cloudflare code 10042: R2 must be enabled through the account dashboard. This does not establish write permission; no bucket, upload, billing enrollment or activation was performed.
-- Next owner step: open account Storage & databases > R2 Object Storage and inspect the activation screen. Review terms and billing before activation. The runtime Stripe key remains a separate requirement already disclosed. Checkout remains paused.
+- Supersedes the earlier R2 activation blocker. Owner activated storage; read-only listing succeeded (run 40906752833).
+- Created dedicated private bucket livsolv-paid-products (run 40906907424). Verified public r2.dev access is disabled and no custom public domains are attached.
+- No paid files have been uploaded. Purchase verification, protected delivery, webhook handling and end-to-end testing remain incomplete. Checkout stays paused.
+- Remaining owner access requirement: a restricted server-side Stripe key stored securely, never in chat or public repository source. The ChatGPT Stripe connection cannot supply website runtime credentials.
 
 ## Cloudflare connection repair (2026-10-29)
 
@@ -24,7 +26,7 @@ Last updated: 2026-10-29
 - GitHub Actions connection check passed (run 40902275788). The token can read the existing livsolv Worker; read-only diagnosis found no runtime bindings and no user script body. The Builds log API returned HTTP 403, so the historical build log remains unread.
 - Added locked Wrangler 4.155.0, explicit static-asset deployment configuration and public-only staging. No PDF, ZIP, workbook, product-source markdown, maintenance file or credential is staged. Existing dashboard routes and variables are preserved.
 - GitHub Actions deployed version ba72e489-e5be-4b07-a46e-ea880d74701e (run 40903270029). Its first urllib verification failed; follow-up curl verification passed (run 40903829075): homepage, sales page, purchase-confirmation page and car-battery guide exactly matched repository bytes. Deployment is repaired; the sales page stays paused and confirmation exposes no paid-download URL.
-- Owner saved the Cloudflare token successfully. Remaining delivery access: a server-side restricted Stripe key (the ChatGPT Stripe connection cannot authenticate website runtime requests), plus Cloudflare private-storage permissions. Current token lacks R2 storage management; do not publish the paid bundle as public static assets. See ops/DELIVERY-REMAINING.md. Private automatic delivery and its end-to-end test remain incomplete.
+- Owner saved the Cloudflare token successfully. Remaining delivery access: a server-side restricted Stripe key (the ChatGPT Stripe connection cannot authenticate website runtime requests), and private file upload. R2 storage management and bucket privacy are now verified; do not publish the paid bundle as public static assets. See ops/DELIVERY-REMAINING.md. Private automatic delivery and its end-to-end test remain incomplete.
 
 ## Government preparedness campaign (2026-10-28)
 
@@ -85,7 +87,7 @@ This is a calm household emergency decision system, not a generic checklist or a
 
 ## Current launch blockers
 
-A four-file customer ZIP exists in Drive, but the exact delivered content, fillable claim, A4/ink-saver editions and promised scope need final validation. Purchase-validated delivery is absent. The Stripe Payment Link was confirmed inactive on October 29; current public-site deployment still needs verification.
+A four-file customer ZIP exists in Drive, but the exact delivered content, fillable claim, A4/ink-saver editions and promised scope need final validation. Purchase-validated delivery is absent. The Stripe Payment Link was confirmed inactive on October 29; public-site deployment and the paused sales/confirmation pages were verified on October 29.
 
 No additional nonessential free-content expansion should outrank completing the paid product.
 
@@ -115,4 +117,4 @@ Approved later website work includes a Go Bag branch under Away from Home with o
 
 ## Next action
 
-Enable the remaining private-storage and runtime Stripe access described in ops/DELIVERY-REMAINING.md, implement purchase-validated delivery and test it end to end. Website deployment and public-page verification have passed. Keep checkout paused.
+Obtain restricted runtime Stripe access securely, validate and upload the approved product package to the verified private bucket, implement purchase-validated delivery and test it end to end. Website deployment and public-page verification have passed. Keep checkout paused.
