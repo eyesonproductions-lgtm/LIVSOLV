@@ -1,1 +1,43 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Your LIVSOLV Binder</title><style>:root{--forest:#173d2e;--ink:#172119;--ivory:#f8f5ec;--sage:#e7ecdf;--amber:#e9a53c;--muted:#5e675f}*{box-sizing:border-box}body{margin:0;background:var(--ivory);color:var(--ink);font-family:Arial,Helvetica,sans-serif}.wrap{max-width:760px;margin:auto;padding:54px 24px}.brand{font:700 30px Georgia,serif;color:var(--forest);margin-bottom:28px}.card{background:white;border:1px solid #ddd8ce;padding:34px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#2e654e}h1{font:700 42px/1.02 Georgia,serif;margin:10px 0 14px}p{font-size:16px;line-height:1.55;color:#465148}.download{display:inline-block;margin:18px 0 10px;background:var(--amber);color:var(--ink);text-decoration:none;font-weight:800;padding:15px 22px}.small{font-size:13px;color:var(--muted)}.steps{margin:24px 0 0;padding:0;list-style:none}.steps li{padding:12px 0;border-top:1px solid #ece7dd;font-size:14px}.home{display:inline-block;margin-top:24px;color:var(--forest);font-weight:700}</style></head><body><div class="wrap"><div class="brand">LIVSOLV</div><div class="card"><div class="eyebrow">Purchase complete</div><h1>Thank you for your purchase.</h1><p>We have temporarily paused downloads while we update secure delivery for the Systems Down Household Binder. Please keep your Stripe purchase receipt. If you need your files now, use the seller contact information on your receipt to request access to your purchase.</p><p class="small">We are sorry for the interruption.</p><a class="home" href="/">Return to LIVSOLV.com →</a></div></div></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Your LIVSOLV Binder</title><style>:root{--forest:#173d2e;--ink:#172119;--ivory:#f8f5ec;--sage:#e7ecdf;--amber:#e9a53c;--muted:#5e675f}*{box-sizing:border-box}[hidden]{display:none!important}button.download{border:0;cursor:pointer;font:inherit;font-weight:800}body{margin:0;background:var(--ivory);color:var(--ink);font-family:Arial,Helvetica,sans-serif}.wrap{max-width:760px;margin:auto;padding:54px 24px}.brand{font:700 30px Georgia,serif;color:var(--forest);margin-bottom:28px}.card{background:white;border:1px solid #ddd8ce;padding:34px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#2e654e}h1{font:700 42px/1.02 Georgia,serif;margin:10px 0 14px}p{font-size:16px;line-height:1.55;color:#465148}.download{display:inline-block;margin:18px 0 10px;background:var(--amber);color:var(--ink);text-decoration:none;font-weight:800;padding:15px 22px}.small{font-size:13px;color:var(--muted)}.steps{margin:24px 0 0;padding:0;list-style:none}.steps li{padding:12px 0;border-top:1px solid #ece7dd;font-size:14px}.home{display:inline-block;margin-top:24px;color:var(--forest);font-weight:700}</style></head><body><div class="wrap"><div class="brand">LIVSOLV</div><div class="card"><div class="eyebrow">Your binder download</div><h1>Let’s find your purchase.</h1><p id="delivery-status" role="status" aria-live="polite">Keep your Stripe purchase receipt. Secure downloads are currently paused while we finish delivery checks.</p><button id="retry" class="download" type="button" hidden>Check purchase again</button><a id="download" class="download" href="/api/binder/download" hidden>Download your binder ZIP</a><p class="small">If you need help with an existing purchase, use the seller contact information on your Stripe receipt.</p><a class="home" href="/">Return to LIVSOLV.com →</a></div></div><script>
+(() => {
+  const parameters = new URLSearchParams(location.search);
+  const incoming = parameters.get('session_id');
+  if (incoming && /^cs_live_[A-Za-z0-9]{16,240}$/.test(incoming)) {
+    try { sessionStorage.setItem('livsolv_purchase_session', incoming); } catch (_) {}
+  }
+  if (location.search) history.replaceState(null, '', location.pathname);
+  let session = incoming;
+  try { session = session || sessionStorage.getItem('livsolv_purchase_session'); } catch (_) {}
+  const status = document.getElementById('delivery-status');
+  const retry = document.getElementById('retry');
+  const download = document.getElementById('download');
+  async function verify() {
+    if (!session) {
+      status.textContent = 'Open the download link provided after Stripe checkout to verify your purchase. If you lost it, contact us using your receipt.';
+      return;
+    }
+    retry.hidden = true; download.hidden = true;
+    status.textContent = 'Checking your payment securely…';
+    try {
+      const response = await fetch('/api/binder/verify', {
+        method: 'POST', credentials: 'same-origin', cache: 'no-store',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({session_id: session})
+      });
+      if (response.ok) {
+        status.textContent = 'Your payment is confirmed. Your private download is ready for 10 minutes. You can verify again if it expires.';
+        document.querySelector('h1').textContent = 'Your binder is ready.';
+        download.hidden = false;
+      } else {
+        status.textContent = await response.text();
+        retry.hidden = false;
+      }
+    } catch (_) {
+      status.textContent = 'We couldn’t check your purchase just now. Please try again. Keep your receipt if you need help.';
+      retry.hidden = false;
+    }
+  }
+  retry.addEventListener('click', verify);
+  if (session) verify();
+})();
+</script></body></html>

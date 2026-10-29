@@ -1,5 +1,5 @@
-"""Install write-only runtime secrets and create a temporary private file-transfer key."""
-import base64, json, os, secrets, subprocess, tempfile, urllib.request
+"""Install write-only runtime secrets without printing values."""
+import json, os, secrets, urllib.request
 from check_cloudflare import api
 
 def main():
@@ -16,16 +16,6 @@ def main():
     names={s['name'] for s in api(f'/accounts/{aid}/workers/scripts/livsolv/secrets',token)}
     if 'DELIVERY_SIGNING_KEY' not in names:put_secret('DELIVERY_SIGNING_KEY',secrets.token_urlsafe(48))
     print('Runtime Stripe verification and download-signing secrets installed. Values omitted.')
-    # Only the public certificate is emitted. The matching private key stays in private R2.
-    with tempfile.TemporaryDirectory() as tmp:
-        private=tmp+'/key.pem';cert=tmp+'/certificate.pem'
-        result=subprocess.run(['openssl','req','-x509','-newkey','rsa:3072','-keyout',private,'-out',cert,'-sha256','-days','7','-nodes','-subj','/CN=LIVSOLV Private Transfer'],capture_output=True)
-        if result.returncode:raise RuntimeError('Transfer certificate generation failed')
-        for path,obj in [(private,'internal/transfer-private.pem'),(cert,'internal/transfer-certificate.pem')]:
-            r=subprocess.run(['npx','wrangler','r2','object','put','livsolv-paid-products/'+obj,'--file',path,'--remote'],capture_output=True)
-            if r.returncode:raise RuntimeError('Private transfer key storage failed')
-        print('PUBLIC_TRANSFER_CERTIFICATE_BASE64='+base64.b64encode(open(cert,'rb').read()).decode())
-        print('Temporary transfer private key stored only in private storage. No customer files uploaded.')
 if __name__=='__main__':
     try:main()
     except Exception:raise SystemExit('Private delivery configuration failed. No secret or provider response logged.')

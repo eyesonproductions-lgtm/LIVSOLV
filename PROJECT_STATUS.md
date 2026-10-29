@@ -11,16 +11,26 @@ Last updated: 2026-10-29
 - Evidence and original link inventory: `maintenance/amazon-link-audit-2026-10-29.json`. Affected live LIVSOLV pages were compared before changes; publication of this update remains unverified.
 - Immediate next action for this review: restore the existing Cloudflare deployment path, then finish replacement-product and buying-options checks with usable Amazon access.
 
+## Protected delivery implementation (2026-10-29)
+
+- Deployed reviewed payment-verification runtime in Actions run 40916591129, version e7181c61-6372-4c12-af1f-46b1eadaf767. All seven security/flow tests passed and the four public-page byte comparisons passed. Runtime Stripe and download-signing secrets were installed using write-only Cloudflare secret storage.
+- Registered Stripe webhook endpoint we_1UVwe6F8NR7INldSQvLliNyz for completed, delayed-success and delayed-failure checkout events. Handler verifies signatures and re-reads Stripe; only a completed, paid, live USD session for the specific binder Payment Link can establish entitlement. Replayed events use the same private order key.
+- Private import run 40916813217 uploaded the owner's approved v8 PDF and nine-tab calculator to private staging. Both were downloaded back and SHA-256 verified. No paid plaintext file or key was committed; the temporary CMS transfer private key was deleted after import.
+- Installed webhook signing secret. Live configuration probe returned 200 for a correctly signed ignored test event and 400 for a forged signature. No customer order/payment was created. Anonymous download returned 503 with the delivery gate disabled.
+- Customer flow now verifies a checkout session, waits for its webhook entitlement and issues a Secure/HttpOnly 10-minute download cookie. Paid file requests never redirect to a public R2 or Drive URL. All private responses use no-store.
+- Delivery remains DISABLED and checkout remains paused. No final customer ZIP has been released. Approved v8 is 64 physical pages (62 numbered plus front matter); it has no interactive PDF fields. Do not advertise it as digitally fillable. Recovered older ZIPs are not the approved v8 and must not be substituted.
+- Remaining launch work: assemble/verify the final customer ZIP and advertised contents, correct the fillable claim, then run the complete purchase, webhook and private-download test before opening sales. Current live signature checks and mocked integration tests are not an end-to-end purchase test.
+
 ## Runtime Stripe credential verified (2026-10-29)
 
 - Owner replaced STRIPE_RESTRICTED_KEY securely. Read-only Actions run 40914201150 confirmed the live restricted key authenticated and Checkout Sessions read succeeded, superseding the earlier format blocker.
-- No customer data or credentials logged; no payments, refunds, checkout links or Stripe settings changed. Website runtime secret deployment, protected delivery, private package upload and end-to-end testing remain incomplete. Checkout stays paused.
+- No customer data or credentials logged; no payments, refunds, checkout links or Stripe settings changed. Runtime secrets and protected delivery code are now deployed; approved files are privately staged. Final customer packaging and end-to-end purchase testing remain incomplete. Checkout stays paused.
 
 ## Private storage ready (2026-10-29)
 
 - Supersedes the earlier R2 activation blocker. Owner activated storage; read-only listing succeeded (run 40906752833).
 - Created dedicated private bucket livsolv-paid-products (run 40906907424). Verified public r2.dev access is disabled and no custom public domains are attached.
-- No paid files have been uploaded. Purchase verification, protected delivery, webhook handling and end-to-end testing remain incomplete. Checkout stays paused.
+- Approved v8 PDF and calculator are now uploaded privately in staging; runtime verification and webhook handling are deployed. No release ZIP or end-to-end purchase test is complete. Checkout stays paused.
 - Owner-supplied restricted runtime Stripe access was verified in run 40914201150. Keep the key encrypted and never in chat or public source.
 
 ## Cloudflare connection repair (2026-10-29)
@@ -122,4 +132,4 @@ Approved later website work includes a Go Bag branch under Away from Home with o
 
 ## Next action
 
-Deploy the verified restricted Stripe key to the website runtime securely, validate and upload the approved product package to the verified private bucket, implement purchase-validated delivery and test it end to end. Website deployment and public-page verification have passed. Keep checkout paused.
+Assemble and validate the final customer ZIP from approved v8, reconcile all advertised files and remove the untrue fillable-PDF claim, then perform the full purchase-and-private-download test. Website deployment and public-page verification have passed. Keep checkout paused.

@@ -1,1 +1,1 @@
-Deploy reviewed private-delivery runtime with delivery disabled 2026-10-29
+Deploy customer verification page, keep private downloads disabled 2026-10-29

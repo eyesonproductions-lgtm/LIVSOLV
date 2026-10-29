@@ -1,24 +1,12 @@
-# Remaining private-delivery work
+# Private delivery remaining work
 
-Updated 2026-10-29. Website deployment is repaired. Paid checkout remains paused; this document is not a claim that delivery works.
+Access setup is complete. Stripe session read and private R2 access are verified. Runtime Stripe, download signing and webhook secrets are installed. No additional owner credential is currently required.
 
-## Access already verified
+The reviewed runtime and signed webhook handler are deployed. Downloads remain disabled and Stripe checkout remains paused.
 
-- GitHub repository writes and Actions runs.
-- Cloudflare account-scoped token in Actions secret CLOUDFLARE_API_TOKEN; read access and a real Worker deployment succeeded.
-- ChatGPT Stripe connector can manage the live LIVSOLV account. It is not a runtime credential that can be exported for the website.
+1. Assemble and verify the final ZIP using the approved v8 binder, not an older review ZIP. Reconcile all advertised components and editions. The approved PDF is printable, not an interactive fillable form; correct the sales claim.
+2. Upload the validated customer ZIP privately. Current private staging contains approved v8 and the calculator only.
+3. Run a complete purchase/webhook/download test, including failed payment and anonymous denial. Mocked tests and configuration probes do not establish a successful end-to-end purchase.
+4. Enable the delivery gate and checkout only after those checks pass. Verify the deployed sales and confirmation pages afterward.
 
-## Remaining access, stated together
-
-1. Existing Cloudflare token needs Account / Workers R2 Storage / Edit for private bucket provisioning and uploads. Keep it restricted to the LIVSOLV account. Do not grant DNS, billing or user-management permissions. Check whether R2 is already enabled before attempting any activation that requires accepting billing terms; do not assume paid services are authorized.
-2. Website runtime needs a dedicated restricted Stripe API key. Use Checkout Sessions Read for purchase validation; automate webhook endpoint registration separately through the connected Stripe account. Store any runtime key and webhook signing secret only in encrypted runtime secrets, not source or chat. Verify exact API permissions in test before selecting the production key. The current Cloudflare key cannot substitute for this.
-
-## Remaining implementation and launch gate
-
-- Recover the current approved package privately. Approved review v8 and calculator v2 were located and copied locally. Earlier Digital Package and v2 REVIEW PACKAGE were also recovered but are superseded review materials, not interchangeable with the approved final binder. Verify the package contents without redesigning it or claiming outdated editions are final.
-- Prepare private file transfer and storage without any permanent public URL or paid PDF/ZIP in the public repository or static upload directory.
-- Implement and test signed Stripe completion and asynchronous-success webhooks, exact binder-product/payment-link validation, replay/idempotency handling, private purchase-validated downloads, expiry, failures and refunds.
-- Verify Letter/A4/ink-saver and fillable marketing claims against the actual delivered package. Do not silently advertise files that are missing.
-- Run a sandbox purchase, verify direct unauthenticated access is denied, then verify the approved production payment/delivery path. Reopen checkout only after all launch gates pass.
-
-No protected-download runtime or fulfillment webhook has been deployed yet. Further owner access is required; do not report this task as complete.
+The one-time encrypted import file is removed after successful import; its private decryption key has been deleted. Do not upload paid plaintext files or secrets into this public repository.
