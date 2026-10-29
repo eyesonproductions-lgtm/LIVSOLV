@@ -1,0 +1,1 @@
+Read-only Cloudflare connection check requested after owner secret setup, 2026-10-29.
