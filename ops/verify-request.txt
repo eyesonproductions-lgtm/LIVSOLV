@@ -1,0 +1,1 @@
+Verify published website with curl after deployment 2026-10-29.

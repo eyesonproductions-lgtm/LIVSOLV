@@ -1,30 +1,31 @@
-"""Verify public deployed bytes without logging private links or page contents."""
+"""Compare deployed public bytes. No credentials or page contents enter logs."""
 from pathlib import Path
+import hashlib
+import subprocess
 import time
-import urllib.request
-
 ROOT = Path(__file__).resolve().parent.parent
 PAGES = ['index.html', 'systems-down-household-binder.html', 'purchase-complete-7f4c9.html', 'car-battery-inverter-backup-power.html']
 
 
 def main():
-    for attempt in range(6):
+    for attempt in range(4):
         failures = []
         for path in PAGES:
-            try:
-                req = urllib.request.Request('https://livsolv.com/' + path + '?deployment-check=20261029', headers={'Cache-Control':'no-cache','User-Agent':'LIVSOLV-owner-deployment-check'})
-                with urllib.request.urlopen(req, timeout=15) as response:
-                    actual = response.read(2_000_000)
-                if actual != (ROOT / path).read_bytes():
-                    failures.append(path)
-            except Exception:
+            result = subprocess.run(['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '15', 'https://livsolv.com/' + path], capture_output=True)
+            expected = (ROOT / path).read_bytes()
+            if result.returncode:
                 failures.append(path)
+                print(f'{path}: request failed (curl exit {result.returncode})')
+            elif result.stdout != expected:
+                failures.append(path)
+                print(f'{path}: content differs; received {len(result.stdout)} bytes, expected {len(expected)}; received SHA256 {hashlib.sha256(result.stdout).hexdigest()}')
+            else:
+                print(f'{path}: public content matches repository')
         if not failures:
-            print('Verified public bytes match the deployed commit on four key pages. Checkout remains paused.')
+            print('Verified four public pages match this commit. Checkout remains paused.')
             return
-        if attempt < 5:
+        if attempt < 3:
             time.sleep(5)
-    raise SystemExit('Public verification did not match the commit: ' + ', '.join(failures))
-
+    raise SystemExit('Could not verify public content: ' + ', '.join(failures))
 if __name__ == '__main__':
     main()
