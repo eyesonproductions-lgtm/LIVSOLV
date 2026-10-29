@@ -16,8 +16,10 @@ Last updated: 2026-10-29
 - Stripe live LIVSOLV account access succeeded. The remaining active binder Payment Link was set inactive and Stripe returned active=false. The historical September 25 statements below about Stripe needing reconnection and an active payment link are superseded.
 - Owner screenshots confirm the existing Cloudflare Worker is named livsolv and the latest main build 994c464 failed during deployment. The full error is not yet available; the cause is not established.
 - Browser authentication and user handoff did not provide usable Cloudflare access. Prepared a GitHub Actions connection check using a repository Actions secret, so the owner does not need to share Google credentials or use the broken handoff.
-- The connection check is read-only and redacts binding values. It does not deploy or repair delivery. It must pass before changing the existing Worker; preserve unknown runtime code, bindings and routes.
-- Next owner action: create an account-scoped Cloudflare token and save it as CLOUDFLARE_API_TOKEN in repository Actions secrets, following ops/README.md. Then trigger the connection check. Private automatic delivery and an end-to-end customer test remain incomplete; checkout stays paused.
+- GitHub Actions connection check passed (run 40902275788). The token can read the existing livsolv Worker; read-only diagnosis found no runtime bindings and no user script body. The Builds log API returned HTTP 403, so the historical build log remains unread.
+- Added locked Wrangler 4.155.0, explicit static-asset deployment configuration and public-only staging. No PDF, ZIP, workbook, product-source markdown, maintenance file or credential is staged. Existing dashboard routes and variables are preserved.
+- GitHub Actions deployed version ba72e489-e5be-4b07-a46e-ea880d74701e (run 40903270029). Its first urllib verification failed; follow-up curl verification passed (run 40903829075): homepage, sales page, purchase-confirmation page and car-battery guide exactly matched repository bytes. Deployment is repaired; the sales page stays paused and confirmation exposes no paid-download URL.
+- Owner saved the Cloudflare token successfully. Remaining delivery access: a server-side restricted Stripe key (the ChatGPT Stripe connection cannot authenticate website runtime requests), plus Cloudflare private-storage permissions. Current token lacks R2 storage management; do not publish the paid bundle as public static assets. See ops/DELIVERY-REMAINING.md. Private automatic delivery and its end-to-end test remain incomplete.
 
 ## Government preparedness campaign (2026-10-28)
 
@@ -108,4 +110,4 @@ Approved later website work includes a Go Bag branch under Away from Home with o
 
 ## Next action
 
-Save the scoped Cloudflare token as a GitHub Actions secret and run the prepared connection check. Then diagnose deployment and implement purchase-validated private delivery. Keep checkout paused until the complete purchase-to-download flow passes.
+Enable the remaining private-storage and runtime Stripe access described in ops/DELIVERY-REMAINING.md, implement purchase-validated delivery and test it end to end. Website deployment and public-page verification have passed. Keep checkout paused.
