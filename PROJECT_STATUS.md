@@ -1,6 +1,14 @@
 # LIVSOLV Project Status
 
-Last updated: 2026-10-28
+Last updated: 2026-10-29
+
+## Cloudflare connection repair (2026-10-29)
+
+- Stripe live LIVSOLV account access succeeded. The remaining active binder Payment Link was set inactive and Stripe returned active=false. The historical September 25 statements below about Stripe needing reconnection and an active payment link are superseded.
+- Owner screenshots confirm the existing Cloudflare Worker is named livsolv and the latest main build 994c464 failed during deployment. The full error is not yet available; the cause is not established.
+- Browser authentication and user handoff did not provide usable Cloudflare access. Prepared a GitHub Actions connection check using a repository Actions secret, so the owner does not need to share Google credentials or use the broken handoff.
+- The connection check is read-only and redacts binding values. It does not deploy or repair delivery. It must pass before changing the existing Worker; preserve unknown runtime code, bindings and routes.
+- Next owner action: create an account-scoped Cloudflare token and save it as CLOUDFLARE_API_TOKEN in repository Actions secrets, following ops/README.md. Then trigger the connection check. Private automatic delivery and an end-to-end customer test remain incomplete; checkout stays paused.
 
 ## Government preparedness campaign (2026-10-28)
 
@@ -61,7 +69,7 @@ This is a calm household emergency decision system, not a generic checklist or a
 
 ## Current launch blockers
 
-A four-file customer ZIP exists in Drive, but the exact delivered content, fillable claim, A4/ink-saver editions and promised scope need final validation. Purchase-validated delivery is absent. The Stripe Payment Link remains active while the site deployment still serves the old button; this is an immediate customer fulfillment risk.
+A four-file customer ZIP exists in Drive, but the exact delivered content, fillable claim, A4/ink-saver editions and promised scope need final validation. Purchase-validated delivery is absent. The Stripe Payment Link was confirmed inactive on October 29; current public-site deployment still needs verification.
 
 No additional nonessential free-content expansion should outrank completing the paid product.
 
@@ -91,4 +99,4 @@ Approved later website work includes a Go Bag branch under Away from Home with o
 
 ## Next action
 
-Disable the active Stripe Payment Link or reconnect Stripe access for us to do it, then verify the paused site pages are live. Next, connect purchase-validated private file delivery and test the complete purchase-to-download flow before reopening sales.
+Save the scoped Cloudflare token as a GitHub Actions secret and run the prepared connection check. Then diagnose deployment and implement purchase-validated private delivery. Keep checkout paused until the complete purchase-to-download flow passes.

@@ -1,0 +1,30 @@
+name: Check LIVSOLV Cloudflare access
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [ops/cloudflare-request.txt]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: livsolv-cloudflare-connection
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Read repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check connection without changing Cloudflare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: python3 ops/check_cloudflare.py
