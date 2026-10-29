@@ -1,1 +1,1 @@
-Verify R2 permission after owner update, 2026-10-29 storage-check-1.
+Recheck R2 after owner dashboard step, 2026-10-29 storage-check-2.
