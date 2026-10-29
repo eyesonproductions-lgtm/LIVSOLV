@@ -30,3 +30,4 @@ jobs:
         run: |
           python3 ops/check_cloudflare.py
           python3 ops/check_storage.py
+          python3 ops/provision_private_storage.py

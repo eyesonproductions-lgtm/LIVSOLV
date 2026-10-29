@@ -1,1 +1,1 @@
-Recheck R2 after owner dashboard step, 2026-10-29 storage-check-2.
+Provision dedicated private binder bucket after verified R2 activation, 2026-10-29.
