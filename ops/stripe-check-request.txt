@@ -1,1 +1,1 @@
-Read-only restricted checkout-session access verification 2026-10-29
+Recheck credential format ignoring surrounding clipboard whitespace 2026-10-29
