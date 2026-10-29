@@ -1,1 +1,1 @@
-Recheck credential format ignoring surrounding clipboard whitespace 2026-10-29
+Recheck owner-updated restricted Stripe secret 2026-10-29T16:42:20.121Z
