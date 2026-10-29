@@ -1,1 +1,1 @@
-Deploy public website after privacy staging and Wrangler dry-run passed. Checkout remains paused. 2026-10-29.
+Deploy reviewed private-delivery runtime with delivery disabled 2026-10-29

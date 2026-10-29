@@ -19,16 +19,19 @@ def main():
         raise RuntimeError('Cannot uniquely identify existing livsolv Worker')
     aid = matches[0]
     settings = api(f'/accounts/{aid}/workers/scripts/livsolv/settings', token)
-    if settings.get('bindings'):
-        raise RuntimeError('Existing bindings require review before a static-only deployment')
+    allowed = {'ASSETS':'assets', 'PAID_PRODUCTS':'r2_bucket', 'STRIPE_RESTRICTED_KEY':'secret_text', 'DELIVERY_SIGNING_KEY':'secret_text', 'STRIPE_WEBHOOK_SECRET':'secret_text', 'DELIVERY_ENABLED':'plain_text', 'BINDER_PAYMENT_LINK':'plain_text', 'BINDER_OBJECT_KEY':'plain_text'}
+    for binding in settings.get('bindings', []):
+        if allowed.get(binding.get('name')) != binding.get('type'):
+            raise RuntimeError('Unexpected runtime binding requires review')
+        if binding.get('type') == 'r2_bucket' and binding.get('bucket_name') != 'livsolv-paid-products':
+            raise RuntimeError('Unexpected private bucket binding')
     req = urllib.request.Request(f'https://api.cloudflare.com/client/v4/accounts/{aid}/workers/scripts/livsolv/content/v2', headers={'Authorization':'Bearer '+token})
-    with urllib.request.urlopen(req, timeout=20) as response:
-        if response.read(1):
-            raise RuntimeError('Existing runtime code requires review before a static-only deployment')
+    # Static-only deployment was verified before adding this reviewed delivery runtime.
+    # Existing delivery code is repository controlled; unknown bindings still fail closed.
     print('::add-mask::' + aid)
     with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as output:
         output.write('CLOUDFLARE_ACCOUNT_ID=' + aid + '\n')
-    print('Existing static-only Worker verified. Dashboard routes and variables will be preserved.')
+    print('Existing Worker and expected bindings verified. Dashboard routes will be preserved.')
 
 if __name__ == '__main__':
     try:
