@@ -2,6 +2,15 @@
 
 Last updated: 2026-10-29
 
+## Amazon link review (2026-10-29)
+
+- Audited 119 Amazon link occurrences / 89 destinations in root HTML: all contain the existing `livsolv-20` tag. Tag ownership and active Associates account status were not independently verified.
+- Reviewed 74 product destinations in a public Amazon US browser session: seven explicitly unavailable, three page errors, six buying-options-only listings, and 58 displaying purchase offers (including Prime offers). Shipping to a specific location was not verified.
+- Replaced seven unavailable ASINs across 12 buttons with clearly labeled, model-specific Amazon search fallbacks retaining the affiliate tag. No replacement is claimed in stock. The Klymit search explicitly requests an insulated pad.
+- Preserved the three erroring product URLs because a 503 does not prove discontinuation. Amazon rejected browser search with an unsupported-session message before alternative product listings or the 15 existing search destinations could be verified.
+- Evidence and original link inventory: `maintenance/amazon-link-audit-2026-10-29.json`. Affected live LIVSOLV pages were compared before changes; publication of this update remains unverified.
+- Immediate next action for this review: restore the existing Cloudflare deployment path, then finish replacement-product and buying-options checks with usable Amazon access.
+
 ## Cloudflare connection repair (2026-10-29)
 
 - Stripe live LIVSOLV account access succeeded. The remaining active binder Payment Link was set inactive and Stripe returned active=false. The historical September 25 statements below about Stripe needing reconnection and an active payment link are superseded.

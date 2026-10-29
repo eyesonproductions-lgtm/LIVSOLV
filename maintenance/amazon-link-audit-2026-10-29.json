@@ -1,0 +1,1093 @@
+{
+  "checked_on": "2026-10-29",
+  "scope": "Root HTML Amazon links in main; affected live pages compared in browser. Public unsigned Amazon US session; delivery location not selected.",
+  "limitations": [
+    "Amazon rejected search browser session before replacement stock checks.",
+    "Account ownership and active Associates status not verified from Amazon dashboard.",
+    "Add to cart or a displayed purchase offer is not a guarantee of shipping availability.",
+    "15 search destinations were not stock verified.",
+    "Three 503 page errors do not establish sold-out status."
+  ],
+  "original_links": [
+    {
+      "page": "family-offline-games.html",
+      "url": "https://www.amazon.com/dp/B09SDKSXLZ?tag=livsolv-20",
+      "asin": "B09SDKSXLZ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "family-offline-games.html",
+      "url": "https://www.amazon.com/dp/B077Z1R28P?tag=livsolv-20",
+      "asin": "B077Z1R28P",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "family-offline-games.html",
+      "url": "https://www.amazon.com/dp/B09SDKSXLZ?tag=livsolv-20",
+      "asin": "B09SDKSXLZ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "family-offline-games.html",
+      "url": "https://www.amazon.com/dp/048685311X?tag=livsolv-20",
+      "asin": "048685311X",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "family-offline-games.html",
+      "url": "https://www.amazon.com/dp/B00CO4QAWW?tag=livsolv-20",
+      "asin": "B00CO4QAWW",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "page_error"
+    },
+    {
+      "page": "family-offline-games.html",
+      "url": "https://www.amazon.com/dp/0143136062?tag=livsolv-20",
+      "asin": "0143136062",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "fridge-freezer-backup-power.html",
+      "url": "https://www.amazon.com/dp/B0DCC2BVFW?tag=livsolv-20",
+      "asin": "B0DCC2BVFW",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "fridge-freezer-backup-power.html",
+      "url": "https://www.amazon.com/dp/B0C6DLTP81?tag=livsolv-20",
+      "asin": "B0C6DLTP81",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "fridge-freezer-backup-power.html",
+      "url": "https://www.amazon.com/dp/B0CLGZB3L6?tag=livsolv-20",
+      "asin": "B0CLGZB3L6",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "solar-power-bank-vs-folding-panel.html",
+      "url": "https://www.amazon.com/dp/B09VPHVT2Z?tag=livsolv-20",
+      "asin": "B09VPHVT2Z",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "solar-power-bank-vs-folding-panel.html",
+      "url": "https://www.amazon.com/s?k=30W+folding+USB-C+solar+panel&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "solar-recharging-power-station.html",
+      "url": "https://www.amazon.com/dp/B0DCC2BVFW?tag=livsolv-20",
+      "asin": "B0DCC2BVFW",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "solar-recharging-power-station.html",
+      "url": "https://www.amazon.com/dp/B0CLGZB3L6?tag=livsolv-20",
+      "asin": "B0CLGZB3L6",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "solar-recharging-power-station.html",
+      "url": "https://www.amazon.com/dp/B0C6DLTP81?tag=livsolv-20",
+      "asin": "B0C6DLTP81",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "small-backup-power.html",
+      "url": "https://www.amazon.com/dp/B0C9D7R1B6?tag=livsolv-20",
+      "asin": "B0C9D7R1B6",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "small-backup-power.html",
+      "url": "https://www.amazon.com/dp/B0F42HLLSC?tag=livsolv-20",
+      "asin": "B0F42HLLSC",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-first-aid-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B07CQ8JVC7?tag=livsolv-20",
+      "asin": "B07CQ8JVC7",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-first-aid-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B088S7PR3B?tag=livsolv-20",
+      "asin": "B088S7PR3B",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-first-aid-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B0014CUZNU?tag=livsolv-20",
+      "asin": "B0014CUZNU",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-first-aid-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B00GA9AVH2?tag=livsolv-20",
+      "asin": "B00GA9AVH2",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-first-aid-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B00164IIUI?tag=livsolv-20",
+      "asin": "B00164IIUI",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-first-aid-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B084HC1K4M?tag=livsolv-20",
+      "asin": "B084HC1K4M",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "ai-disruption.html",
+      "url": "https://www.amazon.com/s?k=3M+Aura+9205%2B+N95&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "extreme-heat-cold-power-outage.html",
+      "url": "https://www.amazon.com/dp/B0D643DKJW?tag=livsolv-20",
+      "asin": "B0D643DKJW",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "extreme-heat-cold-power-outage.html",
+      "url": "https://www.amazon.com/dp/B00ANRW7DI?tag=livsolv-20",
+      "asin": "B00ANRW7DI",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "extreme-heat-cold-power-outage.html",
+      "url": "https://www.amazon.com/dp/B0D2DPWVVJ?tag=livsolv-20",
+      "asin": "B0D2DPWVVJ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "extreme-heat-cold-power-outage.html",
+      "url": "https://www.amazon.com/dp/B09KRBNRRT?tag=livsolv-20",
+      "asin": "B09KRBNRRT",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "extreme-heat-cold-power-outage.html",
+      "url": "https://www.amazon.com/dp/B000NHY1P0?tag=livsolv-20",
+      "asin": "B000NHY1P0",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "extreme-heat-cold-power-outage.html",
+      "url": "https://www.amazon.com/dp/B09PMFP844?tag=livsolv-20",
+      "asin": "B09PMFP844",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "extreme-heat-cold-power-outage.html",
+      "url": "https://www.amazon.com/dp/B003YF7W22?tag=livsolv-20",
+      "asin": "B003YF7W22",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "extreme-heat-cold-power-outage.html",
+      "url": "https://www.amazon.com/dp/B0CKTZ4GVW?tag=livsolv-20",
+      "asin": "B0CKTZ4GVW",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "page_error"
+    },
+    {
+      "page": "emergency-communications.html",
+      "url": "https://www.amazon.com/dp/B0FX3GFYJP?tag=livsolv-20",
+      "asin": "B0FX3GFYJP",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-communications.html",
+      "url": "https://www.amazon.com/s?k=Midland+ER310+emergency+radio&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "emergency-communications.html",
+      "url": "https://www.amazon.com/s?k=C.Crane+CCRadio+Solar&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "emergency-communications.html",
+      "url": "https://www.amazon.com/s?k=Midland+X-Talker+T51VP3&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "emergency-communications.html",
+      "url": "https://www.amazon.com/s?k=Rocky+Talkie+Mountain+Radio&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "emergency-communications.html",
+      "url": "https://www.amazon.com/dp/B07X59RH7T?tag=livsolv-20",
+      "asin": "B07X59RH7T",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "emergency-communications.html",
+      "url": "https://www.amazon.com/dp/B0DFHNGDGM?tag=livsolv-20",
+      "asin": "B0DFHNGDGM",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "best-emergency-food-kits.html",
+      "url": "https://www.amazon.com/dp/B0DRZ2XDYJ?tag=livsolv-20",
+      "asin": "B0DRZ2XDYJ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "best-emergency-food-kits.html",
+      "url": "https://www.amazon.com/dp/B0DRZ2XDYJ?tag=livsolv-20",
+      "asin": "B0DRZ2XDYJ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "best-emergency-food-kits.html",
+      "url": "https://www.amazon.com/dp/B007K53YL0?tag=livsolv-20",
+      "asin": "B007K53YL0",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "best-emergency-food-kits.html",
+      "url": "https://www.amazon.com/dp/B0898QSCNG?tag=livsolv-20",
+      "asin": "B0898QSCNG",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "home-power-outage-essentials.html",
+      "url": "https://www.amazon.com/dp/B0779L4LYF?tag=livsolv-20",
+      "asin": "B0779L4LYF",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "home-power-outage-essentials.html",
+      "url": "https://www.amazon.com/dp/B0C9D7R1B6?tag=livsolv-20",
+      "asin": "B0C9D7R1B6",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-power-outage-essentials.html",
+      "url": "https://www.amazon.com/dp/B0FX3GFYJP?tag=livsolv-20",
+      "asin": "B0FX3GFYJP",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-power-outage-essentials.html",
+      "url": "https://www.amazon.com/dp/B07XD68GX6?tag=livsolv-20",
+      "asin": "B07XD68GX6",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B0779L4LYF?tag=livsolv-20",
+      "asin": "B0779L4LYF",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B08ZMW2HJR?tag=livsolv-20",
+      "asin": "B08ZMW2HJR",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B09PMFP844?tag=livsolv-20",
+      "asin": "B09PMFP844",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B0F191R1LZ?tag=livsolv-20",
+      "asin": "B0F191R1LZ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B01G6C18AG?tag=livsolv-20",
+      "asin": "B01G6C18AG",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B015TKUPIC?tag=livsolv-20",
+      "asin": "B015TKUPIC",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B07X59RH7T?tag=livsolv-20",
+      "asin": "B07X59RH7T",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/s?k=Raddy+SL10+Emergency+Radio&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B0DFHNGDGM?tag=livsolv-20",
+      "asin": "B0DFHNGDGM",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/B088S7PR3B?tag=livsolv-20",
+      "asin": "B088S7PR3B",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cool-emergency-gadgets.html",
+      "url": "https://www.amazon.com/dp/1885071620?tag=livsolv-20",
+      "asin": "1885071620",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "best-home-first-aid-kits.html",
+      "url": "https://www.amazon.com/dp/B000069EYA?tag=livsolv-20",
+      "asin": "B000069EYA",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "best-home-first-aid-kits.html",
+      "url": "https://www.amazon.com/dp/B01ITAKG6A?tag=livsolv-20",
+      "asin": "B01ITAKG6A",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cooking-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B01HQRD8EO?tag=livsolv-20",
+      "asin": "B01HQRD8EO",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cooking-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B09HN1C1YJ?tag=livsolv-20",
+      "asin": "B09HN1C1YJ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cooking-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B09KNVRDNQ?tag=livsolv-20",
+      "asin": "B09KNVRDNQ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cooking-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B00522F2R2?tag=livsolv-20",
+      "asin": "B00522F2R2",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "cooking-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B005GQZ4O0?tag=livsolv-20",
+      "asin": "B005GQZ4O0",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "home-emergency-lighting.html",
+      "url": "https://www.amazon.com/dp/B09MGKCPLR?tag=livsolv-20",
+      "asin": "B09MGKCPLR",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "page_error"
+    },
+    {
+      "page": "home-emergency-lighting.html",
+      "url": "https://www.amazon.com/dp/B0FHKTNR6T?tag=livsolv-20",
+      "asin": "B0FHKTNR6T",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-emergency-lighting.html",
+      "url": "https://www.amazon.com/dp/B08ZMW2HJR?tag=livsolv-20",
+      "asin": "B08ZMW2HJR",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-emergency-lighting.html",
+      "url": "https://www.amazon.com/dp/B0779L4LYF?tag=livsolv-20",
+      "asin": "B0779L4LYF",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "home-emergency-lighting.html",
+      "url": "https://www.amazon.com/dp/B081B8W9HX?tag=livsolv-20",
+      "asin": "B081B8W9HX",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-emergency-lighting.html",
+      "url": "https://www.amazon.com/dp/B00JHKSN4O?tag=livsolv-20",
+      "asin": "B00JHKSN4O",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-emergency-lighting.html",
+      "url": "https://www.amazon.com/dp/B071G4CQSR?tag=livsolv-20",
+      "asin": "B071G4CQSR",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-water-storage.html",
+      "url": "https://www.amazon.com/dp/B07WKJQPCN?tag=livsolv-20",
+      "asin": "B07WKJQPCN",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-water-storage.html",
+      "url": "https://www.amazon.com/dp/B0198WSHZK?tag=livsolv-20",
+      "asin": "B0198WSHZK",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "emergency-water-storage.html",
+      "url": "https://www.amazon.com/dp/B001AXLUX2?tag=livsolv-20",
+      "asin": "B001AXLUX2",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B0C5M36W2G?tag=livsolv-20",
+      "asin": "B0C5M36W2G",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B015TKUPIC?tag=livsolv-20",
+      "asin": "B015TKUPIC",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B0F191R1LZ?tag=livsolv-20",
+      "asin": "B0F191R1LZ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B01G6C18AG?tag=livsolv-20",
+      "asin": "B01G6C18AG",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B0FHKTNR6T?tag=livsolv-20",
+      "asin": "B0FHKTNR6T",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B00VA1F1TS?tag=livsolv-20",
+      "asin": "B00VA1F1TS",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B0DV6NTJBK?tag=livsolv-20",
+      "asin": "B0DV6NTJBK",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B00266H5VI?tag=livsolv-20",
+      "asin": "B00266H5VI",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B0025W9A5C?tag=livsolv-20",
+      "asin": "B0025W9A5C",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-emergency-kit.html",
+      "url": "https://www.amazon.com/dp/B07X59RH7T?tag=livsolv-20",
+      "asin": "B07X59RH7T",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "generator-backup-power.html",
+      "url": "https://www.amazon.com/dp/B0CRLWJSSX/ref=nosim?tag=livsolv-20",
+      "asin": "B0CRLWJSSX",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "generator-backup-power.html",
+      "url": "https://www.amazon.com/dp/B0CLGZB3L6?tag=livsolv-20",
+      "asin": "B0CLGZB3L6",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "unavailable"
+    },
+    {
+      "page": "home-emergency-communication-plan.html",
+      "url": "https://www.amazon.com/dp/B07TXL4XJP?tag=livsolv-20",
+      "asin": "B07TXL4XJP",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-emergency-communication-plan.html",
+      "url": "https://www.amazon.com/s?k=Raddy+SL10+Emergency+Radio&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "home-emergency-communication-plan.html",
+      "url": "https://www.amazon.com/dp/B00176T9OY?tag=livsolv-20",
+      "asin": "B00176T9OY",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "home-emergency-communication-plan.html",
+      "url": "https://www.amazon.com/s?k=Rocky+Talkie+Mountain+Radio&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "home-emergency-communication-plan.html",
+      "url": "https://www.amazon.com/dp/B07X59RH7T?tag=livsolv-20",
+      "asin": "B07X59RH7T",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "home-emergency-communication-plan.html",
+      "url": "https://www.amazon.com/dp/B0DFHNGDGM?tag=livsolv-20",
+      "asin": "B0DFHNGDGM",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-battery-inverter-backup-power.html",
+      "url": "https://www.amazon.com/dp/B07JMQ27WJ?tag=livsolv-20",
+      "asin": "B07JMQ27WJ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "car-battery-inverter-backup-power.html",
+      "url": "https://www.amazon.com/dp/B07P7RNRJ5?tag=livsolv-20",
+      "asin": "B07P7RNRJ5",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-water-treatment.html",
+      "url": "https://www.amazon.com/dp/B000IBY64W?tag=livsolv-20",
+      "asin": "B000IBY64W",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "buying_options_requires_review"
+    },
+    {
+      "page": "emergency-water-treatment.html",
+      "url": "https://www.amazon.com/dp/B006QF3TW4?tag=livsolv-20",
+      "asin": "B006QF3TW4",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-water-treatment.html",
+      "url": "https://www.amazon.com/dp/B00B1OSU4W?tag=livsolv-20",
+      "asin": "B00B1OSU4W",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-food-supply.html",
+      "url": "https://www.amazon.com/dp/B0DRZ2XDYJ?tag=livsolv-20",
+      "asin": "B0DRZ2XDYJ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-food-supply.html",
+      "url": "https://www.amazon.com/dp/B0DRZ2XDYJ?tag=livsolv-20",
+      "asin": "B0DRZ2XDYJ",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-food-supply.html",
+      "url": "https://www.amazon.com/dp/B000BPE88E?tag=livsolv-20",
+      "asin": "B000BPE88E",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-food-supply.html",
+      "url": "https://www.amazon.com/dp/B07XMMB6SG?tag=livsolv-20",
+      "asin": "B07XMMB6SG",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-food-supply.html",
+      "url": "https://www.amazon.com/dp/B0773FVRZY?tag=livsolv-20",
+      "asin": "B0773FVRZY",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "emergency-food-supply.html",
+      "url": "https://www.amazon.com/dp/B00004OCJW?tag=livsolv-20",
+      "asin": "B00004OCJW",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B07ZSC6TNB?tag=livsolv-20",
+      "asin": "B07ZSC6TNB",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B07NQ4L1SB?tag=livsolv-20",
+      "asin": "B07NQ4L1SB",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/s?k=2000+lumen+solar+motion+security+floodlight&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/s?k=solar+pathway+lights+outdoor+waterproof+multipack&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/s?k=bright+metal+solar+pathway+lights+outdoor&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/s?k=battery+door+window+alarm+120db+multipack&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/s?k=SABRE+door+window+alarm&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B08NYH9JL4?tag=livsolv-20",
+      "asin": "B08NYH9JL4",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/dp/B07L3TFM2G?tag=livsolv-20",
+      "asin": "B07L3TFM2G",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/s?k=SPYPOINT+FLEX-M+Solar+Bundle&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/s?k=SPYPOINT+FLEX-M2+solar+bundle&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "security-during-power-outage.html",
+      "url": "https://www.amazon.com/s?k=Tactacam+REVEAL+Pro+4.0+Solar&tag=livsolv-20",
+      "asin": null,
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "search_not_stock_verified"
+    },
+    {
+      "page": "storm-emergency-grocery-list.html",
+      "url": "https://www.amazon.com/dp/B000BPE88E?tag=livsolv-20",
+      "asin": "B000BPE88E",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "storm-emergency-grocery-list.html",
+      "url": "https://www.amazon.com/dp/B07XMMB6SG?tag=livsolv-20",
+      "asin": "B07XMMB6SG",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "storm-emergency-grocery-list.html",
+      "url": "https://www.amazon.com/dp/B0773FVRZY?tag=livsolv-20",
+      "asin": "B0773FVRZY",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    },
+    {
+      "page": "storm-emergency-grocery-list.html",
+      "url": "https://www.amazon.com/dp/B00004OCJW?tag=livsolv-20",
+      "asin": "B00004OCJW",
+      "tag": [
+        "livsolv-20"
+      ],
+      "status": "purchase_offer_observed"
+    }
+  ],
+  "fallback_queries": {
+    "B0C6DLTP81": "Jackery Explorer 2000 Plus 2x200W SolarSaga",
+    "B0CLGZB3L6": "BLUETTI AC200L 2048Wh 2400W",
+    "B00ANRW7DI": "Klymit insulated sleeping pad",
+    "B007K53YL0": "Augason Farms 72 hour 4 person emergency food kit",
+    "B0779L4LYF": "LuminAID PackLite Max 2 in 1 phone charger",
+    "B005GQZ4O0": "EcoZoom Versa rocket stove",
+    "B00266H5VI": "SOL Emergency Survival Blanket"
+  }
+}
