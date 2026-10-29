@@ -11,17 +11,17 @@ Last updated: 2026-10-29
 - Evidence and original link inventory: `maintenance/amazon-link-audit-2026-10-29.json`. Affected live LIVSOLV pages were compared before changes; publication of this update remains unverified.
 - Immediate next action for this review: restore the existing Cloudflare deployment path, then finish replacement-product and buying-options checks with usable Amazon access.
 
-## Runtime Stripe credential check (2026-10-29)
+## Runtime Stripe credential verified (2026-10-29)
 
-- Owner reported saving STRIPE_RESTRICTED_KEY. Read-only verification run 40913679284 found a nonempty value, but it is not a recognized live restricted Stripe key, even after trimming clipboard whitespace. No key value/prefix or customer data was logged, and no Stripe API request was made.
-- Owner must replace that encrypted repository secret with the complete live restricted Stripe key from the LIVSOLV account. Do not paste it in chat. Checkout remains paused; protected delivery is not complete.
+- Owner replaced STRIPE_RESTRICTED_KEY securely. Read-only Actions run 40914201150 confirmed the live restricted key authenticated and Checkout Sessions read succeeded, superseding the earlier format blocker.
+- No customer data or credentials logged; no payments, refunds, checkout links or Stripe settings changed. Website runtime secret deployment, protected delivery, private package upload and end-to-end testing remain incomplete. Checkout stays paused.
 
 ## Private storage ready (2026-10-29)
 
 - Supersedes the earlier R2 activation blocker. Owner activated storage; read-only listing succeeded (run 40906752833).
 - Created dedicated private bucket livsolv-paid-products (run 40906907424). Verified public r2.dev access is disabled and no custom public domains are attached.
 - No paid files have been uploaded. Purchase verification, protected delivery, webhook handling and end-to-end testing remain incomplete. Checkout stays paused.
-- Remaining owner access requirement: a restricted server-side Stripe key stored securely, never in chat or public repository source. The ChatGPT Stripe connection cannot supply website runtime credentials.
+- Owner-supplied restricted runtime Stripe access was verified in run 40914201150. Keep the key encrypted and never in chat or public source.
 
 ## Cloudflare connection repair (2026-10-29)
 
@@ -122,4 +122,4 @@ Approved later website work includes a Go Bag branch under Away from Home with o
 
 ## Next action
 
-Obtain restricted runtime Stripe access securely, validate and upload the approved product package to the verified private bucket, implement purchase-validated delivery and test it end to end. Website deployment and public-page verification have passed. Keep checkout paused.
+Deploy the verified restricted Stripe key to the website runtime securely, validate and upload the approved product package to the verified private bucket, implement purchase-validated delivery and test it end to end. Website deployment and public-page verification have passed. Keep checkout paused.
