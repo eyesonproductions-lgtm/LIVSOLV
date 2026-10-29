@@ -1,1 +1,1 @@
-Read-only deployment diagnosis requested 2026-10-29 after successful connection check.
+Verify R2 permission after owner update, 2026-10-29 storage-check-1.
