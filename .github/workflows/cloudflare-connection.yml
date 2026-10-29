@@ -27,4 +27,6 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: python3 ops/check_cloudflare.py
+        run: |
+          python3 ops/check_cloudflare.py
+          python3 ops/diagnose_cloudflare.py
