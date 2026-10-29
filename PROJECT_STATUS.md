@@ -11,6 +11,11 @@ Last updated: 2026-10-29
 - Evidence and original link inventory: `maintenance/amazon-link-audit-2026-10-29.json`. Affected live LIVSOLV pages were compared before changes; publication of this update remains unverified.
 - Immediate next action for this review: restore the existing Cloudflare deployment path, then finish replacement-product and buying-options checks with usable Amazon access.
 
+## Private storage activation blocker (2026-10-29)
+
+- Owner reported adding Workers R2 Storage Edit to the existing token. The follow-up read-only check (Actions run 40906091852) received HTTP 403 with Cloudflare code 10042: R2 must be enabled through the account dashboard. This does not establish write permission; no bucket, upload, billing enrollment or activation was performed.
+- Next owner step: open account Storage & databases > R2 Object Storage and inspect the activation screen. Review terms and billing before activation. The runtime Stripe key remains a separate requirement already disclosed. Checkout remains paused.
+
 ## Cloudflare connection repair (2026-10-29)
 
 - Stripe live LIVSOLV account access succeeded. The remaining active binder Payment Link was set inactive and Stripe returned active=false. The historical September 25 statements below about Stripe needing reconnection and an active payment link are superseded.
