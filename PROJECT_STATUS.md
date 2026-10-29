@@ -11,6 +11,11 @@ Last updated: 2026-10-29
 - Evidence and original link inventory: `maintenance/amazon-link-audit-2026-10-29.json`. Affected live LIVSOLV pages were compared before changes; publication of this update remains unverified.
 - Immediate next action for this review: restore the existing Cloudflare deployment path, then finish replacement-product and buying-options checks with usable Amazon access.
 
+## Runtime Stripe credential check (2026-10-29)
+
+- Owner reported saving STRIPE_RESTRICTED_KEY. Read-only verification run 40913679284 found a nonempty value, but it is not a recognized live restricted Stripe key, even after trimming clipboard whitespace. No key value/prefix or customer data was logged, and no Stripe API request was made.
+- Owner must replace that encrypted repository secret with the complete live restricted Stripe key from the LIVSOLV account. Do not paste it in chat. Checkout remains paused; protected delivery is not complete.
+
 ## Private storage ready (2026-10-29)
 
 - Supersedes the earlier R2 activation blocker. Owner activated storage; read-only listing succeeded (run 40906752833).
