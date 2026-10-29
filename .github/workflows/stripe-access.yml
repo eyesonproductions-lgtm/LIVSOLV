@@ -1,0 +1,21 @@
+name: Verify private delivery Stripe access
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [ops/stripe-check-request.txt]
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Verify restricted key without changing Stripe
+        env:
+          STRIPE_RESTRICTED_KEY: ${{ secrets.STRIPE_RESTRICTED_KEY }}
+        run: python3 ops/check_stripe.py
