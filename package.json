@@ -1,0 +1,17 @@
+{
+  "name": "livsolv-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "python3 ops/build_public.py",
+    "build": "python3 ops/build_public.py",
+    "deploy": "npm run build && wrangler deploy",
+    "check:deploy": "npm run build && wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "4.155.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

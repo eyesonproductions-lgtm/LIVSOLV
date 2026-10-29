@@ -1,0 +1,44 @@
+name: Deploy LIVSOLV public website
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [ops/deploy-request.txt]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: livsolv-production-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Read exact commit
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Install locked deployment tool and stage public files
+        run: npm ci
+      - name: Validate upload without deploying
+        run: npx wrangler deploy --dry-run
+      - name: Preserve existing runtime resources
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: python3 ops/prepare_deploy.py
+      - name: Deploy public assets to existing Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: npx wrangler deploy
+      - name: Verify the public website
+        run: python3 ops/verify_public.py
