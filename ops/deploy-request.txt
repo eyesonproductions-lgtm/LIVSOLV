@@ -1,1 +1,1 @@
-Deploy customer verification page, keep private downloads disabled 2026-10-29
+Correct printable PDF description 2026-10-30

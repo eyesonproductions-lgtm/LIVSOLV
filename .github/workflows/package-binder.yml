@@ -1,0 +1,43 @@
+name: Build private customer binder package
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [ops/package-request.txt]
+permissions:
+  contents: read
+concurrency:
+  group: livsolv-production-deploy
+  cancel-in-progress: false
+jobs:
+  package:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: python3 -m pip install -r ops/release-requirements.txt
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ghostscript
+      - name: Identify existing Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: python3 ops/prepare_deploy.py
+      - name: Build and verify private package
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          WRANGLER_SEND_METRICS: 'false'
+        run: |
+          mkdir -p /tmp/livsolv-release/input
+          npx wrangler r2 object get livsolv-paid-products/staging/approved-binder-v8.pdf --file /tmp/livsolv-release/input/approved-binder-v8.pdf --remote
+          npx wrangler r2 object get livsolv-paid-products/staging/calculator-v2.xlsx --file /tmp/livsolv-release/input/calculator-v2.xlsx --remote
+          python3 ops/build_release.py /tmp/livsolv-release/input /tmp/livsolv-release/customer
+          npx wrangler r2 object put livsolv-paid-products/releases/household-binder-v8.zip --file /tmp/livsolv-release/LIVSOLV-Systems-Down-Household-Binder.zip --remote
+          npx wrangler r2 object get livsolv-paid-products/releases/household-binder-v8.zip --file /tmp/livsolv-release/verified.zip --remote
+          cmp /tmp/livsolv-release/LIVSOLV-Systems-Down-Household-Binder.zip /tmp/livsolv-release/verified.zip
+          echo "Private release ZIP round-trip verification passed. Delivery remains disabled."
