@@ -1,6 +1,15 @@
 # LIVSOLV Project Status
 
-Last updated: 2026-10-29
+Last updated: 2026-10-30
+
+## Current binder release state (2026-10-30, controlling)
+
+- Final ZIP built and uploaded to private release storage; Actions run 41078532891 succeeded and downloaded the ZIP back for exact byte comparison. Contains unchanged approved v8 US Letter PDF (64 physical pages/62 numbered), A4 scaled edition, US Letter/A4 grayscale editions, nine-tab calculator, corrected one-page Start Here guide, 10 write-in Quick Cards on five sheets, and package contents. Grayscale editions are not redesigned low-ink editions; do not call them ink-saver.
+- Local ZIP integrity passed; all 94 calculator formula cells have cached values without spreadsheet error tokens. This is not a full scenario-based formula audit. Start Here and all Quick Cards sheets were visually inspected; sampled cover/jobs/final binder pages were inspected in each variant.
+- Corrected sales-page fillable claims to printable. Deployment run 41078532863 must finish before calling that copy live.
+- Delivery gate remains false and checkout remains paused. No actual purchase-to-webhook-to-download test has passed. Stripe account inventory exposes only LIVSOLV live mode, no sandbox/test account. Do not use a real charge as a substitute without owner direction. Prior claims that all test access was ready were too broad.
+- Next action: obtain Stripe sandbox/test-mode access and run the complete no-charge purchase/webhook/download test with matching sandbox configuration. No further Cloudflare setup is currently needed.
+- This section supersedes historical entries below about missing files, missing runtime credentials, unassembled ZIPs and absent delivery code. Earlier records are retained for history, not current launch instructions.
 
 ## Amazon link review (2026-10-29)
 
@@ -132,4 +141,4 @@ Approved later website work includes a Go Bag branch under Away from Home with o
 
 ## Next action
 
-Assemble and validate the final customer ZIP from approved v8, reconcile all advertised files and remove the untrue fillable-PDF claim, then perform the full purchase-and-private-download test. Website deployment and public-page verification have passed. Keep checkout paused.
+Run the complete purchase/webhook/private-download test in Stripe sandbox. Current connector exposes live mode only. Keep sales paused until the test passes.
