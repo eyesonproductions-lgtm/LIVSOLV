@@ -2,6 +2,12 @@
 
 Last updated: 2026-10-30
 
+## Solar outage-lighting options (2026-10-31)
+
+- Owner requested solar room-light options before resuming binder work. Preserved the existing E-SHIDAI solar flashlight, added LuminAID PackLite Nova and BioLite Luci Original solar/USB lantern choices, and linked the lighting guide from the power-outage essentials page.
+- Manufacturer pages checked for charging features. Amazon links use the existing livsolv-20 tag and explicitly labeled searches; Amazon stock was not verified. No firsthand-use claims added. Includes direct-sun, slow-charging and battery-fallback limitations.
+- Deployment requested; public publication still requires verification. Binder checkout and delivery settings unchanged.
+
 ## Current binder release state (2026-10-30, controlling)
 
 - Final ZIP built and uploaded to private release storage; Actions run 41078532891 succeeded and downloaded the ZIP back for exact byte comparison. Contains unchanged approved v8 US Letter PDF (64 physical pages/62 numbered), A4 scaled edition, US Letter/A4 grayscale editions, nine-tab calculator, corrected one-page Start Here guide, 10 write-in Quick Cards on five sheets, and package contents. Grayscale editions are not redesigned low-ink editions; do not call them ink-saver.
