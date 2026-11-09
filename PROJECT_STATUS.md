@@ -1,5 +1,12 @@
 # LIVSOLV Project Status
 
+## VESTA heating and cooking guidance (2026-11-09)
+
+- Added InstaFire VESTA supplemental heater/stove guidance to `extreme-heat-cold-power-outage.html` and `cooking-during-power-outage.html`, cross-linked both, and added an Emergency Heating card to `home-family.html`.
+- Included fuel compatibility, ventilation, CO/fire safety, and no unattended/sleeping use. No unverified affiliate purchase link added.
+- GitHub commits succeeded; public Cloudflare deployment and current manufacturer fuel/manual verification remain unverified. Next action: verify deployed URLs and current manufacturer instructions before adding a purchase link.
+
+
 Last updated: 2026-10-30
 
 ## Solar outage-lighting options (2026-10-31)
