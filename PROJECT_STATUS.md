@@ -1,5 +1,12 @@
 # LIVSOLV Project Status
 
+## Immediate social publication (2026-11-16)
+
+- Owner requested posting now on all connected LIVSOLV accounts. Created and visually inspected six original typography-only outage-check slides, sized 864 x 1080 JPEG for Instagram, TikTok and Pinterest. CDC water guidance checked; free Quick Cards destination returned HTTP 200. No paid binder or checkout changes.
+- Submitted Metricool post 430249400 / UUID -6583348569418085410 for 10:40 Eastern today, autoPublish=true, six images, public TikTok own-brand disclosure. All three providers initially PENDING; publication confirmation still required. Pinterest board 1125266725586614631 recovered from prior PUBLISHED pins.
+- Earlier government-readiness posts now confirmed PUBLISHED by Metricool on Instagram and TikTok, superseding the October 28 pending note. Today's carousel is new content.
+- Assets and reproducible renderer: assets/social/outage-check-20261116/ and campaigns/outage-check-20261116/. Binder's sandbox purchase/download test remains the launch blocker.
+
 ## VESTA heating and cooking guidance (2026-11-09)
 
 - Added InstaFire VESTA supplemental heater/stove guidance to `extreme-heat-cold-power-outage.html` and `cooking-during-power-outage.html`, cross-linked both, and added an Emergency Heating card to `home-family.html`.
