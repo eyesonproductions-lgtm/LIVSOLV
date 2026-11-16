@@ -3,7 +3,7 @@
 ## Immediate social publication (2026-11-16)
 
 - Owner requested posting now on all connected LIVSOLV accounts. Created and visually inspected six original typography-only outage-check slides, sized 864 x 1080 JPEG for Instagram, TikTok and Pinterest. CDC water guidance checked; free Quick Cards destination returned HTTP 200. No paid binder or checkout changes.
-- Submitted Metricool post 430249400 / UUID -6583348569418085410 for 10:40 Eastern today, autoPublish=true, six images, public TikTok own-brand disclosure. All three providers initially PENDING; publication confirmation still required. Pinterest board 1125266725586614631 recovered from prior PUBLISHED pins.
+- Provider-confirmed PUBLISHED on all three connected accounts: Instagram https://www.instagram.com/p/Dfzs09djYdT/ ; TikTok https://www.tiktok.com/@livsolv8/video/7708794778300747039 ; Pinterest https://www.pinterest.es/pin/1125266656934283247 . Instagram/TikTok post 430249400, UUID -6583348569418085410. Original Pinterest attempt rejected the long caption; corrected 348-character Pinterest-only post 430253856, UUID 7585105971255659776, confirmed PUBLISHED. Six images each; public TikTok own-brand disclosure. Board 1125266725586614631 reused from prior successful pins.
 - Earlier government-readiness posts now confirmed PUBLISHED by Metricool on Instagram and TikTok, superseding the October 28 pending note. Today's carousel is new content.
 - Assets and reproducible renderer: assets/social/outage-check-20261116/ and campaigns/outage-check-20261116/. Binder's sandbox purchase/download test remains the launch blocker.
 
