@@ -1,5 +1,10 @@
 # LIVSOLV Decision Log
 
+## 2026-11-18
+
+- Home + Family must include dedicated Hygiene + Sanitation and Pets + Animals guides. Hygiene covers low/no-water washing and nonfunctioning toilets; pets includes species beyond dogs and cats. This explicit owner request authorizes these pages despite the earlier nonessential-content pause.
+- Distinguish no-added-water wipes from water-activated rinse-free sponges. Recommend free household workarounds first; use verified manufacturer features and clearly labeled affiliate search links when exact stock is unverified.
+
 ## 2026-09-25
 
 - A public post-purchase page must never contain a direct link to a paid product ZIP. Deliver customer files only after verified payment, using private storage or a seller platform with purchase-validated digital delivery.

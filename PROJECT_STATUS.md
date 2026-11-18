@@ -1,5 +1,13 @@
 # LIVSOLV Project Status
 
+## Household hygiene and pets (2026-11-18)
+
+- Explicit owner request authorizes this work alongside the paused binder launch. Added emergency-hygiene-sanitation.html and pet-emergency-preparedness.html under Home + Family, with sitemap entries and reciprocal water/household links.
+- Hygiene guide covers no-added-water cloths versus water-activated no-rinse sponges, sun-warmed hanging showers and load/temperature limitations, jug handwashing, water-advisory differences, toilet failure/containment/local disposal, menstrual/diaper/accessibility supplies and a printable checklist.
+- Manufacturer-researched examples: Advanced Elements SS760 2.5-gallon shower, Medline ReadyBath LUXE fragrance-free non-antibacterial cloths, Scrubzz sponges, Reliance Luggable Loo plus compatible bags. Luggable Loo's 220-lb capacity is explicitly flagged. Amazon links are labeled searches using livsolv-20; no price, stock or firsthand-use claims.
+- Pets guide covers food/water/medicines, ID and records, evacuation and backup caregiver, waste, poultry/birds/reptiles/fish and powered habitats. Official CDC, Ready.gov, AVMA, FDA and emergency-management sources checked.
+- Local HTML, anchor, internal-path, affiliate-tag and sitemap validation passed. Browser rendering could not run in the local environment; public deployment requested through ops/deploy-request.txt, not yet verified. Binder files, payment and delivery gate unchanged.
+
 ## Immediate social publication (2026-11-16)
 
 - Owner requested posting now on all connected LIVSOLV accounts. Created and visually inspected six original typography-only outage-check slides, sized 864 x 1080 JPEG for Instagram, TikTok and Pinterest. CDC water guidance checked; free Quick Cards destination returned HTTP 200. No paid binder or checkout changes.
