@@ -6,7 +6,7 @@
 - Hygiene guide covers no-added-water cloths versus water-activated no-rinse sponges, sun-warmed hanging showers and load/temperature limitations, jug handwashing, water-advisory differences, toilet failure/containment/local disposal, menstrual/diaper/accessibility supplies and a printable checklist.
 - Manufacturer-researched examples: Advanced Elements SS760 2.5-gallon shower, Medline ReadyBath LUXE fragrance-free non-antibacterial cloths, Scrubzz sponges, Reliance Luggable Loo plus compatible bags. Luggable Loo's 220-lb capacity is explicitly flagged. Amazon links are labeled searches using livsolv-20; no price, stock or firsthand-use claims.
 - Pets guide covers food/water/medicines, ID and records, evacuation and backup caregiver, waste, poultry/birds/reptiles/fish and powered habitats. Official CDC, Ready.gov, AVMA, FDA and emergency-management sources checked.
-- Local HTML, anchor, internal-path, affiliate-tag and sitemap validation passed. Browser rendering could not run in the local environment; public deployment requested through ops/deploy-request.txt, not yet verified. Binder files, payment and delivery gate unchanged.
+- HTML, anchor, internal-path, affiliate-tag and sitemap validation passed. Deployment run 44289230956 succeeded, including existing protected-delivery tests and public-page checks. Both new guides rendered successfully in the live browser at /emergency-hygiene-sanitation and /pet-emergency-preparedness; desktop layouts visually checked. Updated Home + Family and sitemap matched public bytes. Local browser rendering was unavailable; mobile and print rendering were not independently verified. Binder files, payment and delivery gate unchanged.
 
 ## Immediate social publication (2026-11-16)
 
