@@ -4,7 +4,7 @@ import hashlib
 import subprocess
 import time
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = ['index.html', 'systems-down-household-binder.html', 'purchase-complete-7f4c9.html', 'car-battery-inverter-backup-power.html']
+PAGES = ['index.html', 'emergency-water-treatment.html', 'safety-disclaimer.html', 'systems-down-household-binder.html', 'purchase-complete-7f4c9.html', 'car-battery-inverter-backup-power.html', 'downloads/storm-grocery-checklist.html']
 
 
 def main():
@@ -12,7 +12,9 @@ def main():
         failures = []
         for path in PAGES:
             result = subprocess.run(['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '15', 'https://livsolv.com/' + path], capture_output=True)
-            expected = (ROOT / path).read_bytes()
+            expected = (ROOT / 'public' / path).read_bytes()
+            if b'id="livsolv-safety-notice"' not in expected:
+                raise SystemExit('Expected public page is missing safety notice: ' + path)
             if result.returncode:
                 failures.append(path)
                 print(f'{path}: request failed (curl exit {result.returncode})')
@@ -22,10 +24,11 @@ def main():
             else:
                 print(f'{path}: public content matches repository')
         if not failures:
-            print('Verified four public pages match this commit. Checkout remains paused.')
+            print('Verified public pages match staged HTML with safety notices. Checkout remains paused.')
             return
         if attempt < 3:
             time.sleep(5)
     raise SystemExit('Could not verify public content: ' + ', '.join(failures))
 if __name__ == '__main__':
     main()
+

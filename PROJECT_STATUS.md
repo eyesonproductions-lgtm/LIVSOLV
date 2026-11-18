@@ -1,5 +1,12 @@
 # LIVSOLV Project Status
 
+## Water-treatment safety and site-wide notices (2026-11-18)
+
+- Owner requested stronger water-product warnings and a safety disclaimer on every website page. Added a prominent water-treatment section distinguishing drinking-water disinfectants from cleaning/pool tablets, and explaining the limited plain, unscented liquid-bleach exception using verified CDC/EPA instructions. Potable Aqua chlorine-dioxide directions checked against the current manufacturer page, including full four-hour contact time away from sunlight. No guessed bleach dose added.
+- Public staging now adds one visible, server-rendered safety notice to every root/download HTML page, including future pages. Added safety-disclaimer.html with educational/professional-advice limitations, product/manual and official-advisory priorities, warranty/liability language qualified by applicable law and non-waivable rights. This is not attorney-reviewed and cannot guarantee legal immunity. Paid binder PDF/ZIP files were not changed.
+- Three build regression tests passed, including future/download-page coverage and exclusion of paid/internal file types. All 51 public HTML pages staged with exactly one notice; new links and sitemap checked. Public-byte verification now compares staged HTML because notices are added during staging.
+- Deployment requested; live publication is not yet verified. Existing private-delivery gate and paused checkout unchanged. Binder sandbox purchase/download verification remains the overall launch blocker.
+
 ## Household hygiene and pets (2026-11-18)
 
 - Explicit owner request authorizes this work alongside the paused binder launch. Added emergency-hygiene-sanitation.html and pet-emergency-preparedness.html under Home + Family, with sitemap entries and reciprocal water/household links.
