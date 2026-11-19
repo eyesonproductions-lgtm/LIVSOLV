@@ -1,1 +1,1 @@
-Publish direct Food + Water access to storage and replace unavailable WaterBrick listing.
+Publish new emergency food ration recommendation and check both live food guides.

@@ -1,10 +1,14 @@
 # LIVSOLV Project Status
 
+## Emergency ration bars
+
+- Replaced the unavailable Millennium assortment on the two emergency food guides with Datrex 3,600-calorie coconut-flavored rations. Manufacturer confirms 18 individually wrapped 200-calorie pieces, ready-to-eat and five years from manufacture. No firsthand taste claims. Both Amazon buttons retain livsolv-20; live Amazon stock could not be verified because Amazon rejected the browser session. Direct manufacturer bulk case displayed Add to Cart when checked. Deployment requested; production checks include both pages.
+
 ## Water storage access and replacement (2026-11-18)
 
 - Food + Water now links to water storage directly below the hero and as the first guide card. Treatment remains a backup.
 - Removed the unavailable WaterBrick shopping links from the storage guide. Added BVV’s stackable 5-gallon containers; the 10-gallon variant showed an active Add to Cart option when checked. Destination-specific shipping was not checked. Added low-clearance bottled-water storage as an alternative to tall jugs.
-- Production verification checks both changed pages. Binder checkout and delivery unchanged.
+- Deployment run 44426163039 succeeded, including production verification of both changed pages. Binder checkout and delivery unchanged.
 
 ## Water-treatment safety and site-wide notices (2026-11-18)
 
