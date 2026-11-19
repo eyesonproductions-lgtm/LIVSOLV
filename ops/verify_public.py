@@ -4,7 +4,7 @@ import hashlib
 import subprocess
 import time
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = ['index.html', 'emergency-water-treatment.html', 'safety-disclaimer.html', 'systems-down-household-binder.html', 'purchase-complete-7f4c9.html', 'car-battery-inverter-backup-power.html', 'downloads/storm-grocery-checklist.html']
+PAGES = ['index.html', 'food-water.html', 'emergency-water-storage.html', 'emergency-water-treatment.html', 'safety-disclaimer.html', 'systems-down-household-binder.html', 'purchase-complete-7f4c9.html', 'car-battery-inverter-backup-power.html', 'downloads/storm-grocery-checklist.html']
 
 
 def main():

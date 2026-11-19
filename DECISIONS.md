@@ -2,6 +2,8 @@
 
 ## 2026-11-18
 
+- Food + Water prioritizes stored drinking water with a direct link below the hero and the first guide card; treatment is a backup.
+
 - Every public website HTML page must carry a visible safety disclaimer linking to the full safety/liability notice. Add it during public staging so future pages inherit it; do not publish paid binder assets to implement this. Disclaimer wording does not guarantee immunity; attorney review remains outstanding.
 - Water guidance must distinguish drinking-water tablets from pool/spa/toilet/cleaning products. Do not claim tablets are the only valid disinfectant: CDC/EPA permit suitable plain, unscented liquid household bleach with verified product/concentration-specific instructions. Never guess a dose or suggest all bleach is suitable. The exact label and local advisories control.
 - Home + Family must include dedicated Hygiene + Sanitation and Pets + Animals guides. Hygiene covers low/no-water washing and nonfunctioning toilets; pets includes species beyond dogs and cats. This explicit owner request authorizes these pages despite the earlier nonessential-content pause.

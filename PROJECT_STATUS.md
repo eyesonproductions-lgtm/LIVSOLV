@@ -1,5 +1,11 @@
 # LIVSOLV Project Status
 
+## Water storage access and replacement (2026-11-18)
+
+- Food + Water now links to water storage directly below the hero and as the first guide card. Treatment remains a backup.
+- Removed the unavailable WaterBrick shopping links from the storage guide. Added BVV’s stackable 5-gallon containers; the 10-gallon variant showed an active Add to Cart option when checked. Destination-specific shipping was not checked. Added low-clearance bottled-water storage as an alternative to tall jugs.
+- Production verification checks both changed pages. Binder checkout and delivery unchanged.
+
 ## Water-treatment safety and site-wide notices (2026-11-18)
 
 - Owner requested stronger water-product warnings and a safety disclaimer on every website page. Added a prominent water-treatment section distinguishing drinking-water disinfectants from cleaning/pool tablets, and explaining the limited plain, unscented liquid-bleach exception using verified CDC/EPA instructions. Potable Aqua chlorine-dioxide directions checked against the current manufacturer page, including full four-hour contact time away from sunlight. No guessed bleach dose added.
