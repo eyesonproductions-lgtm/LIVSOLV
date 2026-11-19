@@ -2,7 +2,7 @@
 
 ## Emergency ration bars
 
-- Replaced the unavailable Millennium assortment on the two emergency food guides with Datrex 3,600-calorie coconut-flavored rations. Manufacturer confirms 18 individually wrapped 200-calorie pieces, ready-to-eat and five years from manufacture. No firsthand taste claims. Both Amazon buttons retain livsolv-20; live Amazon stock could not be verified because Amazon rejected the browser session. Direct manufacturer bulk case displayed Add to Cart when checked. Deployment requested; production checks include both pages.
+- Replaced the unavailable Millennium assortment on the two emergency food guides with Datrex 3,600-calorie coconut-flavored rations. Manufacturer confirms 18 individually wrapped 200-calorie pieces, ready-to-eat and five years from manufacture. No firsthand taste claims. Both Amazon buttons retain livsolv-20; live Amazon stock could not be verified because Amazon rejected the browser session. Direct manufacturer bulk case displayed Add to Cart when checked. Deployment run 44426482635 succeeded, including production verification of both food guides.
 
 ## Water storage access and replacement (2026-11-18)
 
