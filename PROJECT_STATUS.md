@@ -3,7 +3,7 @@
 ## Scrubzz no-water body-wipe option (2026-11-20)
 
 - Owner supplied https://a.co/d/02IjN6ST after finding a cheaper Amazon option. Resolved it to ASIN B0CLW41LBL and made the direct listing, tagged livsolv-20, the first no-added-water recommendation in the hygiene guide. Manufacturer confirms these body wipes are premoistened and need no added water. Kept dry water-activated Scrubzz bath sponges separately labeled; LUXE is now an optional premium, fragrance-free alternative.
-- Exact Amazon price, current pack count and stock could not be independently verified because Amazon returned 503/restricted responses. No cheapest-price or availability claim added. Publication verification pending.
+- Exact Amazon price, current pack count and stock could not be independently verified because Amazon returned 503/restricted responses. No cheapest-price or availability claim added. Public HTML fetch confirmed the direct affiliate link is live. Deployment run 44809858132 was still completing its remaining steps when checked.
 
 ## Emergency ration bars
 
