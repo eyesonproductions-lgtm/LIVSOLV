@@ -1,5 +1,11 @@
 # LIVSOLV Project Status
 
+## Rechargeable AAA-to-AA adapter options (2026-11-21)
+
+- Owner requested reliable and budget rechargeable AAA/AA conversion options on the gadgets page. Added separate-component recommendations: standard Panasonic eneloop AAA plus passive AAA-to-AA sleeves; IKEA LADDA AAA four-pack as a smaller upfront purchase. Panasonic/IKEA technical guidance, B&H authorized-dealer listing and PulseTV sleeve listing checked. No all-in-one bundle, adapter reliability or OEM approval claim established.
+- Date-stamped examples: B&H eneloop eight-pack $15.99, IKEA LADDA four-pack $9.99 with 4.7/5 from 1,765 battery reviews, PulseTV eight sleeves $5.99, all before shipping/tax and separate charger costs. Explained eneloop is cheaper per cell at these prices; sleeves alone are cheapest if suitable batteries already owned. Amazon links are tagged livsolv-20 searches, not verified stock/price offers.
+- Explains size-only conversion, AAA runtime, 1.2V/device compatibility, matched sets, charging bare AAA in its proper charger, and no 3.7V 10440 or safety-critical substitutions. Publication pending verification.
+
 ## Compact rope tensioner (2026-11-21)
 
 - Owner requested researching SEESE rope tensioners and adding a useful compact cord gadget. Added Rollercam Roperoller to cool-emergency-gadgets.html after checking the current manufacturer page: 3–4 mm cord/paracord, 0.8 oz, 35 lb working load versus 115 lb maximum. SEESE was not selected because the exact listing/instructions and cord compatibility were not established with comparable confidence.
