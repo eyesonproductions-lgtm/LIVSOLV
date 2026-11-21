@@ -1,5 +1,10 @@
 # LIVSOLV Project Status
 
+## Compact rope tensioner (2026-11-21)
+
+- Owner requested researching SEESE rope tensioners and adding a useful compact cord gadget. Added Rollercam Roperoller to cool-emergency-gadgets.html after checking the current manufacturer page: 3–4 mm cord/paracord, 0.8 oz, 35 lb working load versus 115 lb maximum. SEESE was not selected because the exact listing/instructions and cord compatibility were not established with comparable confidence.
+- Covers manual tightening/release, light-duty tarp/clothesline uses, knot-based no-purchase alternative, separate-cord package check, weakest-component limit, and exclusions for people/hammocks, lifting, towing, mooring and road-cargo restraints. Direct manufacturer link plus labeled Amazon search with livsolv-20; no price/stock or firsthand-use claims. Publication pending verification.
+
 ## Scrubzz no-water body-wipe option (2026-11-20)
 
 - Owner supplied https://a.co/d/02IjN6ST after finding a cheaper Amazon option. Resolved it to ASIN B0CLW41LBL and made the direct listing, tagged livsolv-20, the first no-added-water recommendation in the hygiene guide. Manufacturer confirms these body wipes are premoistened and need no added water. Kept dry water-activated Scrubzz bath sponges separately labeled; LUXE is now an optional premium, fragrance-free alternative.
