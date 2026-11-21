@@ -3,7 +3,7 @@
 ## Compact rope tensioner (2026-11-21)
 
 - Owner requested researching SEESE rope tensioners and adding a useful compact cord gadget. Added Rollercam Roperoller to cool-emergency-gadgets.html after checking the current manufacturer page: 3–4 mm cord/paracord, 0.8 oz, 35 lb working load versus 115 lb maximum. SEESE was not selected because the exact listing/instructions and cord compatibility were not established with comparable confidence.
-- Covers manual tightening/release, light-duty tarp/clothesline uses, knot-based no-purchase alternative, separate-cord package check, weakest-component limit, and exclusions for people/hammocks, lifting, towing, mooring and road-cargo restraints. Direct manufacturer link plus labeled Amazon search with livsolv-20; no price/stock or firsthand-use claims. Publication pending verification.
+- Covers manual tightening/release, light-duty tarp/clothesline uses, knot-based no-purchase alternative, separate-cord package check, weakest-component limit, and exclusions for people/hammocks, lifting, towing, mooring and road-cargo restraints. Direct manufacturer link plus labeled Amazon search with livsolv-20; no price/stock or firsthand-use claims. Live HTML confirmed the new card, affiliate search and 35 lb working limit. Deployment run 44930597444 succeeded.
 
 ## Scrubzz no-water body-wipe option (2026-11-20)
 
